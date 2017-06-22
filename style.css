@@ -1,0 +1,86 @@
+body {
+  color: #444444;
+  max-width: 900px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  line-height: 150%;
+  text-align: justify;
+}
+
+table {
+  color: #444444;
+  max-width: 900px;
+  font-size: 1em;
+  margin: auto;
+  line-height: 150%;
+  text-align: justify;
+}
+
+li {
+  margin-left: 20px;
+  padding-bottom: 1px;
+}
+
+h1 {
+  font-size: 1.5em;
+  padding-top: 30px;
+}
+
+h3, h4, h5, h6 {
+  font-size: 1.1em;
+  padding-top: 20px;
+}
+
+a:link {
+  color: #2583FF;
+  text-decoration: none;
+}
+
+a:hover, a:active, a:visited {
+  color: #2583AD;
+  text-decoration: none;
+}
+
+ul.announcements li {
+  font-style: italic;
+}
+
+.footer-link {
+  text-align: right;
+  font-size: 0.75em;
+  font-weight: bold;
+}
+
+.quote {
+  font-style: italic;
+  padding: 30px;
+  padding-bottom: 0px;
+}
+
+.quote-ref {
+  font-style: italic;
+  text-align: right;
+  padding: 30px;
+  padding-top: 0px;
+}
+
+th {
+  text-align: left;
+}
+
+td {
+  vertical-align: top;
+}
+
+table#mainMenu td {
+  /* table containing the main menu items on each page */
+  width: 200px;
+  text-align: center;
+  font-style: italic;
+}
+
+table#notesTable td {
+  /* large table on the notes page containing all the notes */
+  width: 500px;
+}
