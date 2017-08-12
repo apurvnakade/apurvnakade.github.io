@@ -2,21 +2,22 @@
 
 #OUTPUT="./index.html"
 for D in ./*; do
-    if [ -d "$D" ]; then
-        cd "$D"
-        #rm $OUTPUT
-        echo "<html>" >> $OUTPUT
-        echo "<body>" >> $OUTPUT
-        echo "<br><br><br><ul style=\"list-style: none;\">" >> $OUTPUT
-        for f in *.pdf
-        do
-        	echo "<li><a href=\"./$f\">$f</li></a>" >> $OUTPUT
-        done
-        echo "</ul>" >> $OUTPUT
-        echo "</body>" >> $OUTPUT
-        echo "</html>" >> $OUTPUT
-        cd ..
-    fi
+if [ -d "$D" ]; then
+cd "$D"
+#rm $OUTPUT
+echo "<html>" >> $OUTPUT
+echo "<body>" >> $OUTPUT
+echo "<br> <br> <br>" >> $OUTPUT
+echo "<table align=\"center\" id = \"file_list\">" >> $OUTPUT
+for f in *.pdf
+do
+echo "<tr><td><a href=\"./$f\">$f</a></td></tr>" >> $OUTPUT
+done
+echo "</table>" >> $OUTPUT
+echo "</body>" >> $OUTPUT
+echo "</html>" >> $OUTPUT
+cd ..
+fi
 done
 
 
