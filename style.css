@@ -1,16 +1,16 @@
 body {
   color: #444444;
-  max-width: 900px;
+  max-width: 950px;
   margin: auto;
   margin-top: 50px;
   margin-bottom: 100px;
   line-height: 150%;
   text-align: justify;
+  background-color: fafafa;
 }
 
 table {
   color: #444444;
-  max-width: 900px;
   font-size: 1em;
   margin: auto;
   line-height: 150%;
@@ -25,6 +25,7 @@ li {
 h1 {
   font-size: 1.5em;
   padding-top: 30px;
+  padding-bottom: 10px;
 }
 
 h3, h4, h5, h6 {
@@ -46,24 +47,33 @@ ul.announcements li {
   font-style: italic;
 }
 
+
+/*
 .footer-link {
   text-align: right;
   font-size: 0.75em;
   font-weight: bold;
 }
+*/
 
+
+/*
 .quote {
   font-style: italic;
   padding: 30px;
   padding-bottom: 0px;
 }
+*/
 
+
+/*
 .quote-ref {
   font-style: italic;
   text-align: right;
   padding: 30px;
   padding-top: 0px;
 }
+*/
 
 th {
   text-align: left;
@@ -77,10 +87,22 @@ table#mainMenu td {
   /* table containing the main menu items on each page */
   width: 200px;
   text-align: center;
+  padding-bottom: 25px;
   font-style: italic;
+}
+
+table#mainMenu a {
+  color: a0a0a0;
+  /* #2583AD*/
 }
 
 table#notesTable td {
   /* large table on the notes page containing all the notes */
   width: 500px;
+}
+
+table#mainText {
+  background-color: ffffff;
+  padding: 20px;
+  padding-bottom: 40px;
 }
