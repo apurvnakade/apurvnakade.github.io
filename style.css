@@ -6,7 +6,7 @@ body {
   margin-bottom: 100px;
   line-height: 150%;
   text-align: justify;
-  background-color: f0f0f0;
+  background-color: #f0f0f0;
 }
 
 table {
@@ -28,6 +28,11 @@ h1 {
   padding-bottom: 10px;
 }
 
+h2 {
+  font-size: 1.25em;
+  padding-top: 30px;
+}
+
 h3, h4, h5, h6 {
   font-size: 1.1em;
   padding-top: 20px;
@@ -47,40 +52,24 @@ ul.announcements li {
   font-style: italic;
 }
 
-
-/*
-.footer-link {
-  text-align: right;
-  font-size: 0.75em;
-  font-weight: bold;
-}
-*/
-
-
-/*
-.quote {
-  font-style: italic;
-  padding: 30px;
-  padding-bottom: 0px;
-}
-*/
-
-
-/*
-.quote-ref {
-  font-style: italic;
-  text-align: right;
-  padding: 30px;
-  padding-top: 0px;
-}
-*/
-
 th {
   text-align: left;
 }
 
 td {
   vertical-align: top;
+}
+
+.quote {
+  /*for putting in quotes */
+  font-style: italic;
+  text-align: right;
+}
+
+.quote-ref {
+  /*for adding a reference to quotes*/
+  font-style: italic;
+  text-align: right;
 }
 
 table#mainMenu td {
@@ -102,7 +91,17 @@ table#notesTable td {
 }
 
 table#mainText {
-  background-color: ffffff;
+  background-color: #ffffff;
   padding: 20px;
+  padding-right: 30px;
   padding-bottom: 40px;
+}
+
+table.alternate_color tr:nth-child(odd) td {
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+
+table.alternate_color tr:nth-child(even) td {
+  padding: 10px;
 }
