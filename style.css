@@ -103,5 +103,6 @@ table.alternate_color tr:nth-child(odd) td {
 }
 
 table.alternate_color tr:nth-child(even) td {
+  background-color: #fafafa;
   padding: 10px;
 }
