@@ -1,0 +1,55 @@
+\include{header}
+\usepackage{multicol}
+\title{Homework 12 \\ \hfill \\ Due: Monday, June 26}
+
+\begin{document}
+\maketitle
+
+\thispagestyle{fancy}
+
+
+
+
+
+
+
+\subsection*{1. }
+For each of the following piecewise functions:
+\begin{itemize}
+	\item Compute the Laplace transform \textbf{using the basic definition} (without the table).
+	\item Draw the graph.
+	\item Rewrite the function in terms of Heaviside functions.
+	\item Compute the Laplace transform, but this time using the table.
+\end{itemize}
+\vspace{1em}
+\begin{multicols}{2}
+	\begin{enumerate}
+		\item $ f(t) = \begin{cases} 1,  & 0 \le t \le \pi \\ 0, & \pi < t \end{cases}$\\
+		\item $ f(t) = \begin{cases} t,  & 0 \le t \le 1 \\ 0, & 1 < t \end{cases}$\\
+		\item $ f(t) = \begin{cases} t,  & 0 \le t \le 1 \\ 1, & 1 < t \end{cases}$\\
+		\item $ f(t) = \begin{cases} 1,  & 0 \le t \le 2 \\ e^{-(t-2)}, & 2 < t \end{cases}$\\
+		\item $ f(t) = \begin{cases} 0,  & 0 \le t \le \pi \\t - \pi,  & \pi < t \le 2 \pi \\ 0, & 2 \pi < t \end{cases}$\\
+		\item $ f(t) = \begin{cases} t,  & 0 \le t \le 2 \\ 2-t, & 2 < t \end{cases}$\\
+	\end{enumerate}
+\end{multicols}
+\vspace{1em}
+
+
+
+\subsection*{2. }
+Find the inverse Laplace transform of the following functions:
+\begin{multicols}{2}
+	\begin{enumerate}
+		\item $(s-2)^{-4}$\\
+		\item $\dfrac{1-2s}{s^2 + 4s + 5}$ \\
+		\item $\dfrac{8s^2 - 4s + 12}{s(s^2 + 4)}$\\
+		\item $\dfrac{2(s-1) e^{-2s}}{s^2 - 2s + 2}$\\
+		\item $\dfrac{e^{-s}+ e^{-2s} - e^{-3s} - e^{-4s}}{s}$\\
+		\item $\dfrac{e^2 e^{-4s}}{2s-1}$\\
+	\end{enumerate}
+\end{multicols}
+
+
+
+
+\end{document}
