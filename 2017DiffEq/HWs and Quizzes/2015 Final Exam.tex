@@ -1,0 +1,223 @@
+% Exam Template for UMTYMP and Math Department courses
+%
+% Using Philip Hirschhorn's exam.cls: http://www-math.mit.edu/~psh/#ExamCls
+%
+% run pdflatex on a finished exam at least three times to do the grading table on front page.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% These lines can probably stay unchanged, although you can remove the last
+% two packages if you're not making pictures with tikz.
+\documentclass[11pt]{exam}
+\RequirePackage{amssymb, amsfonts, amsmath, latexsym, verbatim, xspace, setspace}
+
+% By default LaTeX uses large margins.  This doesn't work well on exams; problems
+% end up in the "middle" of the page, reducing the amount of space for students
+% to work on them.
+\usepackage[margin=1in]{geometry}
+
+
+% Here's where you edit the Class, Exam, Date, etc.
+\newcommand{\class}{Ordinary Differential Equations}
+\newcommand{\examnum}{Final}
+\newcommand{\examdate}{06/25/15}
+\newcommand{\timelimit}{150 Minutes}
+
+% For an exam, single spacing is most appropriate
+\singlespacing
+% \onehalfspacing
+% \doublespacing
+
+% For an exam, we generally want to turn off paragraph indentation
+\parindent 0ex
+
+\begin{document}
+
+% These commands set up the running header on the top of the exam pages
+\pagestyle{head}
+\firstpageheader{}{}{}
+\runningheader{\class}{\examnum\ - Page \thepage\ of \numpages}{\examdate}
+\runningheadrule
+
+\begin{flushright}
+	\begin{tabular}{p{2.8in} r l}
+		\textbf{\class}    & \textbf{Name (Print):} & \makebox[2in]{\hrulefill} \\
+		\textbf{\examnum}  &                        &                           \\
+		\textbf{\examdate} &                        &                           \\
+		\textbf{Time Limit: \timelimit} &
+	\end{tabular}\\
+\end{flushright}
+\rule[1ex]{\textwidth}{.1pt}
+
+
+
+\begin{minipage}[t]{3.7in}
+	\vspace{0pt}
+	\begin{itemize}
+
+		\item This exam contains \numpages\ pages (including this cover page) and
+		      \numquestions\ problems.\\
+
+		\item Write detailed mathematically correct answers. \textbf{Mysterious or unsupported answers will not receive any
+			credit}.
+		\end{itemize}
+
+	\end{minipage}
+	\hfill
+	\begin{minipage}[t]{2.3in}
+		\vspace{0pt}
+		%\cellwidth{3em}
+		\gradetablestretch{2}
+		\vqword{Problem}
+		\addpoints % required here by exam.cls, even though questions haven't started yet.
+		\gradetable[v]%[pages]  % Use [pages] to have grading table by page instead of question
+
+	\end{minipage}
+	\newpage % End of cover page
+
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	%
+	% See http://www-math.mit.edu/~psh/#ExamCls for full documentation, but the questions
+	% below give an idea of how to write questions [with parts] and have the points
+	% tracked automatically on the cover page.
+	%
+	%
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+	\begin{questions}
+
+
+
+		\addpoints
+		\question[25] Find an integer $ n $ such that $ x ^ n $ is an integrating factor which makes the following DE exact
+		\begin{align*}
+			\left( 3 \dfrac {y}{ x} + \dfrac {y^2} {x^2}\right ) + \left(\dfrac{y}{x} + 1\right) y' = 0
+		\end{align*}
+		Find the general solution to this DE.
+		\newpage
+
+
+
+
+
+
+
+		\addpoints
+		\question[25] One of the solutions of the DE
+		\begin{align*}
+			(t-1) y'' - t y' + y = 0
+		\end{align*}
+		is $ e ^ t $. Find a second solution. Show that the two solutions are linearly independent.
+		\newpage
+
+
+
+
+
+
+
+		\addpoints
+		\question[25] Find the general solution of the system
+		\begin{align*}
+			y' = -4x, x' = y
+		\end{align*}
+		Describe, as best as you can, the integral curve for the initial conditions $ x(0) = 0, y(0) = 2 $.
+		\newpage
+
+
+
+
+
+
+		\addpoints
+		\question[25] Find some $ k $ such that the solution of the IVP
+		\begin{align*}
+			y'' + 3y' -4y = 0 , &   & y(0) = k, y'(0) =1
+		\end{align*}
+		tends to $ 0 $ as $ t \rightarrow \infty$.
+		\newpage
+
+
+
+
+
+
+
+
+		\addpoints
+		\question[25] If $ y(t) $ is the solution to the IVP
+		\begin{align*}
+			y' + y = \begin{cases} e ^ {-t} & \mbox{for $ t < 3 $ } \\e ^ {t} &\mbox{otherwise }\end{cases}, && y(0) = 0
+		\end{align*}
+		Find $ y(2) $ and $ y(4) $.
+		\newpage
+
+
+
+
+
+
+		\addpoints
+		\question[25] Find the solution of the following IVP and find it's interval of definition
+		\begin{align*}
+			ty' + 2y = \sin t, &   & y(\pi / 2) = 0
+		\end{align*}
+		\newpage
+
+
+
+
+
+
+
+		\addpoints
+		\question[25] Solve the IVP
+		\begin{align*}
+			\begin{bmatrix} x' \\ y' \end{bmatrix} = \begin{bmatrix} 7 & 1 \\ -4 & 3\end{bmatrix} \begin{bmatrix} x \\ y\end{bmatrix}, &&\begin{bmatrix} x(0) \\ y(0) \end{bmatrix} = \begin{bmatrix} 2 \\ -5\end{bmatrix}
+		\end{align*}
+		\newpage
+
+
+
+
+
+
+
+		\addpoints
+		\question[25] Find a particular solution of the DE
+		\begin{align*}
+			\sqrt{1 - t ^ 2} y'' + 2 \sqrt{1 - t ^ 2} y' + \sqrt{1 - t ^ 2}y = e ^ {-t}
+		\end{align*}
+		\newpage
+
+
+
+
+
+
+		\addpoints
+		\question[25] Find a particular solution of the DE
+		\begin{align*}
+			y''' + y = 1 + 2t e ^ t + t ^ 2
+		\end{align*}
+		\newpage
+
+
+
+
+
+
+
+
+		\addpoints
+		\question[25] For the following autonomous DE find and classify all the equilbria and draw several integral curves
+		\begin{align*}
+			y' = -r \left( 1 - \dfrac{y}{T} \right) ^ 2\left( 1 - \dfrac{y}{K} \right) ^ 3
+		\end{align*}
+		for constants $ r > 0 $ and $ T > K > 0 $.
+		\newpage
+
+
+
+	\end{questions}
+\end{document}

@@ -1,0 +1,118 @@
+
+\include{header}
+\renewcommand{\baselinestretch}{1}
+
+\title{Homework 1 \\ \hfill \\ Due: Wednesday, May 30}
+
+\begin{document}
+\maketitle
+
+\thispagestyle{fancy}
+
+
+
+
+
+
+
+
+\subsection*{1. Radioactive Decay}
+For a radioactive object, the amount of radioactive material present, $ Q(t) $, satisfies the DE
+	\begin{align*}
+	Q '  = -r Q
+	\end{align*}
+where $ r $ is a positive constant.
+        \begin{enumerate}[a)]
+        \item Find the order of the DE and determine whether the DE is linear or non-linear.
+        \item Solve the IVP with initial condition $ Q (0) = Q _ 0 $ where $ Q _ 0 $ is a constant.
+        \item The time at which $ Q(t) = Q _ 0 / 2 $ is called the \textbf{half-life} of the material. Given that the half-life is equal to $ l $, find $ r $ in terms of $ l $.
+        \end{enumerate}
+
+
+\subsection*{2. Heat diffusion: }
+For body temperature $ T(t) $ the heat diffusion differential equation is given by
+	\begin{align*}
+	\dot{T} = -k (T - T _ E)
+	\end{align*}
+where $ k $ is a positive constant and $ T _ E $ is a constant denoting the ambient temperature.
+
+	\begin{enumerate}[a)]
+	\item Find the order of the DE and determine whether the DE is linear or non-linear.
+	\item Substitute $ T = U + T _ E $ in the DE and find the general solution (the final solution should be for $ T $ and not $ U $).
+	\item For each of the three conditions,
+	\begin{align*}
+		k = 1 &, T _ E = 0 \\
+		k = 0 &, T _ E = 1 \\
+		k = 1 &, T _ E = 1
+		\end{align*}
+		\begin{enumerate}[1)]
+		\item Draw the direction fields,
+		\item Find equilibria,
+		\item Solve the IVP for $ T(0) = 1 $,
+		\item Draw the integral curve corresponding to this solution.
+		\end{enumerate}
+
+	\end{enumerate}
+
+
+
+
+
+
+
+
+
+%\subsection{Newton's law of Gravitation}
+%In appropriate units Newton's law of Gravitation becomes
+%	\begin{align*}
+%	\dfrac{d ^ 2 r }{d t ^ 2} &= - \dfrac{ 1 }{r ^ 2}
+%	\end{align*}
+%Find the order of the DE and determine whether the DE is linear or non-linear.\\
+
+%(The general solution to this is difficult to write down explicitly. To get information out of this equation one needs to invoke the energy conservation law and rewrite the equation in terms of energy.)
+
+
+
+
+
+
+
+\subsection*{3. Harmonic Oscillator}
+The DE for a harmonic oscillator is given by
+	\begin{align*}
+		\ddot x + k x = 0
+	\end{align*}
+where $ k $ is a positive constant.
+	\begin{enumerate}[a)]
+	\item Find the order of the DE and determine whether the DE is linear or non-linear.
+	\item	The general solution for this DE is of the form
+	$$ x(t) = A \cos( \omega t + \phi) $$
+for some constants $ A , \omega, \phi $. However not all of these constant parameters are free. Plug this solution back in the DE and determine which constant(s) depends on $ k $ and which constants are free.
+	\end{enumerate}
+
+
+
+
+
+
+
+
+
+
+
+\subsection*{4. Forced Harmonic Oscillator}
+The DE for a simple forced harmonic oscillator is given by
+	\begin{align*}
+		\ddot x + k x = \cos (t)
+	\end{align*}
+where  $ k $ is a positive constant. The general solution to this problem is not easy to write. Instead we try to find \textbf{ONE} solution. \\
+
+
+	\begin{enumerate}[a)]
+	\item Find the order of the DE and determine whether the DE is linear or non-linear.
+	\item	Assuming $ k \neq 1 $ find \emph{some} constants $ A, \omega $ and $ \phi $  such that $$ x _ 1(t) = A \cos( \omega t + \phi) $$ solves the DE.
+	\end{enumerate}
+
+
+
+\end{document}
