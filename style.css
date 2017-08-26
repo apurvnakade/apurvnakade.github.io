@@ -70,6 +70,8 @@ td {
   /*for adding a reference to quotes*/
   font-style: italic;
   text-align: right;
+  margin-top: -10px;
+  padding-bottom: 10px;
 }
 
 table#mainMenu td {
