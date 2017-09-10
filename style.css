@@ -1,5 +1,5 @@
 body {
-  color: #444444;
+  color: #2a2a2a;
   max-width: 950px;
   margin: auto;
   margin-top: 50px;
@@ -7,10 +7,10 @@ body {
   line-height: 150%;
   text-align: justify;
   background-color: #f0f0f0;
+  text-shadow: 0 1px 0 #FFF;
 }
 
 table {
-  color: #444444;
   font-size: 1em;
   margin: auto;
   line-height: 150%;
