@@ -100,7 +100,7 @@ table#mainText {
 }
 
 table.alternate_color tr:nth-child(odd) td {
-  background-color: #f0f0f0;
+  background-color: #f5f5f5;
   padding: 10px;
 }
 
