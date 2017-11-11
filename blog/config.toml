@@ -1,0 +1,14 @@
+baseurl = "https://apurvnakade.github.io/blog/public"
+relativeURLs = true
+languageCode = "en"
+theme = "hemingway"
+contentDir = "content"
+layoutDir = "layouts"
+publishDir = "public"
+buildDrafts = false
+canonifyURLs = true
+title = "Blog"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
