@@ -1,0 +1,55 @@
+body {
+  max-width: 900px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  line-height: 150%;
+  background-color: #f0f0f0;
+  font-size: 18px;
+  font-family: 'Helvetica Neue';
+}
+
+h1#siteTitle {
+  font-size: 2em;
+  color: black;
+}
+
+h2 {
+  font-size: 1.25em;
+}
+
+h3, h4, h5, h6 {
+  font-size: 1.1em;
+}
+
+a:link {
+  color: #2583FF;
+  text-decoration: none;
+}
+
+a:hover, a:active, a:visited {
+  color: #2583AD;
+  text-decoration: none;
+}
+
+th {
+  text-align: left;
+}
+
+td {
+  vertical-align: top;
+}
+
+table#mainText {
+  background-color: #ffffff;
+  padding: 20px;
+  padding-right: 30px;
+  padding-bottom: 40px;
+  font-size: 1em;
+  margin: auto;
+  text-align: justify;
+}
+
+.date {
+  font-size: small;
+}
