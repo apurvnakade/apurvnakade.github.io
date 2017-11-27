@@ -4,17 +4,7 @@ body {
   margin: auto;
   margin-top: 50px;
   margin-bottom: 100px;
-  line-height: 150%;
-  text-align: justify;
   background-color: #f0f0f0;
-  text-shadow: 0 1px 0 #FFF;
-}
-
-table {
-  font-size: 1em;
-  margin: auto;
-  line-height: 150%;
-  text-align: justify;
 }
 
 li {
@@ -52,14 +42,6 @@ ul.announcements li {
   font-style: italic;
 }
 
-th {
-  text-align: left;
-}
-
-td {
-  vertical-align: top;
-}
-
 .quote {
   /*for putting in quotes */
   font-style: italic;
@@ -74,22 +56,34 @@ td {
   padding-bottom: 10px;
 }
 
+/*Table attributes*/
+
+table {
+  margin: auto;
+  line-height: 150%;
+  text-align: justify;
+}
+
+th {
+  text-align: left;
+}
+
+td {
+  vertical-align: top;
+}
+
 table#mainMenu td {
   /* table containing the main menu items on each page */
   width: 200px;
   text-align: center;
   padding-bottom: 25px;
   font-style: italic;
+  text-shadow: 0 1px 0 #FFF;
 }
 
 table#mainMenu a {
   color: a0a0a0;
   /* #2583AD*/
-}
-
-table#notesTable td {
-  /* large table on the notes page containing all the notes */
-  width: 500px;
 }
 
 table#mainText {
