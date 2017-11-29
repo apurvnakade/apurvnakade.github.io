@@ -1,0 +1,108 @@
+$page-background-color: #f0f0f0;
+$font-background-color: #ffffff;
+$font-color: #2a2a2a;
+$hyperlink-new: #2583FF;
+$hyperlink-old: #2583AD;
+$font-increment-headers: 0.25em;
+
+body {
+  color: $font-color;
+  max-width: 950px;
+  margin: 50px auto 100px;
+  background-color: $page-background-color;
+}
+
+h1 {
+  font-size: 1em + 2*$font-increment-headers;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+h2 {
+  font-size: 1em + $font-increment-headers;
+  padding-top: 30px;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  font-size: 1 + $font-increment-headers/2;
+  padding-top: 20px;
+}
+
+a {
+  /* Remove underlining from hyperlinks*/
+  text-decoration: none;
+
+  &:link {
+    color: $hyperlink-new;
+  }
+
+  &:active,
+  &:hover,
+  &:visited {
+    color: $hyperlink-old;
+  }
+}
+
+li {
+  margin-left: 20px;
+  line-height: 1.75;
+}
+
+.quote {
+  /*for putting in quotes */
+  font-style: italic;
+  text-align: right;
+}
+
+.quote-ref {
+  /*for adding a reference to quotes*/
+  font-style: italic;
+  text-align: right;
+  margin-top: -10px;
+  padding-bottom: 10px;
+}
+
+table {
+  margin: auto;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.mainMenu {
+  td {
+    /* table containing the main menu items on each page */
+    width: 200px;
+    text-align: center;
+    padding-bottom: 25px;
+    font-style: italic;
+    text-shadow: 0 1px 0 #FFF;
+  }
+
+  a {
+    color: #a0a0a0;
+  }
+}
+
+.mainText {
+  table {
+    background-color: $font-background-color;
+    padding: 20px 30px 40px 20px;
+  }
+}
+
+.alternate_color {
+  td {
+    padding: 10px;
+  }
+
+  table tr:nth-child(odd) td {
+    background-color: #f5f5f5;
+  }
+
+  table tr:nth-child(even) td {
+    background-color: #fafafa;
+  }
+}
