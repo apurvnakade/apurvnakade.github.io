@@ -28,7 +28,7 @@ h4,
 h5,
 h6 {
   font-size: 1 + $font-increment-headers/2;
-  padding-top: 20px;
+  //padding-top: 20px;
 }
 
 a {
@@ -65,13 +65,18 @@ li {
   padding-bottom: 10px;
 }
 
+.info {
+  /*usually a small table with email address, office etc. information*/
+  padding-bottom: 30px;
+}
+
 table {
   margin: auto;
   line-height: 1.5;
   text-align: justify;
 }
 
-.mainMenu {
+table#mainMenu {
   td {
     /* table containing the main menu items on each page */
     width: 200px;
@@ -86,23 +91,21 @@ table {
   }
 }
 
-.mainText {
-  table {
-    background-color: $font-background-color;
-    padding: 20px 30px 40px 20px;
-  }
+table#mainText {
+  background-color: $font-background-color;
+  padding: 20px 30px 40px 20px;
 }
 
-.alternate_color {
+table.alternate_color {
   td {
     padding: 10px;
   }
 
-  table tr:nth-child(odd) td {
+  tr:nth-child(odd) td {
     background-color: #f5f5f5;
   }
 
-  table tr:nth-child(even) td {
+  tr:nth-child(even) td {
     background-color: #fafafa;
   }
 }
