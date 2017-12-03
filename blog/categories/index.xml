@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Blog</title>
+    <title>Categories on Grad Student Problems</title>
     <link>https://apurvnakade.github.io/blog/categories/</link>
-    <description>Recent content in Categories on Blog</description>
+    <description>Recent content in Categories on Grad Student Problems</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 11 Nov 2017 12:40:44 -0500</lastBuildDate>
     
 	<atom:link href="https://apurvnakade.github.io/blog/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title></title>
-      <link>https://apurvnakade.github.io/blog/categories/</link>
-      <pubDate>Sat, 11 Nov 2017 12:40:44 -0500</pubDate>
+      <title>Stray_thoughts</title>
+      <link>https://apurvnakade.github.io/blog/categories/stray_thoughts/</link>
+      <pubDate>Sun, 03 Dec 2017 14:32:46 -0500</pubDate>
       
-      <guid>https://apurvnakade.github.io/blog/categories/</guid>
+      <guid>https://apurvnakade.github.io/blog/categories/stray_thoughts/</guid>
       <description></description>
     </item>
     

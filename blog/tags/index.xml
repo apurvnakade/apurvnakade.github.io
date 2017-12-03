@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Blog</title>
+    <title>Tags on Grad Student Problems</title>
     <link>https://apurvnakade.github.io/blog/tags/</link>
-    <description>Recent content in Tags on Blog</description>
+    <description>Recent content in Tags on Grad Student Problems</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 11 Nov 2017 12:40:44 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 03 Dec 2017 14:32:46 -0500</lastBuildDate>
     
 	<atom:link href="https://apurvnakade.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title></title>
       <link>https://apurvnakade.github.io/blog/tags/</link>
-      <pubDate>Sat, 11 Nov 2017 12:40:44 -0500</pubDate>
+      <pubDate>Sun, 03 Dec 2017 14:32:46 -0500</pubDate>
       
       <guid>https://apurvnakade.github.io/blog/tags/</guid>
       <description></description>
