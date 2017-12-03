@@ -1,0 +1,69 @@
+$page-background-color: #f0f0f0;
+$font-background-color: #ffffff;
+$hyperlink-new: #2583FF;
+$hyperlink-old: #2583AD;
+$font-families: "Helvetica Neue", "Helvetica", "sans-serif";
+$font-color: black;
+body {
+  max-width: 900px;
+  background-color: $page-background-color;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  line-height: 150%;
+  font-size: 18px;
+  font-family: $font-families;
+}
+
+h1#siteTitle {
+  font-size: 2em;
+  color: black;
+}
+
+h3, h4, h5, h6 {
+  font-size: 1.1em;
+}
+
+a {
+  /* Remove underlining from hyperlinks*/
+  text-decoration: none;
+  &:link {
+    color: $hyperlink-new;
+  }
+  &:active, &:hover, &:visited {
+    color: $hyperlink-old;
+  }
+}
+
+a.no_decoration {
+  &:link, &:active, &:hover, &:visited {
+    color: $font-color;
+  }
+}
+
+table {
+  margin: auto;
+  text-align: justify;
+}
+
+table#mainText {
+  background-color: $font-background-color;
+  padding: 20px 30px 40px 20px;
+}
+
+th {
+  text-align: left;
+}
+
+td {
+  vertical-align: top;
+}
+
+.date {
+  font-size: small;
+}
+
+.footer_credits{
+	font-size: small;
+	text-align: right;
+}

@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Blog</title>
+    <title>Posts on Grad Student Problems</title>
     <link>https://apurvnakade.github.io/blog/posts/</link>
-    <description>Recent content in Posts on Blog</description>
+    <description>Recent content in Posts on Grad Student Problems</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 11 Nov 2017 12:40:44 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 03 Dec 2017 14:32:46 -0500</lastBuildDate>
     
 	<atom:link href="https://apurvnakade.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Christmas Parade</title>
+      <link>https://apurvnakade.github.io/blog/posts/christmas-parade/</link>
+      <pubDate>Sun, 03 Dec 2017 14:32:46 -0500</pubDate>
+      
+      <guid>https://apurvnakade.github.io/blog/posts/christmas-parade/</guid>
+      <description>I&amp;rsquo;m usually very reluctant to try new places. I do enjoy the places AFTER I&amp;rsquo;ve been to them, the trouble lies with the planning phase. While there are several reviews available online none of them talk about, for example, how long does it take to get to Hopkins from the place? Or how sunny does it get a 3pm on a Sunday in December? None of the reviews, in short, provide any useful information to a graduate student.</description>
+    </item>
     
     <item>
       <title>My First Post</title>
@@ -17,7 +26,8 @@
       <pubDate>Sat, 11 Nov 2017 12:40:44 -0500</pubDate>
       
       <guid>https://apurvnakade.github.io/blog/posts/my-first-post/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed purus at dolor condimentum dictum. Donec nec diam erat. Nullam eu eros consectetur, mollis est eu, cursus turpis. Nam non bibendum dolor. Quisque feugiat tincidunt metus non mattis. Etiam a posuere turpis, ac vulputate sem. In in elit varius, feugiat odio et, vestibulum urna. Nunc maximus tortor ligula, eget tincidunt arcu aliquet ac. Curabitur et congue arcu. Fusce sodales nibh at dui porttitor, nec pretium sem mattis.</description>
+      <description>I spent the entire day today configuring Hugo so that I can write a blog. The alternative was of course using the free, efficient, easy to use, readily configurable blog sites. What be life without a little pain?
+In my college I owned a shitty Acer laptop with an utterly useless battery and a cooling system so bad that the fan would act as a noise cancelling device for the din outside.</description>
     </item>
     
   </channel>
