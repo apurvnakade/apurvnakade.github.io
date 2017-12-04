@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Stray_thoughts on Grad Student Problems</title>
-    <link>https://apurvnakade.github.io/blog/categories/stray_thoughts/</link>
-    <description>Recent content in Stray_thoughts on Grad Student Problems</description>
+    <title>Christmas on Grad Student Problems</title>
+    <link>https://apurvnakade.github.io/blog/tags/christmas/</link>
+    <description>Recent content in Christmas on Grad Student Problems</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 03 Dec 2017 14:32:46 -0500</lastBuildDate>
     
-	<atom:link href="https://apurvnakade.github.io/blog/categories/stray_thoughts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://apurvnakade.github.io/blog/tags/christmas/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,16 +18,6 @@
       
       <guid>https://apurvnakade.github.io/blog/posts/christmas-parade/</guid>
       <description>I&amp;rsquo;m usually very reluctant to try new places. I do enjoy the places AFTER I&amp;rsquo;ve been to them, the trouble lies with the planning phase. While there are several reviews available online none of them talk about, for example, how long does it take to get to Hopkins from the place? Or how sunny does it get at 3pm on a Sunday in December? None of the reviews, in short, provide any useful information to a graduate student.</description>
-    </item>
-    
-    <item>
-      <title>My First Post</title>
-      <link>https://apurvnakade.github.io/blog/posts/my-first-post/</link>
-      <pubDate>Sat, 11 Nov 2017 12:40:44 -0500</pubDate>
-      
-      <guid>https://apurvnakade.github.io/blog/posts/my-first-post/</guid>
-      <description>I spent the entire day today configuring Hugo so that I can write a blog. The alternative was of course using the free, efficient, easy to use, readily configurable blog sites. What be life without a little pain?
-In my college I owned a shitty Acer laptop with an utterly useless battery and a cooling system so bad that the fan would act as a noise cancelling device for the din outside.</description>
     </item>
     
   </channel>
