@@ -76,6 +76,16 @@ table {
   text-align: justify;
 }
 
+td {
+  vertical-align: top;
+}
+
+table#mainText {
+  background-color: $font-background-color;
+  padding: 20px 30px 40px 20px;
+}
+
+
 table#mainMenu {
   td {
     /* table containing the main menu items on each page */
@@ -91,10 +101,6 @@ table#mainMenu {
   }
 }
 
-table#mainText {
-  background-color: $font-background-color;
-  padding: 20px 30px 40px 20px;
-}
 
 table.alternate_color {
   td {
