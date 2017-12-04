@@ -52,6 +52,13 @@ table {
   line-height: 1.5;
   text-align: justify; }
 
+td {
+  vertical-align: top; }
+
+table#mainText {
+  background-color: #ffffff;
+  padding: 20px 30px 40px 20px; }
+
 table#mainMenu td {
   /* table containing the main menu items on each page */
   width: 200px;
@@ -61,10 +68,6 @@ table#mainMenu td {
   text-shadow: 0 1px 0 #FFF; }
 table#mainMenu a {
   color: #a0a0a0; }
-
-table#mainText {
-  background-color: #ffffff;
-  padding: 20px 30px 40px 20px; }
 
 table.alternate_color td {
   padding: 10px; }
