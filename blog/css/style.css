@@ -8,12 +8,22 @@ body {
   font-size: 18px;
   font-family: "Helvetica Neue", "Helvetica", "sans-serif"; }
 
+figure.large {
+  text-align: center; }
+  figure.large img {
+    max-width: 700px;
+    padding-top: 20px; }
+  @media (max-width: 750px) {
+    figure.large img {
+      max-width: 500px; } }
+
 h1#siteTitle {
   font-size: 2em;
   color: black; }
 
 h3, h4, h5, h6 {
-  font-size: 1.1em; }
+  font-size: 1.1em;
+  margin-top: 0px; }
 
 a {
   /* Remove underlining from hyperlinks*/
