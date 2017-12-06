@@ -1,32 +1,53 @@
+/***********************/
+/***********************/
+/* global CSS elements */
+/***********************/
+/***********************/
 body {
-  max-width: 900px;
   background-color: #f0f0f0;
+  font: 18px "Helvetica Neue", "Helvetica", "sans-serif"; }
+
+#wrapper-main {
+  /* main wrapper for most of the content */
+  max-width: 900px;
   margin: auto;
   margin-top: 50px;
   margin-bottom: 100px;
-  line-height: 150%;
-  font-size: 18px;
-  font-family: "Helvetica Neue", "Helvetica", "sans-serif"; }
-
-figure.large {
-  text-align: center; }
-  figure.large img {
-    max-width: 700px;
-    padding-top: 20px; }
-  @media (max-width: 750px) {
-    figure.large img {
-      max-width: 500px; } }
+  line-height: 150%; }
 
 h1#siteTitle {
+  /* This id only occurs on index.html */
   font-size: 2em;
-  color: black; }
+  color: black;
+  padding-bottom: 10px; }
+
+table#mainText {
+  /* contains all the text */
+  background-color: #ffffff;
+  padding: 20px 30px 40px 20px;
+  /* different right-left margins for a book-like feel*/
+  width: 100%; }
+
+table#navBar {
+  width: 100%;
+  margin: auto;
+  font-size: small;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+
+th {
+  /* for the blog titles on the front page */
+  text-align: left; }
+
+td {
+  vertical-align: top;
+  text-align: justify; }
 
 h3, h4, h5, h6 {
+  /* for the blog titles on the front page */
   font-size: 1.1em;
   margin-top: 0px; }
 
 a {
-  /* Remove underlining from hyperlinks*/
   text-decoration: none; }
   a:link {
     color: #2583FF; }
@@ -36,33 +57,38 @@ a {
 a.no_decoration:link, a.no_decoration:active, a.no_decoration:hover, a.no_decoration:visited {
   color: black; }
 
-table {
-  margin: auto;
-  text-align: justify; }
-
-table#mainText {
-  background-color: #ffffff;
-  padding: 20px 30px 40px 20px; }
-
-th {
-  text-align: left; }
-
-td {
-  vertical-align: top; }
-
 .date {
+  /* date at the top of the post and on index.html*/
   font-size: small; }
 
 .footer_credits {
+  /* Powered by Hugo */
   font-size: small;
   text-align: right; }
 
 .tags_display {
+  /* for the tag cloud */
   font-size: small;
   text-align: right; }
 
 .read_more {
+  /* for truncated summaries*/
   font-size: small;
   font-weight: bold; }
+
+/***************************************/
+/***************************************/
+/* CSS elements for modifying markdown */
+/***************************************/
+/***************************************/
+figure.large {
+  text-align: center; }
+  figure.large img {
+    max-width: 700px;
+    padding-top: 30px;
+    padding-bottom: 30px; }
+  @media (max-width: 750px) {
+    figure.large img {
+      max-width: 500px; } }
 
 /*# sourceMappingURL=style.css.map */
