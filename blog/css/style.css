@@ -82,13 +82,20 @@ a.no_decoration:link, a.no_decoration:active, a.no_decoration:hover, a.no_decora
 /***************************************/
 /***************************************/
 figure.large {
-  text-align: center; }
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px; }
   figure.large img {
-    max-width: 700px;
-    padding-top: 30px;
-    padding-bottom: 30px; }
-  @media (max-width: 750px) {
-    figure.large img {
-      max-width: 500px; } }
+    max-width: 100%; }
+
+figure.xlarge {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin: auto; }
+  figure.xlarge img {
+    width: 100%; }
 
 /*# sourceMappingURL=style.css.map */
