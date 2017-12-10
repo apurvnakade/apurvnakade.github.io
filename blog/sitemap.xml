@@ -23,6 +23,10 @@
   </url>
   
   <url>
+    <loc>https://apurvnakade.github.io/blog/pages/archive/</loc>
+  </url>
+  
+  <url>
     <loc>https://apurvnakade.github.io/blog/categories/</loc>
     <priority>0</priority>
   </url>
@@ -66,6 +70,11 @@
   <url>
     <loc>https://apurvnakade.github.io/blog/categories/lifejhu.edu/</loc>
     <lastmod>2017-12-09T13:12:00-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/pages/</loc>
     <priority>0</priority>
   </url>
   
