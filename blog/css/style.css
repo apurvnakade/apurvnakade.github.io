@@ -8,43 +8,40 @@ body {
   font: 18px "Helvetica Neue", "Helvetica", "sans-serif"; }
 
 #wrapper-main {
-  /* main wrapper for most of the content */
   max-width: 900px;
   margin: auto;
   margin-top: 50px;
-  margin-bottom: 100px;
-  line-height: 150%; }
+  margin-bottom: 100px; }
 
-h1#siteTitle {
+#siteTitle {
   /* This id only occurs on index.html */
   font-size: 2em;
   color: black;
   padding-bottom: 10px; }
 
-table#mainText {
-  /* contains all the text */
+#postTitle a {
+  color: black; }
+
+#mainText {
   background-color: #ffffff;
-  padding: 20px 30px 40px 20px;
-  /* different right-left margins for a book-like feel*/
-  width: 100%; }
-
-table#navBar {
   width: 100%;
-  margin: auto;
-  font-size: small; }
+  line-height: 150%;
+  padding: 20px;
+  padding-right: 30px; }
 
-th {
-  /* for the blog titles on the front page */
+table.two-column-page td:first-of-type {
+  width: 120px;
   text-align: left; }
 
 td {
-  vertical-align: top;
-  text-align: justify; }
+  vertical-align: top; }
+  td .post {
+    text-align: justify; }
 
 h3, h4, h5, h6 {
   /* for the blog titles on the front page */
   font-size: 1.1em;
-  margin-top: 0px; }
+  margin: 0px; }
 
 a {
   text-decoration: none; }
@@ -53,40 +50,52 @@ a {
   a:active, a:hover, a:visited {
     color: #2583AD; }
 
-a.no_decoration:link, a.no_decoration:active, a.no_decoration:hover, a.no_decoration:visited {
-  color: black; }
-
 .date {
   /* date at the top of the post and on index.html*/
   font-size: small; }
 
-.footer_credits {
+.footer-credits {
   /* Powered by Hugo */
   font-size: small;
   text-align: right; }
 
-.tags_display {
-  /* for the tag cloud */
+.tags-display {
   font-size: small;
   text-align: right; }
 
-.read_more {
+.read-more {
   /* for truncated summaries*/
   font-size: small;
   font-weight: bold; }
 
 /***************************************/
 /***************************************/
-/* CSS elements for the tag cloud */
+/* CSS elements used in some pages */
 /***************************************/
 /***************************************/
-table#tagCloud {
+#tagCloud {
   margin-left: 0px;
   font-size: smaller; }
 
+#navBar {
+  width: 100%;
+  font-size: small;
+  font-weight: bold;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  text-align: center; }
+  #navBar td:last-of-type {
+    text-align: right; }
+  #navBar td:first-of-type {
+    text-align: left; }
+
+.compact {
+  font-size: small; }
+  .compact td {
+    vertical-align: middle; }
+
 /***************************************/
 /***************************************/
-/* CSS elements for modifying markdown */
+/* CSS elements for markdown */
 /***************************************/
 /***************************************/
 figure.large {
