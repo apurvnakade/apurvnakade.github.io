@@ -31,8 +31,7 @@ table#mainText {
 table#navBar {
   width: 100%;
   margin: auto;
-  font-size: small;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+  font-size: small; }
 
 th {
   /* for the blog titles on the front page */
@@ -75,6 +74,15 @@ a.no_decoration:link, a.no_decoration:active, a.no_decoration:hover, a.no_decora
   /* for truncated summaries*/
   font-size: small;
   font-weight: bold; }
+
+/***************************************/
+/***************************************/
+/* CSS elements for the tag cloud */
+/***************************************/
+/***************************************/
+table#tagCloud {
+  margin-left: 0px;
+  font-size: smaller; }
 
 /***************************************/
 /***************************************/
