@@ -30,13 +30,16 @@ body {
   padding-right: 30px; }
 
 table.two-column-page td:first-of-type {
-  width: 120px;
   text-align: left; }
+  @media screen and (min-width: 500px) {
+    table.two-column-page td:first-of-type {
+      min-width: 100px; } }
 
 td {
   vertical-align: top; }
-  td .post {
-    text-align: justify; }
+
+.post {
+  text-align: justify; }
 
 h3, h4, h5, h6 {
   /* for the blog titles on the front page */
