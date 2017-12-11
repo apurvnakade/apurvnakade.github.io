@@ -34,7 +34,11 @@ var Urls = ["index.html", "research.html", "funmaths.html", "notes.html", "leisu
 
 //url and index of the current page
 var  myUrl    = location.pathname.split('/').slice(-1)[0];
+console.log(myUrl);
 var  myIndex  = Urls.indexOf(myUrl).toString();
+  if (myIndex == '-1') {
+    myIndex = '0';
+  }
 var menuHTML  = "";
 
 //extract html URL parameters
