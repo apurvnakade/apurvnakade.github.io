@@ -1,11 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
     <title>Just for fun</title>
+
+    <style>
+      .right-side-image img {
+        width: 300px;
+        margin-top: -20px;
+      }
+
+      .right-side-image figcaption {
+        text-align: center;
+      }
+      @media (max-width: 600px) {
+        .right-side-image {
+          display: none;
+        }
+      }
+    </style>
   </head>
 
 
@@ -25,14 +42,13 @@
           <table>
             <tr>
               <td>
-                I write on (in?) <a href="./blog">my new blog</a>, built from scratch using <a href="https://gohugo.io/">Hugo</a> and lots of googling.
-                I also love to read. My dream vacation is by a window with a cup of coffee and a dozen or so novels.<br><br>
+                I write on (in?) <a href="./blog">my new blog</a>, built from scratch using <a href="https://gohugo.io/">Hugo</a> and lots of googling. I also love to read. My dream vacation is by a window with a cup of coffee and a dozen or so novels.<br><br>
               </td>
             </tr>
 
             <tr>
               <td>
-                I use conferences as an excuse to <a href="https://www.google.com/maps/d/viewer?mid=1wpCR64gzKc7Zp8V-FIn43ANMA6QULjMS&hl=en&usp=sharing" target="_blank">travel</a>. I love the outdoors, I <a href="https://studentaffairs.jhu.edu/recreation/experiential-education/trips/">hike</a> whenever I get a chance. I'm always looking for an excuse to pack my bags, so if you know of a place that's lacking in underpaid mathematicians, do tell. <br><br>
+                I use conferences as an excuse to <a href="https://www.google.com/maps/d/viewer?mid=1wpCR64gzKc7Zp8V-FIn43ANMA6QULjMS&hl=en&usp=sharing" target="_blank">travel</a>. I love the outdoors, I <a href="https://studentaffairs.jhu.edu/recreation/experiential-education/trips/">hike</a>                whenever I get a chance. I'm always looking for an excuse to pack my bags, so if you know of a place that's lacking in underpaid mathematicians, do tell. <br><br>
               </td>
             </tr>
 
@@ -64,13 +80,15 @@
         </td>
         <td>
           <!-- Image column. #column = 1 -->
-          <figure>
-            <a href="http://www.gocomics.com/sarahs-scribbles/2014/1/17" title="So delicious.">
-              <img src="books.gif" style="width:300px; margin-top: -20px;" >
+          <div class="right-side-image">
+            <figure>
+              <a href="http://www.gocomics.com/sarahs-scribbles/2014/1/17" title="So delicious.">
+              <img src="books.gif" >
             </a>
-            <figcaption style="text-align:center;">Fig. 3 - Yumm... <br>
-            </figcaption>
-          </figure>
+              <figcaption style="text-align:center;">Fig. 3 - Yumm... <br>
+              </figcaption>
+            </figure>
+          </div>
         </td>
       </tr>
     </table>
