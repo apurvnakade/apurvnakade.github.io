@@ -1,19 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
     <title>Home</title>
+
+    <style>
+      .right-side-image img {
+        width: 300px;
+        margin-top: -10px;
+      }
+
+      .right-side-image figcaption {
+        text-align: center;
+      }
+
+      @media (max-width: 600px) {
+        .right-side-image {
+          display: none;
+        }
+      }
+
+    </style>
   </head>
 
 
 
 
   <body>
-  <script src="navbar.js"></script>
-  <table class="mainText" id="mainText">
+    <script src="navbar.js"></script>
+    <table class="mainText" id="mainText">
       <!-- Table encapsulating the entire page. #columns = 2-->
       <tr>
         <!-- Row for the page header -->
@@ -101,12 +120,13 @@
 
         <td>
           <!-- Image column. #column = 1 -->
-          <figure>
-            <a href="http://abstrusegoose.com/353" title="Like a boss.">
-      <img src="me.png" style="width:300px; margin-top: -10px;" ></a>
-            <figcaption style="text-align:center;">Fig. 2 - Selfie. <br>
-            </figcaption>
-          </figure>
+          <div class="right-side-image">
+            <figure>
+              <a href="http://abstrusegoose.com/353" title="Like a boss.">
+      <img src="me.png"></a>
+              <figcaption>Fig. 2 - Selfie. <br></figcaption>
+            </figure>
+          </div>
         </td>
       </tr>
     </table>

@@ -1,18 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
     <title>Teaching etc.</title>
+
+    <style>
+      .right-side-image img {
+        width: 300px;
+        margin-top: 10px;
+      }
+
+      .right-side-image figcaption {
+        text-align: center;
+      }
+
+      @media (max-width: 600px) {
+        .right-side-image {
+          display: none;
+        }
+      }
+
+    </style>
   </head>
 
 
 
 
   <body>
-  <script src="navbar.js"></script>
+    <script src="navbar.js"></script>
     <table class="mainText" id="mainText">
       <tr>
         <td style="text-align: center;" colspan="2">
@@ -69,12 +88,14 @@
         </td>
         <td>
           <!-- Image column. #column = 1 -->
-          <figure>
-            <a href="http://abstrusegoose.com/353" title="Like a boss.">
-        <img src="me.jpg" style="width:300px; margin-top: 10px;" ></a>
-            <figcaption style="text-align:center;"><br>Fig. 1 - How to wear a glowstick properly. <br>
-            </figcaption>
-          </figure>
+          <div class="right-side-image">
+            <figure>
+              <a href="https://c.xkcd.com/random/comic/" title="Like a boss.">
+        <img src="me.jpg"></a>
+              <figcaption><br>Fig. 1 - How to wear a glowstick properly. <br>
+              </figcaption>
+            </figure>
+          </div>
         </td>
       </tr>
     </table>
