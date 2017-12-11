@@ -21,7 +21,7 @@ def list_files(directory_in_str):
         while True:
             overwrite = input("WARNING: Do you wish to overwrite [yes/no]. Enter anything else to see the file contents. ")
             if overwrite == 'no':
-                unsuccessful_writes.append(directory_in_str)
+                unsuccessful_writes.append(directory_in_str + "\n")
                 return
             elif overwrite == 'yes':
                 os.remove('index.html')
@@ -37,7 +37,7 @@ def list_files(directory_in_str):
     if not files:
         print("There are no files in the folder : " + directory_in_str)
         input("Press [ENTER] to continue.")
-        unsuccessful_writes.append(directory_in_str)
+        unsuccessful_writes.append(directory_in_str + "\n")
         return
 
     #Create the index.html file and fill it with html wrapping and file list
@@ -50,13 +50,13 @@ def list_files(directory_in_str):
     index_html.write('\t\t<link rel=\"stylesheet\" href=\"https://apurvnakade.github.io/style.css\">\n')
     index_html.write('\t</head>\n')
     index_html.write('\t<body>\n')
-    index_html.write('\t\t<div class = \"auto-generated\">\n')
+    index_html.write('\t\t<div class = \"python-generated\">\n')
     index_html.write('\t\t<table id=\"mainText\">\n')
     index_html.write('\t\t<tr>\n')
     index_html.write('\t\t<td>\n')
     index_html.write('\t\t\t<ul>\n')
 
-    for file in files:
+    for file in sorted(files, key=str.lower):
         # because path is object not string
         file_in_str = str(file)
         index_html.write('\t\t\t\t<li><a href=\"./' + cgi.escape(file_in_str) + '\">')
@@ -71,7 +71,7 @@ def list_files(directory_in_str):
     index_html.write('</html>')
 
     print("Successfully generated file: " + directory_in_str + "/index.html")
-    successful_writes.append(directory_in_str)
+    successful_writes.append(directory_in_str + "\n")
 
 
 

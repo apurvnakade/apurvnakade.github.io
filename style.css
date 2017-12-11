@@ -1,8 +1,26 @@
 body {
   color: #2a2a2a;
   max-width: 950px;
-  margin: 50px auto 100px;
+  margin: 0 auto;
+  margin-bottom: 100px;
   background-color: #f0f0f0; }
+
+table#mainMenu td {
+  /* table containing the main menu items on each page */
+  width: 200px;
+  text-align: center;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  font-style: italic;
+  text-shadow: 0 1px 0 #FFF; }
+table#mainMenu a {
+  color: #a0a0a0; }
+
+table#mainText {
+  background-color: #ffffff;
+  padding: 20px 30px 40px 20px; }
 
 h1 {
   font-size: 1.5em;
@@ -21,11 +39,10 @@ h6 {
 
 a {
   /* Remove underlining from hyperlinks*/
-  text-decoration: none; }
+  text-decoration: none;
+  color: #2583AD; }
   a:link {
     color: #2583FF; }
-  a:active, a:hover, a:visited {
-    color: #2583AD; }
 
 li {
   margin-left: 20px;
@@ -54,20 +71,6 @@ table {
 
 td {
   vertical-align: top; }
-
-table#mainText {
-  background-color: #ffffff;
-  padding: 20px 30px 40px 20px; }
-
-table#mainMenu td {
-  /* table containing the main menu items on each page */
-  width: 200px;
-  text-align: center;
-  padding-bottom: 25px;
-  font-style: italic;
-  text-shadow: 0 1px 0 #FFF; }
-table#mainMenu a {
-  color: #a0a0a0; }
 
 table.alternate_color td {
   padding: 10px; }
