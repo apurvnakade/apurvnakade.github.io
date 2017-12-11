@@ -8,9 +8,31 @@ $font-increment-headers: 0.25em;
 body {
   color: $font-color;
   max-width: 950px;
-  margin: 50px auto 100px;
+  margin: 0px auto;
+  margin-bottom: 100px;
   background-color: $page-background-color;
 }
+
+table#mainMenu {
+  td {
+    /* table containing the main menu items on each page */
+    width: 200px;
+    text-align: center;
+    padding-bottom: 20px;
+    font-style: italic;
+    text-shadow: 0 1px 0 #FFF;
+  }
+
+  a {
+    color: #a0a0a0;
+  }
+}
+
+table#mainText {
+  background-color: $font-background-color;
+  padding: 20px 30px 40px 20px;
+}
+
 
 h1 {
   font-size: 1em + 2*$font-increment-headers;
@@ -34,15 +56,9 @@ h6 {
 a {
   /* Remove underlining from hyperlinks*/
   text-decoration: none;
-
+  color: $hyperlink-old;
   &:link {
     color: $hyperlink-new;
-  }
-
-  &:active,
-  &:hover,
-  &:visited {
-    color: $hyperlink-old;
   }
 }
 
@@ -78,27 +94,6 @@ table {
 
 td {
   vertical-align: top;
-}
-
-table#mainText {
-  background-color: $font-background-color;
-  padding: 20px 30px 40px 20px;
-}
-
-
-table#mainMenu {
-  td {
-    /* table containing the main menu items on each page */
-    width: 200px;
-    text-align: center;
-    padding-bottom: 25px;
-    font-style: italic;
-    text-shadow: 0 1px 0 #FFF;
-  }
-
-  a {
-    color: #a0a0a0;
-  }
 }
 
 
