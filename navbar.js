@@ -23,6 +23,7 @@ Sample output:
 </tr></table>
 
 TODO: add elements as divs instead of strings
+TODO: catch exceptions better
 */
 
 
@@ -34,7 +35,6 @@ var Urls = ["index.html", "research.html", "funmaths.html", "notes.html", "leisu
 
 //url and index of the current page
 var  myUrl    = location.pathname.split('/').slice(-1)[0];
-console.log(myUrl);
 var  myIndex  = Urls.indexOf(myUrl).toString();
   if (myIndex == '-1') {
     myIndex = '0';
@@ -75,7 +75,6 @@ var createMenu = function createMenu(order) {
         menuHTML += '<td><a href="' + Urls[order[i]] + '?m='+order+'">' + names[order[i]] + '</a></td>\n';
   }
   $('body').prepend('<table id="mainMenu"><tr>' + menuHTML + '</tr></table>');
-  console.log(menuHTML);
 }
 
 createMenu(getUrlParameter('m'));
