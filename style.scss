@@ -43,20 +43,20 @@ table#mainText {
 
 
 h1 {
-  font-size: 1em + 2*$font-increment-headers;
+  font-size: 1em + 4*$font-increment-headers;
   padding-bottom: 10px;
+  padding-top: 10px;
 }
 
 h2 {
-  font-size: 1em + $font-increment-headers;
-  padding-top: 30px;
+  font-size: 1em + 3*$font-increment-headers;
 }
 
 h3,
 h4,
 h5,
 h6 {
-  font-size: 1 + $font-increment-headers/2;
+  font-size: 1 + $font-increment-headers;
   //padding-top: 20px;
 }
 
