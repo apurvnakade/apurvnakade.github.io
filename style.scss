@@ -38,12 +38,12 @@ table#mainMenu {
 table#mainText {
   background-color: $font-background-color;
   padding: 20px 30px 40px 20px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 
 h1 {
   font-size: 1em + 2*$font-increment-headers;
-  padding-top: 30px;
   padding-bottom: 10px;
 }
 
