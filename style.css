@@ -1,7 +1,10 @@
+@media (max-width: 700px) {
+  .right-side-image {
+    display: none; } }
 body {
   color: #2a2a2a;
   max-width: 950px;
-  margin: 0 auto;
+  margin: 0px auto;
   margin-bottom: 100px;
   background-color: #f0f0f0; }
 
@@ -9,10 +12,8 @@ table#mainMenu td {
   /* table containing the main menu items on each page */
   width: 200px;
   text-align: center;
-
   padding-top: 20px;
   padding-bottom: 20px;
-
   font-style: italic;
   text-shadow: 0 1px 0 #FFF; }
 table#mainMenu a {
@@ -63,6 +64,12 @@ li {
 .info {
   /*usually a small table with email address, office etc. information*/
   padding-bottom: 30px; }
+
+.right-side-image img {
+  width: 300px; }
+
+.right-side-image figcaption {
+  text-align: center; }
 
 table {
   margin: auto;
