@@ -8,16 +8,18 @@ body {
   margin-bottom: 100px;
   background-color: #f0f0f0; }
 
-table#mainMenu td {
-  /* table containing the main menu items on each page */
-  width: 200px;
-  text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  font-style: italic;
-  text-shadow: 0 1px 0 #FFF; }
-table#mainMenu a {
-  color: #a0a0a0; }
+table#mainMenu {
+  width: 100%; }
+  table#mainMenu td {
+    /* table containing the main menu items on each page */
+    width: 20%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-style: italic;
+    text-shadow: 0 1px 0 #FFF; }
+  table#mainMenu a {
+    color: #a0a0a0; }
 
 table#mainText {
   background-color: #ffffff;
@@ -86,6 +88,17 @@ table {
 
 td {
   vertical-align: top; }
+
+td.column-title {
+  font-weight: bold;
+  font-size: large;
+  width: 50px;
+  padding-left: 50px;
+  padding-right: 50px; }
+
+td.column-description {
+  padding-right: 50px;
+  padding-bottom: 30px; }
 
 table.alternate_color td {
   padding: 10px; }
