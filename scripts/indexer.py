@@ -55,6 +55,7 @@ def list_files(directory_in_str):
     index_html.write('\t\t<table id=\"mainText\">\n')
     index_html.write('\t\t<tr>\n')
     index_html.write('\t\t<td>\n')
+    index_html.write('\t\t\t<a href=\"javascript:window.history.back()\">Back</a>')
     index_html.write('\t\t\t<ul>\n')
 
     for file in sorted(files, key=str.lower):
