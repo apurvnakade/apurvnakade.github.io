@@ -20,9 +20,10 @@ body {
 }
 
 table#mainMenu {
+  width: 100%;
   td {
     /* table containing the main menu items on each page */
-    width: 200px;
+    width: 20%;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -41,6 +42,9 @@ table#mainText {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
+table#mainText.no-navBar {
+  margin-top: 50px;
+}
 
 h1 {
   font-size: 1em + 4*$font-increment-headers;
@@ -72,6 +76,13 @@ a {
 li {
   margin-left: 20px;
   line-height: 1.75;
+}
+
+.python-generated {
+  margin-top: 50px;
+  .li {
+    margin-left: 0px;
+  }
 }
 
 .quote {
@@ -111,6 +122,18 @@ td {
   vertical-align: top;
 }
 
+td.column-title {
+  font-weight: bold;
+  font-size: large;
+  width: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+td.column-description {
+  padding-right: 50px;
+  padding-bottom: 30px;
+}
 
 table.alternate_color {
   td {
