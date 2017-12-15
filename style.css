@@ -8,10 +8,12 @@ body {
   margin-bottom: 100px;
   background-color: #f0f0f0; }
 
-table#mainMenu {
+table {
   width: 100%; }
+
+table#mainMenu {
+  /* table containing the main menu items on each page */ }
   table#mainMenu td {
-    /* table containing the main menu items on each page */
     width: 20%;
     text-align: center;
     padding-top: 20px;

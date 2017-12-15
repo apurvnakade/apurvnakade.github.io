@@ -19,10 +19,13 @@ body {
   background-color: $page-background-color;
 }
 
+table {
+  width: 100%
+}
+
 table#mainMenu {
-  width: 100%;
+/* table containing the main menu items on each page */
   td {
-    /* table containing the main menu items on each page */
     width: 20%;
     text-align: center;
     padding-top: 20px;
