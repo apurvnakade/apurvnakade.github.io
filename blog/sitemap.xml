@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://apurvnakade.github.io/blog/posts/j%C3%B3lab%C3%B3kafl%C3%B3%C3%B0/</loc>
+    <lastmod>2017-12-14T21:15:13-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://apurvnakade.github.io/blog/posts/zugzwang/</loc>
     <lastmod>2017-12-12T12:41:13-05:00</lastmod>
   </url>
@@ -29,6 +34,12 @@
   
   <url>
     <loc>https://apurvnakade.github.io/blog/pages/archive/</loc>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/tags/books/</loc>
+    <lastmod>2017-12-14T21:15:13-05:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -62,7 +73,7 @@
   
   <url>
     <loc>https://apurvnakade.github.io/blog/</loc>
-    <lastmod>2017-12-12T12:41:13-05:00</lastmod>
+    <lastmod>2017-12-14T21:15:13-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -91,7 +102,7 @@
   
   <url>
     <loc>https://apurvnakade.github.io/blog/posts/</loc>
-    <lastmod>2017-12-12T12:41:13-05:00</lastmod>
+    <lastmod>2017-12-14T21:15:13-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -103,13 +114,19 @@
   
   <url>
     <loc>https://apurvnakade.github.io/blog/tags/</loc>
-    <lastmod>2017-12-12T12:41:13-05:00</lastmod>
+    <lastmod>2017-12-14T21:15:13-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/tags/ted/</loc>
+    <lastmod>2017-12-14T21:15:13-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://apurvnakade.github.io/blog/categories/videos/</loc>
-    <lastmod>2017-12-12T12:41:13-05:00</lastmod>
+    <lastmod>2017-12-14T21:15:13-05:00</lastmod>
     <priority>0</priority>
   </url>
   
