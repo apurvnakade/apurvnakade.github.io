@@ -24,6 +24,9 @@ table#mainText {
   padding: 20px 30px 40px 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
 
+table#mainText.no-navBar {
+  margin-top: 50px; }
+
 h1 {
   font-size: 2em;
   padding-bottom: 10px;
@@ -48,6 +51,11 @@ a {
 li {
   margin-left: 20px;
   line-height: 1.75; }
+
+.python-generated {
+  margin-top: 50px; }
+  .python-generated .li {
+    margin-left: 0px; }
 
 .quote {
   /*for putting in quotes */
