@@ -12,7 +12,7 @@ Sample output:
     <a href="./Research/index.html">Serious maths</a>
   </td>
   <td>
-    <a href="index.html">It Me</a>
+    <a href="index.html">Home</a>
   </td>
   <td>
     <a href="./notes/index.html">Math notes</a>
@@ -30,7 +30,7 @@ TODO: catch exceptions better
 
 
 // list of menu items
-var names = ["It Me", "Serious maths", "Unserious maths", "Math notes", "Unmaths", "Blog"];
+var names = ["Home", "Serious maths", "Unserious maths", "Math notes", "Unmaths", "Blog"];
 var Urls = ["index.html", "research.html", "funmaths.html", "notes.html", "leisure.html", "blog/index.html"];
 
 //url and index of the current page
