@@ -6,10 +6,19 @@
     <description>Recent content in Coding on Grad Student Problems</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 11 Nov 2017 12:40:44 -0500</lastBuildDate>
+    <lastBuildDate>Sat, 16 Dec 2017 23:00:44 -0500</lastBuildDate>
     
 	<atom:link href="https://apurvnakade.github.io/blog/tags/coding/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Stack Overflow</title>
+      <link>https://apurvnakade.github.io/blog/posts/stray-thoughts/stackoverflow/</link>
+      <pubDate>Sat, 16 Dec 2017 23:00:44 -0500</pubDate>
+      
+      <guid>https://apurvnakade.github.io/blog/posts/stray-thoughts/stackoverflow/</guid>
+      <description>I used to code before internet was something you could have at your home, it wasn&amp;rsquo;t even the next big thing. You had to go to an internet café to look at yahoo and hotmail, so basically you didn&amp;rsquo;t. I read books about coding (remember Let us C?) and coded in Turbo C. If you needed to know what the functions are in a library, or why a certain error was popping up, you read the source code, what else could you do?</description>
+    </item>
     
     <item>
       <title>My First Post</title>
