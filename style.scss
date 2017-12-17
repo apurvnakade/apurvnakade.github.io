@@ -1,9 +1,12 @@
-$page-background-color: #f0f0f0;
+$page-background-color: whitesmoke;
 $font-background-color: #ffffff;
-$font-color: #2a2a2a;
 $hyperlink-new: #2583FF;
 $hyperlink-old: #2583AD;
+$hyperlink-hover: #d50a83;
+
 $font-increment-headers: 0.25em;
+
+
 
 @media (max-width: 700px) {
   .right-side-image {
@@ -12,7 +15,6 @@ $font-increment-headers: 0.25em;
 }
 
 body {
-  color: $font-color;
   max-width: 950px;
   margin: 0px auto;
   margin-bottom: 100px;
@@ -73,6 +75,9 @@ a {
   color: $hyperlink-old;
   &:link {
     color: $hyperlink-new;
+  }
+  &:hover {
+    color: $hyperlink-hover;
   }
 }
 

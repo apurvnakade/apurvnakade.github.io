@@ -2,11 +2,10 @@
   .right-side-image {
     display: none; } }
 body {
-  color: #2a2a2a;
   max-width: 950px;
   margin: 0px auto;
   margin-bottom: 100px;
-  background-color: #f0f0f0; }
+  background-color: whitesmoke; }
 
 table {
   width: 100%; }
@@ -51,6 +50,8 @@ a {
   color: #2583AD; }
   a:link {
     color: #2583FF; }
+  a:hover {
+    color: #d50a83; }
 
 li {
   margin-left: 20px;
@@ -60,6 +61,8 @@ li {
   margin-top: 50px; }
   .python-generated .li {
     margin-left: 0px; }
+  .python-generated table#mainText {
+    width: auto; }
 
 .quote {
   /*for putting in quotes */
