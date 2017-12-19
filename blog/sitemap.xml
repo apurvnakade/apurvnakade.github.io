@@ -8,12 +8,12 @@
   </url>
   
   <url>
-    <loc>https://apurvnakade.github.io/blog/posts/videos/j%C3%B3lab%C3%B3kafl%C3%B3%C3%B0/</loc>
+    <loc>https://apurvnakade.github.io/blog/posts/fun-facts/j%C3%B3lab%C3%B3kafl%C3%B3%C3%B0/</loc>
     <lastmod>2017-12-14T21:15:13-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://apurvnakade.github.io/blog/posts/videos/zugzwang/</loc>
+    <loc>https://apurvnakade.github.io/blog/posts/fun-facts/zugzwang/</loc>
     <lastmod>2017-12-12T12:41:13-05:00</lastmod>
   </url>
   
@@ -68,6 +68,11 @@
   </url>
   
   <url>
+    <loc>https://apurvnakade.github.io/blog/posts/fun-facts/</loc>
+    <lastmod>2017-12-14T21:15:13-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://apurvnakade.github.io/blog/</loc>
     <lastmod>2017-12-16T23:00:44-05:00</lastmod>
     <priority>0</priority>
@@ -113,8 +118,13 @@
   </url>
   
   <url>
-    <loc>https://apurvnakade.github.io/blog/posts/videos/</loc>
+    <loc>https://apurvnakade.github.io/blog/posts/thinking-fast-and-slow/</loc>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/tags/video/</loc>
     <lastmod>2017-12-14T21:15:13-05:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
