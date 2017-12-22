@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Funny on Grad Student Problems</title>
+    <link>https://apurvnakade.github.io/blog/tags/funny/</link>
+    <description>Recent content in Funny on Grad Student Problems</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 21 Dec 2017 23:30:13 -0500</lastBuildDate>
+    
+	<atom:link href="https://apurvnakade.github.io/blog/tags/funny/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Jumanji</title>
+      <link>https://apurvnakade.github.io/blog/jumanji/</link>
+      <pubDate>Thu, 21 Dec 2017 23:30:13 -0500</pubDate>
+      
+      <guid>https://apurvnakade.github.io/blog/jumanji/</guid>
+      <description>I love movies. I watch a lot of movies, I watch movies about movies, I watch documentaries about movies, I read articles about movies. Sadly I no longer have DC++ so I have to find other ways to do this, like actually going to theaters and paying money to watch.
+If you think about all the movies that have come out in the recent times they&amp;rsquo;re either all crap or all very serious.</description>
+    </item>
+    
+  </channel>
+</rss>

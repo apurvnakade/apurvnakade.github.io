@@ -3,37 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://apurvnakade.github.io/blog/posts/stray-thoughts/stackoverflow/</loc>
-    <lastmod>2017-12-16T23:00:44-05:00</lastmod>
+    <loc>https://apurvnakade.github.io/blog/jumanji/</loc>
+    <lastmod>2017-12-21T23:30:13-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://apurvnakade.github.io/blog/posts/fun-facts/j%C3%B3lab%C3%B3kafl%C3%B3%C3%B0/</loc>
+    <loc>https://apurvnakade.github.io/blog/j%C3%B3lab%C3%B3kafl%C3%B3%C3%B0/</loc>
     <lastmod>2017-12-14T21:15:13-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://apurvnakade.github.io/blog/posts/fun-facts/zugzwang/</loc>
+    <loc>https://apurvnakade.github.io/blog/zugzwang/</loc>
     <lastmod>2017-12-12T12:41:13-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://apurvnakade.github.io/blog/posts/lifejhu/first-snow/</loc>
+    <loc>https://apurvnakade.github.io/blog/first-snow/</loc>
     <lastmod>2017-12-09T13:12:00-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://apurvnakade.github.io/blog/posts/lifejhu/hubble/</loc>
+    <loc>https://apurvnakade.github.io/blog/hubble/</loc>
     <lastmod>2017-12-06T14:21:13-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://apurvnakade.github.io/blog/posts/lifejhu/christmas-parade/</loc>
+    <loc>https://apurvnakade.github.io/blog/christmas-parade/</loc>
     <lastmod>2017-12-03T14:32:46-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://apurvnakade.github.io/blog/posts/stray-thoughts/my-first-post/</loc>
+    <loc>https://apurvnakade.github.io/blog/my-first-post/</loc>
     <lastmod>2017-11-11T12:40:44-05:00</lastmod>
   </url>
   
@@ -57,7 +57,7 @@
   
   <url>
     <loc>https://apurvnakade.github.io/blog/tags/coding/</loc>
-    <lastmod>2017-12-16T23:00:44-05:00</lastmod>
+    <lastmod>2017-11-11T12:40:44-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -73,8 +73,14 @@
   </url>
   
   <url>
+    <loc>https://apurvnakade.github.io/blog/tags/funny/</loc>
+    <lastmod>2017-12-21T23:30:13-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://apurvnakade.github.io/blog/</loc>
-    <lastmod>2017-12-16T23:00:44-05:00</lastmod>
+    <lastmod>2017-12-21T23:30:13-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -96,13 +102,18 @@
   </url>
   
   <url>
+    <loc>https://apurvnakade.github.io/blog/posts/movies/</loc>
+    <lastmod>2017-12-21T23:30:13-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://apurvnakade.github.io/blog/posts/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://apurvnakade.github.io/blog/posts/stray-thoughts/</loc>
-    <lastmod>2017-12-16T23:00:44-05:00</lastmod>
+    <lastmod>2017-11-11T12:40:44-05:00</lastmod>
   </url>
   
   <url>
@@ -120,6 +131,12 @@
   <url>
     <loc>https://apurvnakade.github.io/blog/tags/video/</loc>
     <lastmod>2017-12-14T21:15:13-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/tags/wholesome/</loc>
+    <lastmod>2017-12-21T23:30:13-05:00</lastmod>
     <priority>0</priority>
   </url>
   
