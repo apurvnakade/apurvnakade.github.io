@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://apurvnakade.github.io/blog/icarus/</loc>
+    <lastmod>2017-12-22T22:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://apurvnakade.github.io/blog/jumanji/</loc>
     <lastmod>2017-12-21T23:30:13-05:00</lastmod>
   </url>
@@ -74,7 +79,7 @@
   
   <url>
     <loc>https://apurvnakade.github.io/blog/</loc>
-    <lastmod>2017-12-21T23:30:13-05:00</lastmod>
+    <lastmod>2017-12-22T22:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -96,8 +101,14 @@
   </url>
   
   <url>
+    <loc>https://apurvnakade.github.io/blog/tags/mind-blowing/</loc>
+    <lastmod>2017-12-22T22:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://apurvnakade.github.io/blog/posts/movies/</loc>
-    <lastmod>2017-12-21T23:30:13-05:00</lastmod>
+    <lastmod>2017-12-22T22:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -124,7 +135,7 @@
   
   <url>
     <loc>https://apurvnakade.github.io/blog/tags/video/</loc>
-    <lastmod>2017-12-21T23:30:13-05:00</lastmod>
+    <lastmod>2017-12-22T22:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
