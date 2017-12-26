@@ -3,11 +3,7 @@ $font-background-color: #ffffff;
 $hyperlink-new: #2583FF;
 $hyperlink-old: #2583AD;
 $hyperlink-hover: #d50a83;
-
-$font-increment-headers: 0.25em;
-
-
-
+  
 @media (max-width: 700px) {
   .right-side-image {
     display: none;
@@ -18,66 +14,44 @@ body {
   max-width: 950px;
   margin: 0px auto;
   margin-bottom: 100px;
+  
+  line-height: 1.75;
+  
   background-color: $page-background-color;
 }
 
-table {
+#mainMenu {
   width: 100%;
-}
-
-table#mainMenu {
-/* table containing the main menu items on each page */
+  height: 50px;
   td {
     width: 20%;
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
     font-style: italic;
     text-shadow: 0 1px 0 #FFF;
   }
-
   a {
     color: #a0a0a0;
   }
 }
 
-table#mainText {
+#mainText {
+  margin: auto;
   background-color: $font-background-color;
-  padding: 20px 30px 40px 20px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  
+  padding: 20px 30px 40px 30px;
+
+  overflow-y: auto;
+  .text {
+    text-align: justify;
+  }
 }
 
-table#mainText.no-navBar {
+#mainText.no-navBar {
   margin-top: 50px;
 }
 
-h1 {
-  font-size: 1em + 4*$font-increment-headers;
-}
-
-h2 {
-  font-size: 1em + 2*$font-increment-headers;
-}
-
-.Title {
-  padding-top: 20px;
-}
-
-.sectionTitle {
-  padding-top: 20px;
-}
-
-
-h3,
-h4,
-h5,
-h6 {
-  font-size: 1 + $font-increment-headers;
-  //padding-top: 20px;
-}
-
 a {
-  /* Remove underlining from hyperlinks*/
   text-decoration: none;
   color: $hyperlink-old;
   &:link {
@@ -88,19 +62,8 @@ a {
   }
 }
 
-li {
-  margin-left: 20px;
-  line-height: 1.75;
-}
-
 .python-generated {
   margin-top: 50px;
-  .li {
-    margin-left: 0px;
-  }
-  table#mainText {
-    width: auto;
-  }
 }
 
 .this_weeks_topic {
@@ -109,13 +72,11 @@ li {
 }
 
 .quote {
-  /*for putting in quotes */
   font-style: italic;
   text-align: right;
 }
 
 .quote-ref {
-  /*for adding a reference to quotes*/
   font-style: italic;
   text-align: right;
   padding-bottom: 30px;
@@ -123,52 +84,37 @@ li {
 }
 
 .info {
-  /*usually a small table with email address, office etc. information*/
-  padding-bottom: 30px;
+  line-height: 1.5;
+  display: inline;
 }
 
-.right-side-image img {
+.right-side-image {
+  float: right;
+  img {
   width: 300px;
+  }
+  figcaption {
+  text-align: center;
+  }  
 }
 
-.right-side-image figcaption {
-  text-align: center;
+.centered {
+  margin: auto;
 }
 
 
 table {
-  margin: auto;
-  line-height: 1.5;
+  line-height: 1.75;
   text-align: justify;
 }
 
-table.centered {
-  width: auto;
-  margin: auto;
-}
-
-td {
-  vertical-align: top;
-}
-
-td.column-title {
-  font-weight: bold;
-  font-size: large;
-  width: 50px;
-  padding-right: 50px;
-}
-
-td.column-description {
-  padding-right: 50px;
-  padding-bottom: 30px;
-}
-
 table.alternate_color {
-
+  td {
+    padding: 10px;
+  }
   tr:nth-child(odd) td {
     background-color: #f5f5f5;
   }
-
   tr:nth-child(even) td {
     background-color: #fafafa;
   }
