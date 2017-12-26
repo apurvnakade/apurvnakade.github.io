@@ -33,11 +33,11 @@ body {
 
 a {
   text-decoration: none;
-  color: #2583AD; }
+  color: steelblue; }
   a:link {
-    color: #2583FF; }
+    color: peru; }
   a:hover {
-    color: #d50a83; }
+    color: crimson; }
 
 .python-generated {
   margin-top: 50px; }
