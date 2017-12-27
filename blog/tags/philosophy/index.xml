@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Philosophy on Grad Student Problems</title>
+    <link>https://apurvnakade.github.io/blog/tags/philosophy/</link>
+    <description>Recent content in Philosophy on Grad Student Problems</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 26 Dec 2017 12:40:44 -0500</lastBuildDate>
+    
+	<atom:link href="https://apurvnakade.github.io/blog/tags/philosophy/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Attribute Substitution</title>
+      <link>https://apurvnakade.github.io/blog/attribute-substitution/</link>
+      <pubDate>Tue, 26 Dec 2017 12:40:44 -0500</pubDate>
+      
+      <guid>https://apurvnakade.github.io/blog/attribute-substitution/</guid>
+      <description>Attribute substitution occurs when an individual has to make a judgment (of a target attribute) that is computationally complex, and instead substitutes a more easily calculated heuristic attribute. source wikipedia
+I came across this revolutionary concept, like infinitely many others, in the life changing book Thinking, Fast and Slow written by our lord and savior Daniel Kahneman, Danny Kanny.
+If you haven&amp;rsquo;t read this book you should drop everything that you&amp;rsquo;re doing and start reading it right away.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @media (max-width: 700px) {
   .right-side-image {
     display: none; } }
@@ -39,6 +40,13 @@ a {
   a:hover {
     color: crimson; }
 
+.external-link {
+  position: relative; }
+  .external-link:hover::after {
+    content: '➚';
+    position: absolute;
+    top: -0.75em; }
+
 .python-generated {
   margin-top: 50px; }
 
@@ -58,7 +66,8 @@ a {
 
 .info {
   line-height: 1.5;
-  display: inline; }
+  display: inline;
+  text-align: left; }
 
 .right-side-image {
   float: right; }

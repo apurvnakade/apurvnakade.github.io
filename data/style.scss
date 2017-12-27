@@ -60,6 +60,16 @@ a {
   }
 }
 
+.external-link {
+  position: relative;
+  &:hover::after {
+  content: '➚';
+  position: absolute;
+  top: -0.75em;
+  }
+}
+    
+
 .python-generated {
   margin-top: 50px;
 }
@@ -84,6 +94,7 @@ a {
 .info {
   line-height: 1.5;
   display: inline;
+  text-align: left;
 }
 
 .right-side-image {
