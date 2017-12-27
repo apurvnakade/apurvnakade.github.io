@@ -6,10 +6,21 @@
     <description>Recent content in Video on Grad Student Problems</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 22 Dec 2017 22:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 26 Dec 2017 12:40:44 -0500</lastBuildDate>
     
 	<atom:link href="https://apurvnakade.github.io/blog/tags/video/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Attribute Substitution</title>
+      <link>https://apurvnakade.github.io/blog/attribute-substitution/</link>
+      <pubDate>Tue, 26 Dec 2017 12:40:44 -0500</pubDate>
+      
+      <guid>https://apurvnakade.github.io/blog/attribute-substitution/</guid>
+      <description>Attribute substitution occurs when an individual has to make a judgment (of a target attribute) that is computationally complex, and instead substitutes a more easily calculated heuristic attribute. source wikipedia
+I came across this revolutionary concept, like infinitely many others, in the life changing book Thinking, Fast and Slow written by our lord and savior Daniel Kahneman, Danny Kanny.
+If you haven&amp;rsquo;t read this book you should drop everything that you&amp;rsquo;re doing and start reading it right away.</description>
+    </item>
     
     <item>
       <title>Icarus</title>
