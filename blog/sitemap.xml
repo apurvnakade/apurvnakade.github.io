@@ -11,6 +11,11 @@
   </url>
   
   <url>
+    <loc>https://apurvnakade.github.io/blog/2-days-to-go/</loc>
+    <lastmod>2017-12-29T17:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://apurvnakade.github.io/blog/the-two-systems/</loc>
     <lastmod>2017-12-26T12:40:44-05:00</lastmod>
   </url>
@@ -87,6 +92,7 @@
   
   <url>
     <loc>https://apurvnakade.github.io/blog/posts/travel/everglades/</loc>
+    <lastmod>2017-12-29T17:30:00+00:00</lastmod>
   </url>
   
   <url>
@@ -96,7 +102,7 @@
   
   <url>
     <loc>https://apurvnakade.github.io/blog/</loc>
-    <lastmod>2017-12-26T12:40:44-05:00</lastmod>
+    <lastmod>2017-12-29T17:30:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -130,6 +136,12 @@
   
   <url>
     <loc>https://apurvnakade.github.io/blog/posts/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/tags/prep/</loc>
+    <lastmod>2017-12-29T17:30:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
