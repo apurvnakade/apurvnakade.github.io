@@ -72,6 +72,12 @@ a {
 
 .python-generated {
   margin-top: 50px;
+  ul {
+        list-style-type: none;
+  }
+  li a::before {
+    content: "↝ ";
+  }
 }
 
 .this_weeks_topic {
@@ -128,3 +134,30 @@ table.alternate_color {
     background-color: #fafafa;
   }
 }
+
+#notesTable {
+      display: grid;
+      grid-template-columns: 18ex 1fr;
+      line-height: 1.25;
+      grid-row-gap: 2em;
+      grid-column-gap: 1em;
+      align-items: start;
+   h3{
+      margin:0;
+      padding: 0.5em;
+      align-self: center;
+  }
+  a::before{
+      content:"↝ ";
+  }
+  .nestedGrid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+      align-items: start;
+      grid-row-gap: 1em;
+      grid-column-gap: 1em;
+      padding: 0.5em;
+      border-left: 2px solid lightgray;
+  }
+}
+

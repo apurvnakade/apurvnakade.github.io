@@ -49,6 +49,10 @@ a {
 
 .python-generated {
   margin-top: 50px; }
+  .python-generated ul {
+    list-style-type: none; }
+  .python-generated li a::before {
+    content: "↝ "; }
 
 .this_weeks_topic {
   text-align: center;
@@ -89,5 +93,27 @@ table.alternate_color tr:nth-child(odd) td {
   background-color: #f5f5f5; }
 table.alternate_color tr:nth-child(even) td {
   background-color: #fafafa; }
+
+#notesTable {
+  display: grid;
+  grid-template-columns: 18ex 1fr;
+  line-height: 1.25;
+  grid-row-gap: 2em;
+  grid-column-gap: 1em;
+  align-items: start; }
+  #notesTable h3 {
+    margin: 0;
+    padding: 0.5em;
+    align-self: center; }
+  #notesTable a::before {
+    content: "↝ "; }
+  #notesTable .nestedGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    align-items: start;
+    grid-row-gap: 1em;
+    grid-column-gap: 1em;
+    padding: 0.5em;
+    border-left: 2px solid lightgray; }
 
 /*# sourceMappingURL=style.css.map */
