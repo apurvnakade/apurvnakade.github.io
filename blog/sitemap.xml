@@ -32,6 +32,11 @@
   </url>
   
   <url>
+    <loc>https://apurvnakade.github.io/blog/to-mia/</loc>
+    <lastmod>2017-12-31T23:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://apurvnakade.github.io/blog/an-area-of-darkness/</loc>
     <lastmod>2017-12-30T09:20:00+00:00</lastmod>
   </url>
@@ -124,12 +129,12 @@
   
   <url>
     <loc>https://apurvnakade.github.io/blog/posts/travel/everglades/</loc>
-    <lastmod>2017-12-29T17:30:00+00:00</lastmod>
+    <lastmod>2017-12-31T23:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://apurvnakade.github.io/blog/</loc>
-    <lastmod>2017-12-30T09:20:00+00:00</lastmod>
+    <lastmod>2017-12-31T23:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -159,6 +164,12 @@
   
   <url>
     <loc>https://apurvnakade.github.io/blog/tags/naipaul/</loc>
+    <lastmod>2017-12-30T09:20:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/tags/non-fiction/</loc>
     <lastmod>2017-12-30T09:20:00+00:00</lastmod>
     <priority>0</priority>
   </url>
