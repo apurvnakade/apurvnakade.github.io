@@ -32,6 +32,11 @@
   </url>
   
   <url>
+    <loc>https://apurvnakade.github.io/blog/to-my-future-self/</loc>
+    <lastmod>2018-01-06T23:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://apurvnakade.github.io/blog/nine-mile-pond/</loc>
     <lastmod>2018-01-01T23:00:00+00:00</lastmod>
   </url>
@@ -97,8 +102,20 @@
   </url>
   
   <url>
+    <loc>https://apurvnakade.github.io/blog/tags/advice/</loc>
+    <lastmod>2018-01-06T23:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://apurvnakade.github.io/blog/tags/books/</loc>
     <lastmod>2017-12-14T21:15:13-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/tags/canoeing/</loc>
+    <lastmod>2018-01-01T23:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -127,25 +144,13 @@
   </url>
   
   <url>
-    <loc>https://apurvnakade.github.io/blog/tags/disturbing/</loc>
-    <lastmod>2017-12-30T09:20:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://apurvnakade.github.io/blog/posts/travel/everglades/</loc>
-    <lastmod>2018-01-01T23:00:00+00:00</lastmod>
+    <loc>https://apurvnakade.github.io/blog/posts/travel/everglades-etc./</loc>
+    <lastmod>2018-01-06T23:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://apurvnakade.github.io/blog/</loc>
-    <lastmod>2018-01-01T23:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://apurvnakade.github.io/blog/tags/hubble/</loc>
-    <lastmod>2017-12-06T14:21:13-05:00</lastmod>
+    <lastmod>2018-01-06T23:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -197,8 +202,14 @@
   </url>
   
   <url>
+    <loc>https://apurvnakade.github.io/blog/tags/start/</loc>
+    <lastmod>2017-12-31T23:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://apurvnakade.github.io/blog/tags/</loc>
-    <lastmod>2017-12-14T21:15:13-05:00</lastmod>
+    <lastmod>2018-01-06T23:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
