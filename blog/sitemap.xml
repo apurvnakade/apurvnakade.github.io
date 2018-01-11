@@ -32,28 +32,33 @@
   </url>
   
   <url>
-    <loc>https://apurvnakade.github.io/blog/to-my-future-self/</loc>
+    <loc>https://apurvnakade.github.io/blog/after-glades/</loc>
     <lastmod>2018-01-06T23:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://apurvnakade.github.io/blog/nine-mile-pond/</loc>
+    <loc>https://apurvnakade.github.io/blog/biscayne/</loc>
+    <lastmod>2018-01-04T23:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/shark-valley/</loc>
+    <lastmod>2018-01-02T23:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/at-the-glades/</loc>
     <lastmod>2018-01-01T23:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://apurvnakade.github.io/blog/to-mia/</loc>
+    <loc>https://apurvnakade.github.io/blog/before-glades/</loc>
     <lastmod>2017-12-31T23:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://apurvnakade.github.io/blog/an-area-of-darkness/</loc>
     <lastmod>2017-12-30T09:20:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://apurvnakade.github.io/blog/2-days-to-go/</loc>
-    <lastmod>2017-12-29T17:30:00+00:00</lastmod>
   </url>
   
   <url>
@@ -108,6 +113,12 @@
   </url>
   
   <url>
+    <loc>https://apurvnakade.github.io/blog/tags/biking/</loc>
+    <lastmod>2018-01-02T23:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://apurvnakade.github.io/blog/tags/books/</loc>
     <lastmod>2017-12-14T21:15:13-05:00</lastmod>
     <priority>0</priority>
@@ -155,6 +166,12 @@
   </url>
   
   <url>
+    <loc>https://apurvnakade.github.io/blog/tags/hiking/</loc>
+    <lastmod>2018-01-01T23:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://apurvnakade.github.io/blog/tags/hugo/</loc>
     <lastmod>2017-11-11T12:40:44-05:00</lastmod>
     <priority>0</priority>
@@ -185,25 +202,25 @@
   </url>
   
   <url>
+    <loc>https://apurvnakade.github.io/blog/tags/paddling/</loc>
+    <lastmod>2018-01-04T23:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://apurvnakade.github.io/blog/posts/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://apurvnakade.github.io/blog/tags/prep/</loc>
-    <lastmod>2017-12-29T17:30:00+00:00</lastmod>
+    <lastmod>2017-12-31T23:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://apurvnakade.github.io/blog/tags/psych/</loc>
     <lastmod>2017-12-26T12:40:44-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://apurvnakade.github.io/blog/tags/start/</loc>
-    <lastmod>2017-12-31T23:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
