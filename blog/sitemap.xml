@@ -3,120 +3,133 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://apurvnakade.github.io/blog/posts/books/</loc>
+    <loc>https://apurvnakade.github.io/blog/art/</loc>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/art/books/</loc>
     <lastmod>2018-01-12T09:20:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://apurvnakade.github.io/blog/posts/fun-facts/</loc>
+    <loc>https://apurvnakade.github.io/blog/fun-facts/</loc>
     <lastmod>2017-12-14T21:15:13-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://apurvnakade.github.io/blog/posts/lifejhu/</loc>
+    <loc>https://apurvnakade.github.io/blog/lifejhu/</loc>
     <lastmod>2017-12-09T13:12:00-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://apurvnakade.github.io/blog/posts/movies/</loc>
+    <loc>https://apurvnakade.github.io/blog/art/movies/</loc>
     <lastmod>2017-12-22T22:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://apurvnakade.github.io/blog/posts/stray-thoughts/</loc>
+    <loc>https://apurvnakade.github.io/blog/philosophy/</loc>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/philosophy/stray-thoughts/</loc>
     <lastmod>2018-01-12T20:50:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://apurvnakade.github.io/blog/posts/teaching/</loc>
+    <loc>https://apurvnakade.github.io/blog/teaching/</loc>
   </url>
   
   <url>
-    <loc>https://apurvnakade.github.io/blog/posts/travel/</loc>
-  </url>
-  
-  <url>
-    <loc>https://apurvnakade.github.io/blog/being-alone/</loc>
-    <lastmod>2018-01-12T20:50:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://apurvnakade.github.io/blog/norwegian-wood/</loc>
-    <lastmod>2018-01-12T09:20:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://apurvnakade.github.io/blog/after-glades/</loc>
-    <lastmod>2018-01-06T23:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://apurvnakade.github.io/blog/biscayne/</loc>
-    <lastmod>2018-01-04T23:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://apurvnakade.github.io/blog/shark-valley/</loc>
-    <lastmod>2018-01-02T23:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://apurvnakade.github.io/blog/at-the-glades/</loc>
-    <lastmod>2018-01-01T23:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://apurvnakade.github.io/blog/before-glades/</loc>
-    <lastmod>2017-12-31T23:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://apurvnakade.github.io/blog/an-area-of-darkness/</loc>
-    <lastmod>2017-12-30T09:20:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://apurvnakade.github.io/blog/the-two-systems/</loc>
+    <loc>https://apurvnakade.github.io/blog/philosophy/thinking-fast-and-slow/</loc>
     <lastmod>2017-12-26T12:40:44-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://apurvnakade.github.io/blog/icarus/</loc>
+    <loc>https://apurvnakade.github.io/blog/travel/</loc>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/philosophy/stray-thoughts/being-alone/</loc>
+    <lastmod>2018-01-12T20:50:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/art/books/norwegian-wood/</loc>
+    <lastmod>2018-01-12T09:20:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/travel/everglades-etc./after-glades/</loc>
+    <lastmod>2018-01-06T23:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/travel/everglades-etc./biscayne/</loc>
+    <lastmod>2018-01-04T23:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/travel/everglades-etc./shark-valley/</loc>
+    <lastmod>2018-01-02T23:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/travel/everglades-etc./at-the-glades/</loc>
+    <lastmod>2018-01-01T23:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/travel/everglades-etc./before-glades/</loc>
+    <lastmod>2017-12-31T23:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/art/books/an-area-of-darkness/</loc>
+    <lastmod>2017-12-30T09:20:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/philosophy/thinking-fast-and-slow/the-two-systems/</loc>
+    <lastmod>2017-12-26T12:40:44-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/art/movies/icarus/</loc>
     <lastmod>2017-12-22T22:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://apurvnakade.github.io/blog/jumanji/</loc>
+    <loc>https://apurvnakade.github.io/blog/art/movies/jumanji/</loc>
     <lastmod>2017-12-21T23:30:13-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://apurvnakade.github.io/blog/j%C3%B3lab%C3%B3kafl%C3%B3%C3%B0/</loc>
+    <loc>https://apurvnakade.github.io/blog/fun-facts/j%C3%B3lab%C3%B3kafl%C3%B3%C3%B0/</loc>
     <lastmod>2017-12-14T21:15:13-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://apurvnakade.github.io/blog/zugzwang/</loc>
+    <loc>https://apurvnakade.github.io/blog/fun-facts/zugzwang/</loc>
     <lastmod>2017-12-12T12:41:13-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://apurvnakade.github.io/blog/first-snow/</loc>
+    <loc>https://apurvnakade.github.io/blog/lifejhu/first-snow/</loc>
     <lastmod>2017-12-09T13:12:00-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://apurvnakade.github.io/blog/hubble/</loc>
+    <loc>https://apurvnakade.github.io/blog/lifejhu/hubble/</loc>
     <lastmod>2017-12-06T14:21:13-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://apurvnakade.github.io/blog/christmas-parade/</loc>
+    <loc>https://apurvnakade.github.io/blog/lifejhu/christmas-parade/</loc>
     <lastmod>2017-12-03T14:32:46-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://apurvnakade.github.io/blog/my-first-post/</loc>
+    <loc>https://apurvnakade.github.io/blog/philosophy/stray-thoughts/my-first-post/</loc>
     <lastmod>2017-11-11T12:40:44-05:00</lastmod>
   </url>
   
@@ -169,7 +182,7 @@
   </url>
   
   <url>
-    <loc>https://apurvnakade.github.io/blog/posts/travel/everglades-etc./</loc>
+    <loc>https://apurvnakade.github.io/blog/travel/everglades-etc./</loc>
     <lastmod>2018-01-06T23:00:00+00:00</lastmod>
   </url>
   
@@ -240,17 +253,6 @@
   </url>
   
   <url>
-    <loc>https://apurvnakade.github.io/blog/tags/philosophy/</loc>
-    <lastmod>2018-01-12T20:50:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://apurvnakade.github.io/blog/posts/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://apurvnakade.github.io/blog/tags/prep/</loc>
     <lastmod>2017-12-31T23:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -272,11 +274,6 @@
     <loc>https://apurvnakade.github.io/blog/tags/ted/</loc>
     <lastmod>2017-12-14T21:15:13-05:00</lastmod>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://apurvnakade.github.io/blog/posts/books/thinking-fast-and-slow/</loc>
-    <lastmod>2017-12-26T12:40:44-05:00</lastmod>
   </url>
   
   <url>
