@@ -24,7 +24,7 @@
   
   <url>
     <loc>https://apurvnakade.github.io/blog/posts/stray-thoughts/</loc>
-    <lastmod>2017-11-11T12:40:44-05:00</lastmod>
+    <lastmod>2018-01-12T20:50:00+00:00</lastmod>
   </url>
   
   <url>
@@ -33,6 +33,11 @@
   
   <url>
     <loc>https://apurvnakade.github.io/blog/posts/travel/</loc>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/being-alone/</loc>
+    <lastmod>2018-01-12T20:50:00+00:00</lastmod>
   </url>
   
   <url>
@@ -176,7 +181,7 @@
   
   <url>
     <loc>https://apurvnakade.github.io/blog/</loc>
-    <lastmod>2018-01-12T09:20:00+00:00</lastmod>
+    <lastmod>2018-01-12T20:50:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -235,6 +240,12 @@
   </url>
   
   <url>
+    <loc>https://apurvnakade.github.io/blog/tags/philosophy/</loc>
+    <lastmod>2018-01-12T20:50:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://apurvnakade.github.io/blog/posts/</loc>
     <priority>0</priority>
   </url>
@@ -270,7 +281,7 @@
   
   <url>
     <loc>https://apurvnakade.github.io/blog/tags/video/</loc>
-    <lastmod>2017-12-22T22:00:00+00:00</lastmod>
+    <lastmod>2018-01-12T20:50:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
