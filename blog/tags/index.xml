@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Grad Student Problems</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 06 Jan 2018 23:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 17 Jan 2018 18:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://apurvnakade.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Advice</title>
       <link>https://apurvnakade.github.io/blog/tags/advice/</link>
-      <pubDate>Sat, 06 Jan 2018 23:00:00 +0000</pubDate>
+      <pubDate>Wed, 17 Jan 2018 18:00:00 +0000</pubDate>
       
       <guid>https://apurvnakade.github.io/blog/tags/advice/</guid>
       <description></description>
@@ -93,15 +93,6 @@
     </item>
     
     <item>
-      <title>Family</title>
-      <link>https://apurvnakade.github.io/blog/tags/family/</link>
-      <pubDate>Sun, 14 Jan 2018 20:00:00 +0000</pubDate>
-      
-      <guid>https://apurvnakade.github.io/blog/tags/family/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Fiction</title>
       <link>https://apurvnakade.github.io/blog/tags/fiction/</link>
       <pubDate>Fri, 12 Jan 2018 09:20:00 +0000</pubDate>
@@ -143,6 +134,15 @@
       <pubDate>Sat, 30 Dec 2017 09:20:00 +0000</pubDate>
       
       <guid>https://apurvnakade.github.io/blog/tags/india/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Memories</title>
+      <link>https://apurvnakade.github.io/blog/tags/memories/</link>
+      <pubDate>Fri, 12 Jan 2018 20:50:00 +0000</pubDate>
+      
+      <guid>https://apurvnakade.github.io/blog/tags/memories/</guid>
       <description></description>
     </item>
     
@@ -237,20 +237,20 @@
     </item>
     
     <item>
-      <title>Video</title>
-      <link>https://apurvnakade.github.io/blog/tags/video/</link>
-      <pubDate>Fri, 12 Jan 2018 20:50:00 +0000</pubDate>
-      
-      <guid>https://apurvnakade.github.io/blog/tags/video/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Yoga</title>
       <link>https://apurvnakade.github.io/blog/tags/yoga/</link>
       <pubDate>Sat, 09 Dec 2017 13:12:00 -0500</pubDate>
       
       <guid>https://apurvnakade.github.io/blog/tags/yoga/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Youtube</title>
+      <link>https://apurvnakade.github.io/blog/tags/youtube/</link>
+      <pubDate>Tue, 12 Dec 2017 12:41:13 -0500</pubDate>
+      
+      <guid>https://apurvnakade.github.io/blog/tags/youtube/</guid>
       <description></description>
     </item>
     
