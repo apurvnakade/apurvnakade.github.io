@@ -22,7 +22,7 @@
   </url>
   
   <url>
-    <loc>https://apurvnakade.github.io/blog/maths/</loc>
+    <loc>https://apurvnakade.github.io/blog/maths--science/</loc>
   </url>
   
   <url>
@@ -35,12 +35,17 @@
   </url>
   
   <url>
+    <loc>https://apurvnakade.github.io/blog/maths--science/popular-science/</loc>
+    <lastmod>2018-01-22T20:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://apurvnakade.github.io/blog/philosophy/stray-thoughts/</loc>
     <lastmod>2018-01-12T20:50:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://apurvnakade.github.io/blog/maths/teaching/</loc>
+    <loc>https://apurvnakade.github.io/blog/maths--science/teaching/</loc>
     <lastmod>2018-01-17T18:00:00+00:00</lastmod>
   </url>
   
@@ -58,6 +63,11 @@
   </url>
   
   <url>
+    <loc>https://apurvnakade.github.io/blog/maths--science/popular-science/speech-and-abstract-structures/</loc>
+    <lastmod>2018-01-22T20:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://apurvnakade.github.io/blog/uncategorized/lifejhu/eye-test/</loc>
     <lastmod>2018-01-20T00:00:00+00:00</lastmod>
   </url>
@@ -68,7 +78,7 @@
   </url>
   
   <url>
-    <loc>https://apurvnakade.github.io/blog/maths/teaching/symmetries--polynomials/</loc>
+    <loc>https://apurvnakade.github.io/blog/maths--science/teaching/symmetries--polynomials/</loc>
     <lastmod>2018-01-17T18:00:00+00:00</lastmod>
   </url>
   
@@ -246,7 +256,7 @@
   
   <url>
     <loc>https://apurvnakade.github.io/blog/</loc>
-    <lastmod>2018-01-20T00:00:00+00:00</lastmod>
+    <lastmod>2018-01-22T20:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -265,6 +275,12 @@
   <url>
     <loc>https://apurvnakade.github.io/blog/tags/india/</loc>
     <lastmod>2018-01-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/tags/insightful/</loc>
+    <lastmod>2018-01-22T20:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
