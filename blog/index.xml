@@ -6,10 +6,20 @@
     <description>Recent content on Grad Student Problems</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 20 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 22 Jan 2018 20:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://apurvnakade.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Speech and Abstract Structures</title>
+      <link>https://apurvnakade.github.io/blog/maths--science/popular-science/speech-and-abstract-structures/</link>
+      <pubDate>Mon, 22 Jan 2018 20:00:00 +0000</pubDate>
+      
+      <guid>https://apurvnakade.github.io/blog/maths--science/popular-science/speech-and-abstract-structures/</guid>
+      <description>I was attending the Science of Learning Symposium at JHU, which is usually quite fascinating, but was very boring this year. These are the things that frustrate me about formal events:
+ People take extended time to introduce the speakers (nobody wants to hear you talk, go away). People in suits, usually senior professors who have stopped being scientists, who think they&amp;rsquo;re funny because nobody is honest to them, make shitty jokes and laugh at their own jokes, and people who like to lick their asses join in.</description>
+    </item>
     
     <item>
       <title>Eye Test</title>
@@ -32,10 +42,10 @@ But that does not mean that you cannot gatecrash the party.</description>
     
     <item>
       <title>Symmetries &amp; Polynomials</title>
-      <link>https://apurvnakade.github.io/blog/maths/teaching/symmetries--polynomials/</link>
+      <link>https://apurvnakade.github.io/blog/maths--science/teaching/symmetries--polynomials/</link>
       <pubDate>Wed, 17 Jan 2018 18:00:00 +0000</pubDate>
       
-      <guid>https://apurvnakade.github.io/blog/maths/teaching/symmetries--polynomials/</guid>
+      <guid>https://apurvnakade.github.io/blog/maths--science/teaching/symmetries--polynomials/</guid>
       <description>&amp;ldquo;In the broad light of day mathematicians check their equations and their proofs, leaving no stone unturned in their search for rigour. But, at night, under the full moon, they dream, they float among the stars and wonder at the miracle of the heavens. They are inspired. Without dreams there is no art, no mathematics, no life.&amp;rdquo; -Michael Atiyah
  I finally finished my week long class on the ideas behind Galois&amp;rsquo; proof of why a quintic cannot be solved using radicals.</description>
     </item>
