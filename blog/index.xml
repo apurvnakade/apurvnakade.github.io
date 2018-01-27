@@ -17,7 +17,7 @@
       <pubDate>Fri, 26 Jan 2018 23:40:00 +0000</pubDate>
       
       <guid>https://apurvnakade.github.io/blog/philosophy/stray-thoughts/why-i-dance/</guid>
-      <description>I&amp;rsquo;ve recently been spending a lot of time thinking about what I want to do with my life. Turns out this is a really hard question. The biggest difficulty is probably trying to understand what it means to do something in your life.
+      <description>I&amp;rsquo;ve recently been spending a lot of time thinking about what I want to do with my life. Turns out this is a really hard question. The biggest difficulty is probably trying to understand what it means to do something with your life.
 Right now I&amp;rsquo;m coming back from a dance meet-up with some old friends and new, a little tipsy and drinking some more, and a lot exhilarated from moving on the dance floor.</description>
     </item>
     
@@ -260,6 +260,24 @@ There isn&amp;rsquo;t exactly much to see here, the telescope being in outer Spa
       <guid>https://apurvnakade.github.io/blog/philosophy/stray-thoughts/my-first-post/</guid>
       <description>I spent the entire day today configuring Hugo so that I can write a blog. The alternative was of course using the free, efficient, easy to use, readily configurable blog sites. What be life without a little pain?
 In my college I owned a shitty Acer laptop with an utterly useless battery and a cooling system so bad that the fan would act as a noise cancelling device for the din outside.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://apurvnakade.github.io/blog/sitemap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://apurvnakade.github.io/blog/sitemap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://apurvnakade.github.io/blog/tagcloud/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://apurvnakade.github.io/blog/tagcloud/</guid>
+      <description></description>
     </item>
     
   </channel>
