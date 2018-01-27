@@ -63,7 +63,7 @@
   </url>
   
   <url>
-    <loc>https://apurvnakade.github.io/blog/maths--science/popular-science/speech-and-abstract-structures/</loc>
+    <loc>https://apurvnakade.github.io/blog/maths--science/popular-science/speech--abstract-structures/</loc>
     <lastmod>2018-01-22T20:00:00+00:00</lastmod>
   </url>
   
@@ -155,6 +155,11 @@
   <url>
     <loc>https://apurvnakade.github.io/blog/uncategorized/fun/zugzwang/</loc>
     <lastmod>2017-12-12T12:41:13-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/uncategorized/lifejhu/boltbus/</loc>
+    <lastmod>2017-12-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -323,6 +328,12 @@
   <url>
     <loc>https://apurvnakade.github.io/blog/tags/notes/</loc>
     <lastmod>2018-01-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/tags/ny/</loc>
+    <lastmod>2017-12-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
