@@ -8,12 +8,12 @@
   
   <url>
     <loc>https://apurvnakade.github.io/blog/art/books/</loc>
-    <lastmod>2018-01-19T00:00:00+00:00</lastmod>
+    <lastmod>2018-01-29T09:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://apurvnakade.github.io/blog/</loc>
-    <lastmod>2018-01-26T23:40:00+00:00</lastmod>
+    <lastmod>2018-01-29T09:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -68,12 +68,17 @@
   </url>
   
   <url>
+    <loc>https://apurvnakade.github.io/blog/art/books/never-let-me-go/</loc>
+    <lastmod>2018-01-29T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://apurvnakade.github.io/blog/philosophy/stray-thoughts/why-i-dance/</loc>
     <lastmod>2018-01-26T23:40:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://apurvnakade.github.io/blog/maths--science/popular-science/speech--abstract-structures/</loc>
+    <loc>https://apurvnakade.github.io/blog/maths--science/popular-science/spoken-language/</loc>
     <lastmod>2018-01-22T20:00:00+00:00</lastmod>
   </url>
   
@@ -188,7 +193,7 @@
   </url>
   
   <url>
-    <loc>https://apurvnakade.github.io/blog/philosophy/stray-thoughts/my-first-post/</loc>
+    <loc>https://apurvnakade.github.io/blog/uncategorized/fun/my-first-post/</loc>
     <lastmod>2017-11-11T12:40:44-05:00</lastmod>
   </url>
   
@@ -267,7 +272,7 @@
   
   <url>
     <loc>https://apurvnakade.github.io/blog/tags/fiction/</loc>
-    <lastmod>2018-01-12T09:20:00+00:00</lastmod>
+    <lastmod>2018-01-29T09:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -298,6 +303,12 @@
   <url>
     <loc>https://apurvnakade.github.io/blog/tags/insightful/</loc>
     <lastmod>2018-01-22T20:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/tags/ishiguro/</loc>
+    <lastmod>2018-01-29T09:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
