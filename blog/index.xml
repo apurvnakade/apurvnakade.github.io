@@ -6,10 +6,21 @@
     <description>Recent content on Grad Student Problems</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 26 Jan 2018 23:40:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jan 2018 09:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://apurvnakade.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Never Let Me Go</title>
+      <link>https://apurvnakade.github.io/blog/art/books/never-let-me-go/</link>
+      <pubDate>Mon, 29 Jan 2018 09:00:00 +0000</pubDate>
+      
+      <guid>https://apurvnakade.github.io/blog/art/books/never-let-me-go/</guid>
+      <description>&amp;ldquo;I keep thinking about this river somewhere, with the water moving really fast. And these two people in the water, trying to hold onto each other, holding on as hard as they can, but in the end it&amp;rsquo;s just too much. The current&amp;rsquo;s too strong. They&amp;rsquo;ve got to let go, drift apart.&amp;rdquo;
+- Never Let Me Go
+ Ishiguro is a Japanese author brought up in the UK.</description>
+    </item>
     
     <item>
       <title>Why I Dance</title>
@@ -22,11 +33,11 @@ Right now I&amp;rsquo;m coming back from a dance meet-up with some old friends a
     </item>
     
     <item>
-      <title>Speech &amp; Abstract Structures</title>
-      <link>https://apurvnakade.github.io/blog/maths--science/popular-science/speech--abstract-structures/</link>
+      <title>Spoken Language</title>
+      <link>https://apurvnakade.github.io/blog/maths--science/popular-science/spoken-language/</link>
       <pubDate>Mon, 22 Jan 2018 20:00:00 +0000</pubDate>
       
-      <guid>https://apurvnakade.github.io/blog/maths--science/popular-science/speech--abstract-structures/</guid>
+      <guid>https://apurvnakade.github.io/blog/maths--science/popular-science/spoken-language/</guid>
       <description>I was attending the Science of Learning Symposium at JHU, which is usually quite fascinating, but was very boring this year. These are the things that frustrate me about formal events:
  People take extended time to introduce the speakers (nobody wants to hear you talk, go away). People in suits, usually senior professors who have stopped being scientists, who think they&amp;rsquo;re funny because nobody is honest to them, make shitty jokes and laugh at their own jokes.</description>
     </item>
@@ -254,10 +265,10 @@ There isn&amp;rsquo;t exactly much to see here, the telescope being in outer Spa
     
     <item>
       <title>My First Post</title>
-      <link>https://apurvnakade.github.io/blog/philosophy/stray-thoughts/my-first-post/</link>
+      <link>https://apurvnakade.github.io/blog/uncategorized/fun/my-first-post/</link>
       <pubDate>Sat, 11 Nov 2017 12:40:44 -0500</pubDate>
       
-      <guid>https://apurvnakade.github.io/blog/philosophy/stray-thoughts/my-first-post/</guid>
+      <guid>https://apurvnakade.github.io/blog/uncategorized/fun/my-first-post/</guid>
       <description>I spent the entire day today configuring Hugo so that I can write a blog. The alternative was of course using the free, efficient, easy to use, readily configurable blog sites. What be life without a little pain?
 In my college I owned a shitty Acer laptop with an utterly useless battery and a cooling system so bad that the fan would act as a noise cancelling device for the din outside.</description>
     </item>
