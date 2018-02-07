@@ -6,20 +6,10 @@
     <description>Recent content on Grad Student Problems</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 04 Feb 2018 22:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Feb 2018 18:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://apurvnakade.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Blank Spaces</title>
-      <link>https://apurvnakade.github.io/blog/philosophy/stray-thoughts/blank-spaces/</link>
-      <pubDate>Sun, 04 Feb 2018 22:00:00 +0000</pubDate>
-      
-      <guid>https://apurvnakade.github.io/blog/philosophy/stray-thoughts/blank-spaces/</guid>
-      <description>When I was making this blog I fidgeted around a lot with the style, trying to make it look pretty but I just couldn&amp;rsquo;t get it right. Until I realized that what makes a lot of websites pretty are the blank spaces.
-This is, in fact, true for almost all art forms. All good movies have those moments of stillness, all good conversations have those long spaces, most paintings have patches of featureless color, all novels have moments of long contemplation.</description>
-    </item>
     
     <item>
       <title>Know Thyself</title>
@@ -29,6 +19,16 @@ This is, in fact, true for almost all art forms. All good movies have those mome
       <guid>https://apurvnakade.github.io/blog/philosophy/thinking-fast-and-slow/know-thyself/</guid>
       <description>One of the most important lessons of Thinking, Fast and Slow is that our brains are unable to analyze real world data objectively. We alter our memories and retroactively modify our experiences to fit a story. The only solution to this is to keep records and to trust the data.
 For me, the two most easily measurable resources are internet usage and money. After reading the book I was sure I wasn&amp;rsquo;t being honest with myself about these things.</description>
+    </item>
+    
+    <item>
+      <title>Blank Spaces</title>
+      <link>https://apurvnakade.github.io/blog/philosophy/stray-thoughts/blank-spaces/</link>
+      <pubDate>Wed, 31 Jan 2018 22:00:00 +0000</pubDate>
+      
+      <guid>https://apurvnakade.github.io/blog/philosophy/stray-thoughts/blank-spaces/</guid>
+      <description>When I was making this blog I fidgeted around a lot with the style, trying to make it look pretty but I just couldn&amp;rsquo;t get it right. Until I realized that what makes a lot of websites pretty are the blank spaces.
+This is, in fact, true for almost all art forms. All good movies have those moments of stillness, all good conversations have those long spaces, most paintings have patches of featureless color, all novels have moments of long contemplation.</description>
     </item>
     
     <item>
@@ -295,19 +295,19 @@ In my college I owned a shitty Acer laptop with an utterly useless battery and a
     
     <item>
       <title>siteMap</title>
-      <link>https://apurvnakade.github.io/blog/modules/sitemap/</link>
+      <link>https://apurvnakade.github.io/blog/_modules/sitemap/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://apurvnakade.github.io/blog/modules/sitemap/</guid>
+      <guid>https://apurvnakade.github.io/blog/_modules/sitemap/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tagCloud</title>
-      <link>https://apurvnakade.github.io/blog/modules/tagcloud/</link>
+      <link>https://apurvnakade.github.io/blog/_modules/tagcloud/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://apurvnakade.github.io/blog/modules/tagcloud/</guid>
+      <guid>https://apurvnakade.github.io/blog/_modules/tagcloud/</guid>
       <description></description>
     </item>
     

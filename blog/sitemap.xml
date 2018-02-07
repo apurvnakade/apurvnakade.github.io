@@ -41,7 +41,7 @@
   
   <url>
     <loc>https://apurvnakade.github.io/blog/philosophy/stray-thoughts/</loc>
-    <lastmod>2018-02-04T22:00:00+00:00</lastmod>
+    <lastmod>2018-01-31T22:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -63,13 +63,13 @@
   </url>
   
   <url>
-    <loc>https://apurvnakade.github.io/blog/philosophy/stray-thoughts/blank-spaces/</loc>
-    <lastmod>2018-02-04T22:00:00+00:00</lastmod>
+    <loc>https://apurvnakade.github.io/blog/philosophy/thinking-fast-and-slow/know-thyself/</loc>
+    <lastmod>2018-02-01T18:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://apurvnakade.github.io/blog/philosophy/thinking-fast-and-slow/know-thyself/</loc>
-    <lastmod>2018-02-01T18:00:00+00:00</lastmod>
+    <loc>https://apurvnakade.github.io/blog/philosophy/stray-thoughts/blank-spaces/</loc>
+    <lastmod>2018-01-31T22:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -281,7 +281,7 @@
   
   <url>
     <loc>https://apurvnakade.github.io/blog/</loc>
-    <lastmod>2018-02-04T22:00:00+00:00</lastmod>
+    <lastmod>2018-02-01T18:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -341,7 +341,7 @@
   
   <url>
     <loc>https://apurvnakade.github.io/blog/tags/music/</loc>
-    <lastmod>2018-02-04T22:00:00+00:00</lastmod>
+    <lastmod>2018-01-31T22:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -418,15 +418,15 @@
   </url>
   
   <url>
-    <loc>https://apurvnakade.github.io/blog/modules/</loc>
+    <loc>https://apurvnakade.github.io/blog/_modules/</loc>
   </url>
   
   <url>
-    <loc>https://apurvnakade.github.io/blog/modules/sitemap/</loc>
+    <loc>https://apurvnakade.github.io/blog/_modules/sitemap/</loc>
   </url>
   
   <url>
-    <loc>https://apurvnakade.github.io/blog/modules/tagcloud/</loc>
+    <loc>https://apurvnakade.github.io/blog/_modules/tagcloud/</loc>
   </url>
   
 </urlset>
