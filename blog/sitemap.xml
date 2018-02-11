@@ -8,7 +8,7 @@
   
   <url>
     <loc>https://apurvnakade.github.io/blog/art/books/</loc>
-    <lastmod>2018-01-29T09:00:00+00:00</lastmod>
+    <lastmod>2018-02-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -60,6 +60,11 @@
   
   <url>
     <loc>https://apurvnakade.github.io/blog/uncategorized/</loc>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/art/books/station-eleven/</loc>
+    <lastmod>2018-02-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -269,7 +274,7 @@
   
   <url>
     <loc>https://apurvnakade.github.io/blog/tags/fiction/</loc>
-    <lastmod>2018-01-29T09:00:00+00:00</lastmod>
+    <lastmod>2018-02-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -281,7 +286,7 @@
   
   <url>
     <loc>https://apurvnakade.github.io/blog/</loc>
-    <lastmod>2018-02-01T18:00:00+00:00</lastmod>
+    <lastmod>2018-02-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -318,6 +323,12 @@
   <url>
     <loc>https://apurvnakade.github.io/blog/tags/life/</loc>
     <lastmod>2018-02-01T18:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/tags/mandel/</loc>
+    <lastmod>2018-02-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
