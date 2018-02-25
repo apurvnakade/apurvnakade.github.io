@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Life on Grad Student Problems</title>
-    <link>https://apurvnakade.github.io/blog/tags/life/</link>
-    <description>Recent content in Life on Grad Student Problems</description>
+    <title>Me on Grad Student Problems</title>
+    <link>https://apurvnakade.github.io/blog/philosophy/me/</link>
+    <description>Recent content in Me on Grad Student Problems</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 25 Feb 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://apurvnakade.github.io/blog/tags/life/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://apurvnakade.github.io/blog/philosophy/me/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -33,13 +33,14 @@ For me, the two most easily measurable resources are internet usage and money. A
     </item>
     
     <item>
-      <title>Why I Dance</title>
-      <link>https://apurvnakade.github.io/blog/philosophy/stray-thoughts/why-i-dance/</link>
-      <pubDate>Fri, 26 Jan 2018 23:40:00 +0000</pubDate>
+      <title>The Two Systems</title>
+      <link>https://apurvnakade.github.io/blog/philosophy/me/the-two-systems/</link>
+      <pubDate>Tue, 26 Dec 2017 12:40:44 -0500</pubDate>
       
-      <guid>https://apurvnakade.github.io/blog/philosophy/stray-thoughts/why-i-dance/</guid>
-      <description>I&amp;rsquo;ve recently been spending a lot of time thinking about what I want to do with my life. Turns out this is a really hard question. The biggest difficulty is probably trying to understand what it means to do something with your life.
-Right now I&amp;rsquo;m coming back from a dance meet-up with some old friends and new, a little tipsy and drinking some more, and a lot exhilarated from moving on the dance floor.</description>
+      <guid>https://apurvnakade.github.io/blog/philosophy/me/the-two-systems/</guid>
+      <description>Thinking, Fast and Slow in a life changing book written by our lord and savior Daniel Kahneman, Danny Kanny.
+If you haven&amp;rsquo;t read this book you should drop everything that you&amp;rsquo;re doing and start reading it right away. It is extremely well written and easy to read, with short chapters and lucid Hemingway-styled language lacking any pretentiousness.
+Danny Kanny posits a two system model for our minds. The faster system which is also the system truly in charge, Mr.</description>
     </item>
     
   </channel>

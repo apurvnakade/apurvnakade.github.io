@@ -26,6 +26,11 @@
   </url>
   
   <url>
+    <loc>https://apurvnakade.github.io/blog/philosophy/me/</loc>
+    <lastmod>2018-02-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://apurvnakade.github.io/blog/art/movies/</loc>
     <lastmod>2018-01-14T20:00:00+00:00</lastmod>
   </url>
@@ -50,16 +55,16 @@
   </url>
   
   <url>
-    <loc>https://apurvnakade.github.io/blog/philosophy/thinking-fast-and-slow/</loc>
-    <lastmod>2018-02-01T18:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://apurvnakade.github.io/blog/travel/</loc>
   </url>
   
   <url>
     <loc>https://apurvnakade.github.io/blog/uncategorized/</loc>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/philosophy/me/boredom/</loc>
+    <lastmod>2018-02-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -73,7 +78,7 @@
   </url>
   
   <url>
-    <loc>https://apurvnakade.github.io/blog/philosophy/thinking-fast-and-slow/know-thyself/</loc>
+    <loc>https://apurvnakade.github.io/blog/philosophy/me/know-thyself/</loc>
     <lastmod>2018-02-01T18:00:00+00:00</lastmod>
   </url>
   
@@ -163,7 +168,7 @@
   </url>
   
   <url>
-    <loc>https://apurvnakade.github.io/blog/philosophy/thinking-fast-and-slow/the-two-systems/</loc>
+    <loc>https://apurvnakade.github.io/blog/philosophy/me/the-two-systems/</loc>
     <lastmod>2017-12-26T12:40:44-05:00</lastmod>
   </url>
   
@@ -291,7 +296,7 @@
   
   <url>
     <loc>https://apurvnakade.github.io/blog/</loc>
-    <lastmod>2018-02-16T00:00:00+00:00</lastmod>
+    <lastmod>2018-02-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -327,7 +332,7 @@
   
   <url>
     <loc>https://apurvnakade.github.io/blog/tags/life/</loc>
-    <lastmod>2018-02-01T18:00:00+00:00</lastmod>
+    <lastmod>2018-02-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
