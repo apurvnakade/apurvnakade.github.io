@@ -26,6 +26,11 @@
   </url>
   
   <url>
+    <loc>https://apurvnakade.github.io/blog/journal/mathcamp/</loc>
+    <lastmod>2018-03-10T08:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://apurvnakade.github.io/blog/maths--science/</loc>
   </url>
   
@@ -49,6 +54,11 @@
   </url>
   
   <url>
+    <loc>https://apurvnakade.github.io/blog/art/series/</loc>
+    <lastmod>2017-12-30T09:20:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://apurvnakade.github.io/blog/uncategorized/stray-thoughts/</loc>
     <lastmod>2018-03-04T00:00:00+00:00</lastmod>
   </url>
@@ -60,6 +70,11 @@
   
   <url>
     <loc>https://apurvnakade.github.io/blog/travel/</loc>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/journal/mathcamp/parking-lot/</loc>
+    <lastmod>2018-03-10T08:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -173,6 +188,16 @@
   </url>
   
   <url>
+    <loc>https://apurvnakade.github.io/blog/art/series/altered-carbon/</loc>
+    <lastmod>2017-12-30T09:20:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/art/series/ugly-delicious/</loc>
+    <lastmod>2017-12-30T09:20:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://apurvnakade.github.io/blog/journal/me/the-two-systems/</loc>
     <lastmod>2017-12-26T12:40:44-05:00</lastmod>
   </url>
@@ -220,6 +245,10 @@
   <url>
     <loc>https://apurvnakade.github.io/blog/uncategorized/fun/my-first-post/</loc>
     <lastmod>2017-11-11T12:40:44-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/modules/</loc>
   </url>
   
   <url>
@@ -295,13 +324,13 @@
   
   <url>
     <loc>https://apurvnakade.github.io/blog/tags/funny/</loc>
-    <lastmod>2018-01-14T20:00:00+00:00</lastmod>
+    <lastmod>2018-03-10T08:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://apurvnakade.github.io/blog/</loc>
-    <lastmod>2018-03-04T00:00:00+00:00</lastmod>
+    <lastmod>2018-03-10T08:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -349,7 +378,7 @@
   
   <url>
     <loc>https://apurvnakade.github.io/blog/tags/memories/</loc>
-    <lastmod>2018-03-04T00:00:00+00:00</lastmod>
+    <lastmod>2018-03-10T08:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -441,10 +470,6 @@
     <loc>https://apurvnakade.github.io/blog/tags/youtube/</loc>
     <lastmod>2017-12-12T12:41:13-05:00</lastmod>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://apurvnakade.github.io/blog/modules/</loc>
   </url>
   
   <url>
