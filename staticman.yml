@@ -3,13 +3,13 @@
 comments:
   allowedFields: ["name", "email", "body"]
   branch: "master"
-  commitMessage: "New comment."
+  commitMessage: "New comment in {options.slug}"
+  path: "blog/data/comments/{options.slug}"
   filename: "comment-{@timestamp}"
   tags: ["staticman-comments"]
   format: "frontmatter"
   moderation: true
   name: "Grad Student Problems"
-  path: "blog/data/comments/{options.slug}"
   requiredFields: ["name", "body"]
   transforms:
     body: "frontmatterContent"
