@@ -9,7 +9,7 @@ comments:
   format: "frontmatter"
   moderation: true
   name: "Grad Student Problems"
-  path: "blog/data/{options.slug}"
+  path: "blog/data/comments/{options.slug}"
   requiredFields: ["name", "body"]
   transforms:
     body: "frontmatterContent"
