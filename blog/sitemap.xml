@@ -46,16 +46,11 @@
   
   <url>
     <loc>https://apurvnakade.github.io/blog/maths--science/popular-science/</loc>
-    <lastmod>2018-01-22T20:00:00+00:00</lastmod>
+    <lastmod>2018-03-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://apurvnakade.github.io/blog/uncategorized/</loc>
-  </url>
-  
-  <url>
-    <loc>https://apurvnakade.github.io/blog/art/series/</loc>
-    <lastmod>2017-12-30T09:20:00+00:00</lastmod>
   </url>
   
   <url>
@@ -70,6 +65,11 @@
   
   <url>
     <loc>https://apurvnakade.github.io/blog/travel/</loc>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/maths--science/popular-science/a-brief-history-of-time/</loc>
+    <lastmod>2018-03-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -184,16 +184,6 @@
   
   <url>
     <loc>https://apurvnakade.github.io/blog/art/books/an-area-of-darkness/</loc>
-    <lastmod>2017-12-30T09:20:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://apurvnakade.github.io/blog/art/series/altered-carbon/</loc>
-    <lastmod>2017-12-30T09:20:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://apurvnakade.github.io/blog/art/series/ugly-delicious/</loc>
     <lastmod>2017-12-30T09:20:00+00:00</lastmod>
   </url>
   
@@ -330,7 +320,13 @@
   
   <url>
     <loc>https://apurvnakade.github.io/blog/</loc>
-    <lastmod>2018-03-10T08:00:00+00:00</lastmod>
+    <lastmod>2018-03-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/tags/hawking/</loc>
+    <lastmod>2018-03-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
