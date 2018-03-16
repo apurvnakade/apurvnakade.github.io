@@ -3,21 +3,17 @@
 comments:
   allowedFields: ["postID", "postTitle", "name", "email", "body"]
   branch: "master"
-  commitMessage: "New comment in {options.slug}"
-  path: "blog/data/comments/{options.slug}"
-  filename: "comment-{@timestamp}"
+  commitMessage: "New comment in {fields.postTitle}"
+  path: "blog/data/comments"
+  filename: "{@timestamp}-{fields.postTitle}"
   tags: ["staticman"]
-  format: "frontmatter"
+  format: "yaml"
   moderation: true
   name: "Grad Student Problems"
   requiredFields: ["name", "body"]
   transforms:
-    body: "frontmatterContent"
+    body: "yaml"
     email: "md5"
   generatedFields:
     date:
       type: date
-    slug:
-      type: slugify
-      options:
-        field: title
