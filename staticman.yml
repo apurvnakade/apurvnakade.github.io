@@ -1,12 +1,12 @@
 #https://mademistakes.com/articles/improving-jekyll-static-comments/
 
 comments:
-  allowedFields: ["name", "email", "body"]
+  allowedFields: ["postID", "postTitle", "name", "email", "body"]
   branch: "master"
   commitMessage: "New comment in {options.slug}"
   path: "blog/data/comments/{options.slug}"
   filename: "comment-{@timestamp}"
-  tags: ["staticman-comments"]
+  tags: ["staticman"]
   format: "frontmatter"
   moderation: true
   name: "Grad Student Problems"
