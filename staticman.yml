@@ -4,7 +4,7 @@ comments:
   allowedFields: ["postID", "postTitle", "name", "email", "body"]
   branch: "master"
   commitMessage: "New comment in {fields.postTitle}"
-  path: "blog/data/comments/{fields.postTitle}/"
+  path: "blog/data/comments"
   tags: ["staticman"]
   format: "yaml"
   moderation: true
