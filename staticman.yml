@@ -5,14 +5,10 @@ comments:
   branch: "master"
   commitMessage: "New comment in {fields.postTitle}"
   path: "blog/data/comments"
-  filename: "{@timestamp}-{fields.postTitle}"
-  tags: ["staticman"]
-  format: "yaml"
   moderation: true
   name: "Grad Student Problems"
   requiredFields: ["name", "body"]
   transforms:
-    body: "yaml"
     email: "md5"
   generatedFields:
     date:
