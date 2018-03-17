@@ -11,7 +11,7 @@
     <link rel="shortcut icon" href="https://avatars0.githubusercontent.com/u/29620328" />
 
     <title>Joy of Running | Grad Student Problems</title>
-    <link rel="stylesheet" href='../../../css/style-df841b4c.css'>
+    <link rel="stylesheet" href='../../../css/style-df57e06d.css'>
 
     <script type="text/javascript" src='../../../js/siteMap-86350299.js'></script>
     <script type="text/javascript" src='../../../js/initPage-86b2eb25.js'></script>
@@ -66,10 +66,82 @@
       <a class="crosslink tags" href="../../../tags/memories">#memories</a> 
     </div>
     
-  </div>
+    
+    <div id="comments">
+      <h3><br><br>I would love to hear from you. <br> <br> </h3>
+      <script>
+  function removeCommentForm(){
+    $("#form-comments").fadeOut();
+    $("#comments").find("h3").html("The blog is digesting your comment. It'll soon be unleashed upon the world!");
+    $("#comments").find("h3").fadeOut(6000);
+  }
+</script>
 
+
+<script language="javascript" type="text/javascript">
+    function submitCommentsForm() {
+      var postID = "726e57ca725214731ef011e4c3119602";
+      var postTitle = "Stray Thoughts_Joy of Running";
+      var name = $("#name-comments").val();
+      var body = $("#body-comments").val();
+      var action = 'https://api.staticman.net/v2/entry/apurvnakade/apurvnakade.github.io/master/comments';
+      
+      
+      if(name == ""){
+        console.log("here");
+        $("#name-comments").focus();
+        return false;
+      }
+      if(body == ""){
+        $("#body-comments").focus();
+        return false;
+      }
+      
+      var dataString = 'fields[postID]=' + postID + '&fields[postTitle]=' + postTitle + '&fields[name]=' + name + '&fields[body]=' + body;
+
+      $.ajax({
+      type: "POST",
+      url: action,
+      data: dataString,
+      success: removeCommentForm()
+      });
+    }
+</script>
+
+<form id="form-comments">
+  <input id="name-comments" name="fields[name]" type="text" placeholder="Name"  style="width:50%" autofocus tabindex="1"> 
+  <input class="button" type="button" value="Submit" style="width:20%" onclick="javascript:submitCommentsForm()" tabindex="3">
+  <textarea id="body-comments" name="fields[body]" placeholder="Your message. Feel free to use Markdown. And be nice." rows="6"  style="width:99.5%" tabindex="2"></textarea>
+</form>
+
+      <div id="show-comments">
+  
+     
+  
+     
+  
+     
+  
+     
+  
+</div>  
+    </div> 
+
+
+  </div>
+      
+  
   <div class="footer">
     
+<script>
+  function showComments(){
+    $("#comments").fadeIn(800);
+    $('html, body').animate({
+        scrollTop: $("#comments").offset().top
+    }, 600);
+  }
+</script>
+
   <table id="navBar">
      <tr>
       <td>
@@ -78,6 +150,19 @@
           
       </td>
       <td>
+        
+        
+        
+           
+        
+           
+        
+           
+        
+           
+        
+        <a href="javascript:showComments()">0 comments</a>
+        |
         <a href="javascript:showSiteMap()">Archive</a>
         |
         <a class="crosslink" href="../../../">Home</a> 
@@ -94,16 +179,8 @@
   
 
 
-    <div id="footer-credits">
-    <a href="javascript:window.open('http://www.facebook.com/sharer.php?u=https%3a%2f%2fapurvnakade.github.io%2fblog%2funcategorized%2fstray-thoughts%2fjoy-of-running%2findex.html', 'newwindow', 'width=600, height=450');" data="facebook.svg"> </a>
-    <a href="javascript:void(window.open('https://plus.google.com/share?ur\l='+encodeURIComponent(location), 'Share to Google+','width=626,height=436,menubar=no,location=no,status=no'));"  data="google_plus.svg" target="_blank"> </a>
-    <a href="javascript:window.open('http://twitter.com/share?url='+encodeURIComponent(window.location.href)+'&text='+encodeURIComponent(document.title),'sharer','toolbar=0,status=0,resizable=1,width=626,height=436')" 
-    data="twitter.svg" target="_blank"> </a>
-    <a href="javascript:var d=document,w=window,e=w.getSelection,k=d.getSelection,x=d.selection,s=(e?e():(k)?k():(x?x.createRange().text:0)),f='https://www.tumblr.com/widgets/share/tool',l=d.location,e=encodeURIComponent,p='?url='+e(l.href) +'&amp;title='+e(d.title) +'&amp;selection='+e(s) +'&amp;shareSource=bookmarklet',u=f+p,sw=0,sd;try{sd =d.createElement('div');sd.style.height ='100px';sd.style.width='100px';sd.style.overflow='scroll';d.body.appendChild(sd);sw=sd.offsetWidth-sd.clientWidth;d.body.removeChild(sd);}catch(z){};try{if(!/^(.*\.)?tumblr[^.]*$/.test(l.host))throw(0);tstbklt();}catch(z){a =function(){if(!w.open(u,'_blank','toolbar=0,resizable=0,status=1,scrollbars=1,width='+(540+sw)+',height=600'))l.href=u;};setTimeout(a,10);}void(0)" data="tumblr.svg" target="_blank"> </a>
-    <a href="https://github.com/apurvnakade/" data="github.svg" target="_blank"> </a>
-    <a href="https://gohugo.io/" data="hugo.png" target="_blank"> </a>
-</div>    
   </div>
+
 
   <a id="scrollTopBtn" class="wide-screen-only tags" href='javascript:$("html, body").animate({ scrollTop: 0 }, "slow");'>↑ Top</a>
 
