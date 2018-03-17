@@ -8,7 +8,7 @@
   
   <url>
     <loc>https://apurvnakade.github.io/blog/art/books/</loc>
-    <lastmod>2018-02-16T00:00:00+00:00</lastmod>
+    <lastmod>2018-03-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -65,6 +65,11 @@
   
   <url>
     <loc>https://apurvnakade.github.io/blog/travel/</loc>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/art/books/checklist-manifesto/</loc>
+    <lastmod>2018-03-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -291,7 +296,7 @@
   
   <url>
     <loc>https://apurvnakade.github.io/blog/tags/doctors/</loc>
-    <lastmod>2018-01-20T00:00:00+00:00</lastmod>
+    <lastmod>2018-03-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -319,8 +324,14 @@
   </url>
   
   <url>
+    <loc>https://apurvnakade.github.io/blog/tags/gawande/</loc>
+    <lastmod>2018-03-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://apurvnakade.github.io/blog/</loc>
-    <lastmod>2018-03-14T00:00:00+00:00</lastmod>
+    <lastmod>2018-03-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -404,7 +415,7 @@
   
   <url>
     <loc>https://apurvnakade.github.io/blog/tags/non-fiction/</loc>
-    <lastmod>2018-01-19T00:00:00+00:00</lastmod>
+    <lastmod>2018-03-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
