@@ -68,6 +68,11 @@
   </url>
   
   <url>
+    <loc>https://apurvnakade.github.io/blog/travel/big-bend/last-night-in-the-desert/</loc>
+    <lastmod>2018-03-23T23:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://apurvnakade.github.io/blog/art/books/checklist-manifesto/</loc>
     <lastmod>2018-03-16T00:00:00+00:00</lastmod>
   </url>
@@ -163,11 +168,6 @@
   </url>
   
   <url>
-    <loc>https://apurvnakade.github.io/blog/travel/everglades-etc./after-glades/</loc>
-    <lastmod>2018-01-06T23:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://apurvnakade.github.io/blog/travel/everglades-etc./biscayne/</loc>
     <lastmod>2018-01-04T23:00:00+00:00</lastmod>
   </url>
@@ -253,6 +253,11 @@
   </url>
   
   <url>
+    <loc>https://apurvnakade.github.io/blog/travel/big-bend/</loc>
+    <lastmod>2018-03-23T23:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://apurvnakade.github.io/blog/tags/biking/</loc>
     <lastmod>2018-01-02T23:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -261,6 +266,12 @@
   <url>
     <loc>https://apurvnakade.github.io/blog/tags/books/</loc>
     <lastmod>2017-12-14T21:15:13-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/tags/camping/</loc>
+    <lastmod>2018-03-23T23:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -308,7 +319,7 @@
   
   <url>
     <loc>https://apurvnakade.github.io/blog/travel/everglades-etc./</loc>
-    <lastmod>2018-01-06T23:00:00+00:00</lastmod>
+    <lastmod>2018-01-04T23:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -331,7 +342,7 @@
   
   <url>
     <loc>https://apurvnakade.github.io/blog/</loc>
-    <lastmod>2018-03-16T00:00:00+00:00</lastmod>
+    <lastmod>2018-03-23T23:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
