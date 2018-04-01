@@ -41,7 +41,7 @@
   
   <url>
     <loc>https://apurvnakade.github.io/blog/art/movies/</loc>
-    <lastmod>2018-01-14T20:00:00+00:00</lastmod>
+    <lastmod>2018-03-31T20:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -65,6 +65,11 @@
   
   <url>
     <loc>https://apurvnakade.github.io/blog/travel/</loc>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/art/movies/isle-of-dogs/</loc>
+    <lastmod>2018-03-31T20:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -322,6 +327,12 @@
   </url>
   
   <url>
+    <loc>https://apurvnakade.github.io/blog/tags/comedy/</loc>
+    <lastmod>2018-03-31T20:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://apurvnakade.github.io/blog/tags/doctors/</loc>
     <lastmod>2018-03-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -358,7 +369,7 @@
   
   <url>
     <loc>https://apurvnakade.github.io/blog/</loc>
-    <lastmod>2018-03-30T11:00:00+00:00</lastmod>
+    <lastmod>2018-03-31T20:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
