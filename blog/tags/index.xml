@@ -75,15 +75,6 @@
     </item>
     
     <item>
-      <title>Christmas</title>
-      <link>https://apurvnakade.github.io/blog/tags/christmas/</link>
-      <pubDate>Sun, 03 Dec 2017 14:32:46 -0500</pubDate>
-      
-      <guid>https://apurvnakade.github.io/blog/tags/christmas/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Coding</title>
       <link>https://apurvnakade.github.io/blog/tags/coding/</link>
       <pubDate>Sat, 11 Nov 2017 12:40:44 -0500</pubDate>
@@ -210,9 +201,18 @@
     </item>
     
     <item>
+      <title>Lamott</title>
+      <link>https://apurvnakade.github.io/blog/tags/lamott/</link>
+      <pubDate>Sun, 22 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://apurvnakade.github.io/blog/tags/lamott/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Life</title>
       <link>https://apurvnakade.github.io/blog/tags/life/</link>
-      <pubDate>Sun, 25 Feb 2018 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 01 Feb 2018 18:00:00 +0000</pubDate>
       
       <guid>https://apurvnakade.github.io/blog/tags/life/</guid>
       <description></description>
@@ -275,7 +275,7 @@
     <item>
       <title>Non Fiction</title>
       <link>https://apurvnakade.github.io/blog/tags/non-fiction/</link>
-      <pubDate>Fri, 16 Mar 2018 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 22 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>https://apurvnakade.github.io/blog/tags/non-fiction/</guid>
       <description></description>
@@ -341,6 +341,15 @@
       <pubDate>Thu, 14 Dec 2017 21:15:13 -0500</pubDate>
       
       <guid>https://apurvnakade.github.io/blog/tags/ted/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Writing</title>
+      <link>https://apurvnakade.github.io/blog/tags/writing/</link>
+      <pubDate>Sun, 22 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://apurvnakade.github.io/blog/tags/writing/</guid>
       <description></description>
     </item>
     
