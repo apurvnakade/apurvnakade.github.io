@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Geometry on Deconstructing Maths</title>
+    <link>https://apurvnakade.github.io/MathBlog/tags/geometry/</link>
+    <description>Recent content in Geometry on Deconstructing Maths</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 08 Apr 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://apurvnakade.github.io/MathBlog/tags/geometry/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>What&#39;s the deal with Curvature?</title>
+      <link>https://apurvnakade.github.io/MathBlog/mathcamp/gaussian-curvature/whats-the-deal-with-curvature/</link>
+      <pubDate>Sun, 08 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://apurvnakade.github.io/MathBlog/mathcamp/gaussian-curvature/whats-the-deal-with-curvature/</guid>
+      <description>A curved curve from Curveland  When we think of curves we naturally think of them as being curved. A circle has some curvature where as a line has no curvature. Similarly for surfaces, a sphere is curved (and so is a cylinder) but a plane is not.
+But there is a subtle difference between the way in which curves and surfaces are curved. It is possible to take a string and form a circle out of it without stretching or compressing, but it is not possible to take a flat piece of paper and shape it into a sphere (but you can into a cylinder) without stretching or compressing.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    
+    <link rel="shortcut icon" href="https://avatars0.githubusercontent.com/u/29620328" />
+
+    <title>What&#39;s the deal with Curvature? | Deconstructing Maths</title>
+    <link rel="stylesheet" href='../../../css/style-e8c91680.css'>
+
+    <script type="text/javascript" src='../../../js/siteMap-86350299.js'></script>
+    <script type="text/javascript" src='../../../js/initPage-86b2eb25.js'></script>
+    <script type="text/javascript" src='../../../js/sortTable-b1e23afb.js'></script>
+    
+    
+
+    <noscript>
+      <style>.jsonly { display: none }</style>
+    </noscript>
+    
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        extensions: ["tex2jax.js"],
+        jax: ["input/TeX","output/HTML-CSS"],
+        "HTML-CSS": {
+          styles: {".MathJax_Preview": {visibility: "hidden"}}
+        },
+        tex2jax: {inlineMath: [["$","$"],["\\(","\\)"]]},
+        TeX: {extensions: ["AMSmath.js","AMSsymbols.js","http://sonoisa.github.io/xyjax_ext/xypic.js"]}
+        //                                               ^^^^^^^^load xypic.js
+      });
+    </script>
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+  </head>
+
+<body class="single" onload="initSiteMap(&#34;https://apurvnakade.github.io/MathBlog/mathcamp/gaussian-curvature/whats-the-deal-with-curvature/&#34;)">
+  <a id="marker" href="javascript:showSiteMap()">
+  <p>❯</p>
+</a>
+
+<iframe id="siteMapFrame" src="https://apurvnakade.github.io/MathBlog/modules/sitemap/"  frameborder="0">
+</iframe>
+  
+  <div id="mainGrid" class="mainGrid">
+    <div class="Title">
+      <a class="crosslink" href="../../../">What&#39;s the deal with Curvature?</a>
+    </div>
+
+    <div class = "date">
+      Filed under 
+      <a class="crosslink categories" href="../../../mathcamp/gaussian-curvature/" style="display:inline">Gaussian Curvature</a>, April 8, 2018.
+    </div>
+    <div class="post"><figure class="right xxsmall">
+<img src="https://upload.wikimedia.org/wikipedia/commons/2/29/Helix.svg">
+<figcaption class="center">A curved curve from Curveland</figcation>
+</figure>
+
+<p>When we think of curves we naturally think of them as being curved. A circle has some curvature where as a line has no curvature. Similarly for surfaces, a sphere is curved (and so is a cylinder) but a plane is not.</p>
+
+<p>But there is a subtle difference between the way in which curves and surfaces are curved. It is possible to take a string and form a circle out of it without stretching or compressing, but it is not possible to take a flat piece of paper and shape it into a sphere (but you can into a cylinder) without stretching or compressing.</p>
+
+<p>Hmmm.</p>
+
+<p><br></p>
+
+<div class="center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/HGl3_92KW7I" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+</div>
+
+
+
+<!--
+<table align="center" class="bordered-table">
+  <col align="left">
+  <col align="left">
+  <tr>
+    <td>Line</td>
+    <td>No curvature</td>
+  </tr>
+  <tr>
+    <td>Circle</td>
+    <td>Curvature = 1/radius</td>
+  </tr>
+  <tr>
+    <td>Sine curve &nbsp;&nbsp;&nbsp;</td>
+    <td>Varying Curvature</td>
+  </tr>
+  <tr>
+    <td>Plane</td>
+    <td>Curvature = 0</td>
+  </tr>
+  <tr>
+    <td>Sphere</td>
+    <td>Curvature = 1/radius</td>
+  </tr>
+  <tr>
+    <td>Cylinder</td>
+    <td>Curvature = ??</td>
+  </tr>
+</table>
+-->
+
+<p>A curve is any smooth 1-dimensional object with no sharp points or self-intersections. If we agree that lines have no curvature and circles have constant curvature then we&rsquo;re more or less forced to say that curvature of a circle should be inversely proportional to the radius, after all a line is a circle with an infinite radius. We might as well</p>
+
+<blockquote>
+<p><em>Define</em>  the <b>curvature 
+
+
+<span class="jsonly">
+                  
+        \(\kappa\)
+    
+</span>
+
+
+<noscript>
+                  
+        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;%5ckappa" title="\kappa" />
+    
+</noscript></b> at every point of a circle of radius 
+
+
+<span class="jsonly">
+                  
+        \(r\)
+    
+</span>
+
+
+<noscript>
+                  
+        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;r" title="r" />
+    
+</noscript> to be 
+
+
+<span class="jsonly">
+                  
+        \(1/r\)
+    
+</span>
+
+
+<noscript>
+                  
+        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;1%2fr" title="1/r" />
+    
+</noscript>.</p>
+</blockquote>
+
+<figure class="large center">
+<img src="../../../images/circles_of_increasing_radius.png" alt="image produced on desmos">
+<figcaption class="center">The larger the radius of the circle the less it's is curved.</figcaption>
+</figure>
+
+<p>For more general curves, for example, a sine curve, different points should have different curvatures. As we know what the curvature of a circle is, the standard trick in maths is to take an arbitrary curve 
+
+
+<span class="jsonly">
+                  
+        \(C\)
+    
+</span>
+
+
+<noscript>
+                  
+        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;C" title="C" />
+    
+</noscript> and at each point 
+
+
+<span class="jsonly">
+                  
+        \(p \in C\)
+    
+</span>
+
+
+<noscript>
+                  
+        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;p%20%5cin%20C" title="p \in C" />
+    
+</noscript> try to find the circle that approximates it the best, the <em>best fitting circle</em> (apparently called an <a href="https://en.wikipedia.org/wiki/Osculating_circle">osculating circle</a>). But how to find such a circle? And how would we know we&rsquo;ve found the best fit?</p>
+
+<p>Enter Calculus.</p>
+
+<p><br><br></p>
+
+<p><figure class="center small">
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/84/Osculating_circle.svg">
+<figcaption class="center">The best approximating circle. <br>How will you know you&rsquo;ve found the one?</figcation>
+</figure>
+<br><br></p>
+</div>
+
+    
+    <div class="tags-display">
+      
+      <a class="crosslink tags" href="../../../tags/geometry">#geometry</a> 
+    </div>
+    
+  </div>
+
+  <div class="footer">
+    
+  <table id="navBar">
+     <tr>
+      <td>
+          
+            <p style="opacity: 0">&#9664; Older</p>
+          
+      </td>
+      <td>
+        <a href="javascript:showSiteMap()">TOC</a>
+        |
+        <a class="crosslink" href="../../../">Home</a> 
+        |
+        <a class="crosslink" href="../../../mathcamp/gaussian-curvature/">Gaussian Curvature</a>
+      </td>
+      <td>
+          
+            <a class="crosslink" href="../../../mathcamp/gaussian-curvature/curvature-of-curves/">Curvature of Curves &#9654;</a>
+          
+      </td>
+    </tr>
+  </table>
+  
+
+
+    <div id="footer-credits">
+    <a href="javascript:window.open('http://www.facebook.com/sharer.php?u=https%3a%2f%2fapurvnakade.github.io%2fMathBlog%2fmathcamp%2fgaussian-curvature%2fwhats-the-deal-with-curvature%2findex.html', 'newwindow', 'width=600, height=450');" data="facebook.svg"> </a>
+    <a href="javascript:void(window.open('https://plus.google.com/share?ur\l='+encodeURIComponent(location), 'Share to Google+','width=626,height=436,menubar=no,location=no,status=no'));"  data="google_plus.svg" target="_blank"> </a>
+    <a href="javascript:window.open('http://twitter.com/share?url='+encodeURIComponent(window.location.href)+'&text='+encodeURIComponent(document.title),'sharer','toolbar=0,status=0,resizable=1,width=626,height=436')" 
+    data="twitter.svg" target="_blank"> </a>
+    <a href="javascript:var d=document,w=window,e=w.getSelection,k=d.getSelection,x=d.selection,s=(e?e():(k)?k():(x?x.createRange().text:0)),f='https://www.tumblr.com/widgets/share/tool',l=d.location,e=encodeURIComponent,p='?url='+e(l.href) +'&amp;title='+e(d.title) +'&amp;selection='+e(s) +'&amp;shareSource=bookmarklet',u=f+p,sw=0,sd;try{sd =d.createElement('div');sd.style.height ='100px';sd.style.width='100px';sd.style.overflow='scroll';d.body.appendChild(sd);sw=sd.offsetWidth-sd.clientWidth;d.body.removeChild(sd);}catch(z){};try{if(!/^(.*\.)?tumblr[^.]*$/.test(l.host))throw(0);tstbklt();}catch(z){a =function(){if(!w.open(u,'_blank','toolbar=0,resizable=0,status=1,scrollbars=1,width='+(540+sw)+',height=600'))l.href=u;};setTimeout(a,10);}void(0)" data="tumblr.svg" target="_blank"> </a>
+    <a href="https://github.com/apurvnakade/" data="github.svg" target="_blank"> </a>
+    <a href="https://gohugo.io/" data="hugo.png" target="_blank"> </a>
+    
+    <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "apurvnakade" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>    
+
+
+  </div>
+
+  <a id="scrollTopBtn" class="wide-screen-only tags" href='javascript:$("html, body").animate({ scrollTop: 0 }, "slow");'>↑ Top</a>
+
+</body>
+
+
+  <script>renderMathInElement(document.body);</script>
+</html>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Calculus on Deconstructing Maths</title>
+    <link>https://apurvnakade.github.io/MathBlog/tags/calculus/</link>
+    <description>Recent content in Calculus on Deconstructing Maths</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 08 Apr 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://apurvnakade.github.io/MathBlog/tags/calculus/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Curvature of Curves</title>
+      <link>https://apurvnakade.github.io/MathBlog/mathcamp/gaussian-curvature/curvature-of-curves/</link>
+      <pubDate>Sun, 08 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://apurvnakade.github.io/MathBlog/mathcamp/gaussian-curvature/curvature-of-curves/</guid>
+      <description>Consider a circle \(C_r\)    of radius \(r\)   , say \(x^2 &amp;#43; y^2 = r^2\)   . Then we shift \(C_r\)    up so that \((0,0)\)    is now on the circle and the equation becomes \(x^2 &amp;#43; (y - r)^2 = r^2\)   . Around the point \((0,0)\)   , \(C\)    can be described as the graph of $$y = r - \sqrt{r^2 - x^2}$$     Expanding this out using the Taylor series we get</description>
+    </item>
+    
+  </channel>
+</rss>
