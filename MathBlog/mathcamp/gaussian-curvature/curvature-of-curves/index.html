@@ -11,7 +11,7 @@
     <link rel="shortcut icon" href="https://avatars0.githubusercontent.com/u/29620328" />
 
     <title>Curvature of Curves | Deconstructing Maths</title>
-    <link rel="stylesheet" href='../../../css/style-e8c91680.css'>
+    <link rel="stylesheet" href='../../../css/style-4c854400.css'>
 
     <script type="text/javascript" src='../../../js/siteMap-86350299.js'></script>
     <script type="text/javascript" src='../../../js/initPage-86b2eb25.js'></script>
@@ -31,11 +31,11 @@
           styles: {".MathJax_Preview": {visibility: "hidden"}}
         },
         tex2jax: {inlineMath: [["$","$"],["\\(","\\)"]]},
-        TeX: {extensions: ["AMSmath.js","AMSsymbols.js","http://sonoisa.github.io/xyjax_ext/xypic.js"]}
+        TeX: {extensions: ["AMSmath.js","AMSsymbols.js","https://sonoisa.github.io/xyjax_ext/xypic.js"]}
         //                                               ^^^^^^^^load xypic.js
       });
     </script>
-    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
   </head>
 
 <body class="single" onload="initSiteMap(&#34;https://apurvnakade.github.io/MathBlog/mathcamp/gaussian-curvature/curvature-of-curves/&#34;)">
@@ -57,21 +57,24 @@
     </div>
     <div class="post">
 
-<p>Consider a circle 
+<p>If we agree that lines have no curvature and circles have constant curvature then we&rsquo;re more or less forced to say that curvature of a circle should be inversely proportional to the radius, after all a line is a circle with an infinite radius. We might as well</p>
+
+<blockquote>
+<p><em>Define</em>  the <b>curvature 
 
 
 <span class="jsonly">
                   
-        \(C_r\)
+        \(\kappa\)
     
 </span>
 
 
 <noscript>
                   
-        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;C_r" title="C_r" />
+        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;%5ckappa" title="\kappa" />
     
-</noscript> of radius 
+</noscript></b> at every point of a circle of radius 
 
 
 <span class="jsonly">
@@ -85,78 +88,29 @@
                   
         <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;r" title="r" />
     
-</noscript>, say 
+</noscript> to be 
 
 
 <span class="jsonly">
                   
-        \(x^2 &#43; y^2 = r^2\)
+        \(1/r\)
     
 </span>
 
 
 <noscript>
                   
-        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;x%5e2%20%2b%20y%5e2%20%3d%20r%5e2" title="x^2 &#43; y^2 = r^2" />
+        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;1%2fr" title="1/r" />
     
-</noscript>. Then we shift 
+</noscript>.</p>
+</blockquote>
 
+<figure class="large center">
+<img src="../../../images/circles_of_increasing_radius.png" alt="image produced on desmos">
+<figcaption>The larger the radius of the circle the less it is is curved.</figcaption>
+</figure>
 
-<span class="jsonly">
-                  
-        \(C_r\)
-    
-</span>
-
-
-<noscript>
-                  
-        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;C_r" title="C_r" />
-    
-</noscript> <em>up</em> so that 
-
-
-<span class="jsonly">
-                  
-        \((0,0)\)
-    
-</span>
-
-
-<noscript>
-                  
-        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;%280%2c0%29" title="(0,0)" />
-    
-</noscript> is now on the circle and the equation becomes 
-
-
-<span class="jsonly">
-                  
-        \(x^2 &#43; (y - r)^2 = r^2\)
-    
-</span>
-
-
-<noscript>
-                  
-        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;x%5e2%20%2b%20%28y%20-%20r%29%5e2%20%3d%20r%5e2" title="x^2 &#43; (y - r)^2 = r^2" />
-    
-</noscript>.
-Around the point 
-
-
-<span class="jsonly">
-                  
-        \((0,0)\)
-    
-</span>
-
-
-<noscript>
-                  
-        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;%280%2c0%29" title="(0,0)" />
-    
-</noscript>, 
+<p>For more general curves, for example, a sine curve, different points should have different curvatures. As we know what the curvature of a circle is, the standard trick in maths is to take an arbitrary curve 
 
 
 <span class="jsonly">
@@ -170,12 +124,51 @@ Around the point
                   
         <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;C" title="C" />
     
-</noscript> can be described as the graph of  
+</noscript> and at each point 
+
+
+<span class="jsonly">
+                  
+        \(p \in C\)
+    
+</span>
+
+
+<noscript>
+                  
+        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;p%20%5cin%20C" title="p \in C" />
+    
+</noscript> try to find the circle that approximates it the best, the <em>best fitting circle</em> (apparently called an <a href="https://en.wikipedia.org/wiki/Osculating_circle">osculating circle</a>). But how to find such a circle? And how would we know we&rsquo;ve found the best fit?</p>
+
+<p>Enter Calculus.</p>
+
+<figure class="center">
+<img class="small" src="https://upload.wikimedia.org/wikipedia/commons/8/84/Osculating_circle.svg">
+<figcaption>The best approximating circle. How will you know you've found the one?</figcation>
+</figure>
+
+<h2 id="curvature-is-second-order">Curvature is Second Order</h2>
+
+<p>A circle of radius 
+
+
+<span class="jsonly">
+                  
+        \(r\)
+    
+</span>
+
+
+<noscript>
+                  
+        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;r" title="r" />
+    
+</noscript> can be described by 
 
 
 <span class="jsonly">
      
-        $$y = r - \sqrt{r^2 - x^2}$$
+        $$x^2 &#43; y^2 = r^2$$
     
 </span>
 
@@ -183,311 +176,72 @@ Around the point
 <noscript>
      
         <div style="text-align:center;">
-            <img src="https://latex.codecogs.com/gif.latex?y%20%3d%20r%20-%20%5csqrt%7br%5e2%20-%20x%5e2%7d" title="y = r - \sqrt{r^2 - x^2}" />
+            <img src="https://latex.codecogs.com/gif.latex?x%5e2%20%2b%20y%5e2%20%3d%20r%5e2" title="x^2 &#43; y^2 = r^2" />
         </div>
     
-</noscript> Expanding this out using the Taylor series we get</p>
+</noscript>
+This is a quadratic expression which suggests that curvature is a quadratic phenomenon, in much the same way as slope is a linear phenomenon. In calculus, the Taylor series relates quadratic behavior to second derivatives, so let&rsquo;s find second derivatives.</p>
 
-<p><span class="jsonly">
+<span class="jsonly">
   $$\begin{align} 
-  y  
-  &= r - \sqrt{r^2 - x^2} \\
-  &= r - r\sqrt{1 - (x/r)^2} \\
-  &\approx \dfrac{x^2}{2r} + \dfrac{x^4}{8r^3} + \cdots
+  x^2 + y^2 &= r^2 \\
+  2x + 2yy' &= 0 \\
+  2 + (2y'^2 + 2yy'') &= 0
  \end{align}$$
 </span>
-Notice that the curvature 
+
+<p>Nothing that interesting. But at the two critical points on the circle 
 
 
 <span class="jsonly">
                   
-        \(\kappa = 1/r\)
+        \((0,r)\)
     
 </span>
 
 
 <noscript>
                   
-        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;%5ckappa%20%3d%201%2fr" title="\kappa = 1/r" />
-    
-</noscript> is exactly the coefficient of 
-
-
-<span class="jsonly">
-                  
-        \(x^2/2\)
-    
-</span>
-
-
-<noscript>
-                  
-        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;x%5e2%2f2" title="x^2/2" />
-    
-</noscript> in the Taylor expansion, which is exactly 
-
-
-<span class="jsonly">
-                  
-        \(y&#39;&#39;(0)\)
-    
-</span>
-
-
-<noscript>
-                  
-        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;y%27%27%280%29" title="y&#39;&#39;(0)" />
-    
-</noscript>.</p>
-
-<p>Suppose now 
-
-
-<span class="jsonly">
-                  
-        \(C\)
-    
-</span>
-
-
-<noscript>
-                  
-        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;C" title="C" />
-    
-</noscript> was the graph of a function 
-
-
-<span class="jsonly">
-                  
-        \(y=f(x)\)
-    
-</span>
-
-
-<noscript>
-                  
-        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;y%3df%28x%29" title="y=f(x)" />
-    
-</noscript> with 
-
-
-<span class="jsonly">
-                  
-        \(y(0) = 0\)
-    
-</span>
-
-
-<noscript>
-                  
-        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;y%280%29%20%3d%200" title="y(0) = 0" />
-    
-</noscript> and we were interested in finding the curvature of 
-
-
-<span class="jsonly">
-                  
-        \(C\)
-    
-</span>
-
-
-<noscript>
-                  
-        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;C" title="C" />
-    
-</noscript> at 
-
-
-<span class="jsonly">
-                  
-        \((0,0)\)
-    
-</span>
-
-
-<noscript>
-                  
-        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;%280%2c0%29" title="(0,0)" />
-    
-</noscript>. If we further have 
-
-
-<span class="jsonly">
-                  
-        \(f&#39;(0) = 0\)
-    
-</span>
-
-
-<noscript>
-                  
-        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;f%27%280%29%20%3d%200" title="f&#39;(0) = 0" />
-    
-</noscript> then the Taylor series expansion of 
-
-
-<span class="jsonly">
-                  
-        \(f(x) \)
-    
-</span>
-
-
-<noscript>
-                  
-        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;f%28x%29%20" title="f(x) " />
-    
-</noscript> around 0 will look like 
-
-
-<span class="jsonly">
-                  
-        \(f(x) \approx f&#39;&#39;(0)\dfrac{x^2}{2} &#43; \cdots\)
-    
-</span>
-
-
-<noscript>
-                  
-        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;f%28x%29%20%5capprox%20f%27%27%280%29%5cdfrac%7bx%5e2%7d%7b2%7d%20%2b%20%5ccdots" title="f(x) \approx f&#39;&#39;(0)\dfrac{x^2}{2} &#43; \cdots" />
-    
-</noscript>. If 
-
-
-<span class="jsonly">
-                  
-        \(C_r\)
-    
-</span>
-
-
-<noscript>
-                  
-        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;C_r" title="C_r" />
-    
-</noscript> was the approximating circle of of 
-
-
-<span class="jsonly">
-                  
-        \(C\)
-    
-</span>
-
-
-<noscript>
-                  
-        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;C" title="C" />
-    
-</noscript> at 
-
-
-<span class="jsonly">
-                  
-        \((0,0)\)
-    
-</span>
-
-
-<noscript>
-                  
-        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;%280%2c0%29" title="(0,0)" />
-    
-</noscript> then there Taylor series approximations should agree and we get the first definition of curvature,</p>
-
-<blockquote>
-<p>If 
-
-
-<span class="jsonly">
-                  
-        \(C\)
-    
-</span>
-
-
-<noscript>
-                  
-        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;C" title="C" />
-    
-</noscript> is the graph 
-
-
-<span class="jsonly">
-                  
-        \(y = f(x)\)
-    
-</span>
-
-
-<noscript>
-                  
-        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;y%20%3d%20f%28x%29" title="y = f(x)" />
+        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;%280%2cr%29" title="(0,r)" />
     
 </noscript> and 
 
 
 <span class="jsonly">
                   
-        \(f(0) = 0 = f&#39;(0)\)
+        \((0,-r)\)
     
 </span>
 
 
 <noscript>
                   
-        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;f%280%29%20%3d%200%20%3d%20f%27%280%29" title="f(0) = 0 = f&#39;(0)" />
+        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;%280%2c-r%29" title="(0,-r)" />
     
-</noscript> then the the curvature at 
+</noscript> where 
 
 
 <span class="jsonly">
                   
-        \(p=(0,0) \in C\)
+        \(y&#39;=0\)
     
 </span>
 
 
 <noscript>
                   
-        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;p%3d%280%2c0%29%20%5cin%20C" title="p=(0,0) \in C" />
+        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;y%27%3d0" title="y&#39;=0" />
     
-</noscript> is defined as
-
-
-
+</noscript> this equation simplifies to
 <span class="jsonly">
-     
-        $$\kappa(p) = f&#39;&#39;(0)$$
-    
+  $$\begin{align} 
+  |y''| &= 1/r
+ \end{align}$$
 </span>
+But this is exactly the curvature!! So we&rsquo;ll make a leap and define,</p>
 
-
-<noscript>
-     
-        <div style="text-align:center;">
-            <img src="https://latex.codecogs.com/gif.latex?%5ckappa%28p%29%20%3d%20f%27%27%280%29" title="\kappa(p) = f&#39;&#39;(0)" />
-        </div>
-    
-</noscript></p>
-</blockquote>
-
-<p>Even though this definition requires several conditions on the curve, by rotating and translating the ambient 
-
-
-<span class="jsonly">
-                  
-        \(\mathbb{R}^2\)
-    
-</span>
-
-
-<noscript>
-                  
-        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;%5cmathbb%7bR%7d%5e2" title="\mathbb{R}^2" />
-    
-</noscript> (which should not change the curvature) we can change any 
+<blockquote>
+<p><i>Definition.</i> For a graph 
 
 
 <span class="jsonly">
@@ -501,7 +255,80 @@ Notice that the curvature
                   
         <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;C" title="C" />
     
-</noscript> to be in the above form.</p>
+</noscript> of 
+
+
+<span class="jsonly">
+                  
+        \(f(x)\)
+    
+</span>
+
+
+<noscript>
+                  
+        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;f%28x%29" title="f(x)" />
+    
+</noscript> if 
+
+
+<span class="jsonly">
+                  
+        \(f&#39;(x_0)=0\)
+    
+</span>
+
+
+<noscript>
+                  
+        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;f%27%28x_0%29%3d0" title="f&#39;(x_0)=0" />
+    
+</noscript> then 
+
+
+<span class="jsonly">
+     
+        $$\kappa = |f&#39;&#39;(x_0)|$$
+    
+</span>
+
+
+<noscript>
+     
+        <div style="text-align:center;">
+            <img src="https://latex.codecogs.com/gif.latex?%5ckappa%20%3d%20%7cf%27%27%28x_0%29%7c" title="\kappa = |f&#39;&#39;(x_0)|" />
+        </div>
+    
+</noscript> is the <b>curvature</b> of 
+
+
+<span class="jsonly">
+                  
+        \(C\)
+    
+</span>
+
+
+<noscript>
+                  
+        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;C" title="C" />
+    
+</noscript> at 
+
+
+<span class="jsonly">
+                  
+        \((x_0, f(x_0)).\)
+    
+</span>
+
+
+<noscript>
+                  
+        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;%28x_0%2c%20f%28x_0%29%29." title="(x_0, f(x_0))." />
+    
+</noscript></p>
+</blockquote>
 
 <p>For example, if 
 
@@ -593,89 +420,89 @@ Notice that the curvature
 </noscript></figcaption>
 </figure></p>
 
-<p><b>Q.</b> Redefine curvature in terms of the best approximating <em>parabola</em> instead of a circle.</p>
+<p>The conditions imposed on 
 
-<p><b>Q.</b> Use this definition to find the curvature of the Sine Curve at it&rsquo;s maxima, minima, and the points where it intersects the x-axis.</p>
+
+<span class="jsonly">
+                  
+        \(C,\)
+    
+</span>
+
+
+<noscript>
+                  
+        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;C%2c" title="C," />
+    
+</noscript> 
+
+
+<span class="jsonly">
+                  
+        \(f\)
+    
+</span>
+
+
+<noscript>
+                  
+        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;f" title="f" />
+    
+</noscript> and 
+
+
+<span class="jsonly">
+                  
+        \(x_0\)
+    
+</span>
+
+
+<noscript>
+                  
+        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;x_0" title="x_0" />
+    
+</noscript> are not too stringent. By rotating the ambient 
+
+
+<span class="jsonly">
+                  
+        \(\mathbb{R}^2\)
+    
+</span>
+
+
+<noscript>
+                  
+        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;%5cmathbb%7bR%7d%5e2" title="\mathbb{R}^2" />
+    
+</noscript> (which should not change the curvature) we can arrange for any 
+
+
+<span class="jsonly">
+                  
+        \(C\)
+    
+</span>
+
+
+<noscript>
+                  
+        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;C" title="C" />
+    
+</noscript> to be in the above form and so this defines curvature for arbitrary curves!</p>
 
 <h2 id="curvature-as-acceleration">Curvature as Acceleration</h2>
 
-<p>Here is another method inspired from physics.</p>
+<p>There is a quick way to find curvature using ideas from physics, after all the second derivative is related to acceleration.</p>
 
-<p>If a particle goes around in a circle with constant speed 1 then the acceleration is pointed towards the center and has value 
-
-
+<p>We can parametrize a circle of radius as
 <span class="jsonly">
-                  
-        \(1/r\)
-    
+  $$\begin{align} 
+  c(t) = (r \cos (\omega t), r \sin (\omega t))
+ \end{align}$$
 </span>
-
-
-<noscript>
-                  
-        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;1%2fr" title="1/r" />
-    
-</noscript> which is exactly the curvature!
-More concretely, consider the circle 
-
-
-<span class="jsonly">
-                  
-        \(C_r\)
-    
-</span>
-
-
-<noscript>
-                  
-        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;C_r" title="C_r" />
-    
-</noscript> of radius 
-
-
-<span class="jsonly">
-                  
-        \(r\)
-    
-</span>
-
-
-<noscript>
-                  
-        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;r" title="r" />
-    
-</noscript> around the origin. We can parametrize 
-
-
-<span class="jsonly">
-                  
-        \(C_r\)
-    
-</span>
-
-
-<noscript>
-                  
-        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;C_r" title="C_r" />
-    
-</noscript> as 
-
-
-<span class="jsonly">
-     
-        $$c(t) = (r \cos (\omega t), r \sin (\omega t))$$
-    
-</span>
-
-
-<noscript>
-     
-        <div style="text-align:center;">
-            <img src="https://latex.codecogs.com/gif.latex?c%28t%29%20%3d%20%28r%20%5ccos%20%28%5comega%20t%29%2c%20r%20%5csin%20%28%5comega%20t%29%29" title="c(t) = (r \cos (\omega t), r \sin (\omega t))" />
-        </div>
-    
-</noscript>
-where the angular velocity 
+If we assume that 
 
 
 <span class="jsonly">
@@ -689,312 +516,37 @@ where the angular velocity
                   
         <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;%5comega" title="\omega" />
     
-</noscript> is a constant. We have 
-
-
+</noscript> is a constant then we get
 <span class="jsonly">
-                  
-        \(|| c&#39;(t) || = r \omega\)
-    
+  $$\begin{align} 
+  c'(t) &= (-r \omega \sin (\omega t), r \omega \cos (\omega t)) \\
+  c''(t) &= (-r \omega^2 \cos (\omega t), -r \omega^2 \sin (\omega t)) 
+ \end{align}$$
 </span>
-
-
-<noscript>
-                  
-        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;%7c%7c%20c%27%28t%29%20%7c%7c%20%3d%20r%20%5comega" title="|| c&#39;(t) || = r \omega" />
-    
-</noscript> so that for 
-
-
+so that
 <span class="jsonly">
-                  
-        \(\omega = 1/r\)
-    
+  $$\begin{align} 
+  \kappa = \dfrac{1}{r} = \dfrac{||c''(t)||}{||c'(t)||^2}
+ \end{align}$$
 </span>
-
-
-<noscript>
-                  
-        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;%5comega%20%3d%201%2fr" title="\omega = 1/r" />
-    
-</noscript> i.e. 
-
-
-<span class="jsonly">
-     
-        $$c(t) = (r \cos (t/r), r \sin (t/r))$$
-    
-</span>
-
-
-<noscript>
-     
-        <div style="text-align:center;">
-            <img src="https://latex.codecogs.com/gif.latex?c%28t%29%20%3d%20%28r%20%5ccos%20%28t%2fr%29%2c%20r%20%5csin%20%28t%2fr%29%29" title="c(t) = (r \cos (t/r), r \sin (t/r))" />
-        </div>
-    
-</noscript> the path has constant speed 1. For this particular 
-
-
-<span class="jsonly">
-                  
-        \(\omega\)
-    
-</span>
-
-
-<noscript>
-                  
-        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;%5comega" title="\omega" />
-    
-</noscript> by we get,
-
-
-
-<span class="jsonly">
-     
-        $$||c&#39;&#39;(t)|| = ||(r^{-1} \cos (t/r), r^{-1} \sin (t/r))|| = 1/r$$
-    
-</span>
-
-
-<noscript>
-     
-        <div style="text-align:center;">
-            <img src="https://latex.codecogs.com/gif.latex?%7c%7cc%27%27%28t%29%7c%7c%20%3d%20%7c%7c%28r%5e%7b-1%7d%20%5ccos%20%28t%2fr%29%2c%20r%5e%7b-1%7d%20%5csin%20%28t%2fr%29%29%7c%7c%20%3d%201%2fr" title="||c&#39;&#39;(t)|| = ||(r^{-1} \cos (t/r), r^{-1} \sin (t/r))|| = 1/r" />
-        </div>
-    
-</noscript>
-which is exactly the curvature of 
-
-
-<span class="jsonly">
-                  
-        \(C_r\)
-    
-</span>
-
-
-<noscript>
-                  
-        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;C_r" title="C_r" />
-    
-</noscript>!!!</p>
-
-<p>And now we make a leap. If 
-
-
-<span class="jsonly">
-                  
-        \(C\)
-    
-</span>
-
-
-<noscript>
-                  
-        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;C" title="C" />
-    
-</noscript> is any curve and 
-
-
-<span class="jsonly">
-                  
-        \(C_r\)
-    
-</span>
-
-
-<noscript>
-                  
-        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;C_r" title="C_r" />
-    
-</noscript> is the circle that best approximates 
-
-
-<span class="jsonly">
-                  
-        \(C\)
-    
-</span>
-
-
-<noscript>
-                  
-        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;C" title="C" />
-    
-</noscript> at 
-
-
-<span class="jsonly">
-                  
-        \(p \in C\)
-    
-</span>
-
-
-<noscript>
-                  
-        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;p%20%5cin%20C" title="p \in C" />
-    
-</noscript> then if we were to move along 
-
-
-<span class="jsonly">
-                  
-        \(C\)
-    
-</span>
-
-
-<noscript>
-                  
-        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;C" title="C" />
-    
-</noscript> with unit speed then the acceleration at 
-
-
-<span class="jsonly">
-                  
-        \(p\)
-    
-</span>
-
-
-<noscript>
-                  
-        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;p" title="p" />
-    
-</noscript> should be 
-
-
-<span class="jsonly">
-                  
-        \(1/r\)
-    
-</span>
-
-
-<noscript>
-                  
-        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;1%2fr" title="1/r" />
-    
-</noscript>.</p>
+And so we make the second leap.</p>
 
 <blockquote>
-<p><b>Theorem.</b> Let 
+<p><i>Definition.</i> For a graph 
 
 
 <span class="jsonly">
                   
-        \(c: [a,b] \rightarrow \mathbb{R}^n\)
+        \(C\)
     
 </span>
 
 
 <noscript>
                   
-        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;c%3a%20%5ba%2cb%5d%20%5crightarrow%20%5cmathbb%7bR%7d%5en" title="c: [a,b] \rightarrow \mathbb{R}^n" />
+        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;C" title="C" />
     
-</noscript> be a arbitrary curve. If for all 
-
-
-<span class="jsonly">
-                  
-        \(t \in (a,b)\)
-    
-</span>
-
-
-<noscript>
-                  
-        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;t%20%5cin%20%28a%2cb%29" title="t \in (a,b)" />
-    
-</noscript> the speed 
-
-
-<span class="jsonly">
-                  
-        \(||c&#39;(t)||\)
-    
-</span>
-
-
-<noscript>
-                  
-        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;%7c%7cc%27%28t%29%7c%7c" title="||c&#39;(t)||" />
-    
-</noscript> equals 1 then the curvature at the point 
-
-
-<span class="jsonly">
-                  
-        \(p=c(t)\)
-    
-</span>
-
-
-<noscript>
-                  
-        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;p%3dc%28t%29" title="p=c(t)" />
-    
-</noscript> is 
-
-
-<span class="jsonly">
-     
-        $$\kappa(p) = ||c&#39;&#39;(t)||$$
-    
-</span>
-
-
-<noscript>
-     
-        <div style="text-align:center;">
-            <img src="https://latex.codecogs.com/gif.latex?%5ckappa%28p%29%20%3d%20%7c%7cc%27%27%28t%29%7c%7c" title="\kappa(p) = ||c&#39;&#39;(t)||" />
-        </div>
-    
-</noscript></p>
-</blockquote>
-
-<p><b>Q.</b> Prove this theorem.</p>
-
-<p>This theorem is useful if we&rsquo;re able to find a <em>unit speed parametrization</em> (also called <em>arc-length parametrization</em>) of the curve. Unfortunately, this is not always easy, try finding one for the Sine Curve.</p>
-
-<h2 id="the-formula">The Formula</h2>
-
-<p>Instead, here is a magical fact:</p>
-
-<blockquote>
-<p><b>Theorem.</b> For a curve 
-
-
-<span class="jsonly">
-                  
-        \(c: [a,b] \rightarrow \mathbb{R}^{3}\)
-    
-</span>
-
-
-<noscript>
-                  
-        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;c%3a%20%5ba%2cb%5d%20%5crightarrow%20%5cmathbb%7bR%7d%5e%7b3%7d" title="c: [a,b] \rightarrow \mathbb{R}^{3}" />
-    
-</noscript> such that 
-
-
-<span class="jsonly">
-                  
-        \(||c&#39;(t)|| \neq 0\)
-    
-</span>
-
-
-<noscript>
-                  
-        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;%7c%7cc%27%28t%29%7c%7c%20%5cneq%200" title="||c&#39;(t)|| \neq 0" />
-    
-</noscript> the curvature at 
+</noscript> parametrized as 
 
 
 <span class="jsonly">
@@ -1008,99 +560,57 @@ which is exactly the curvature of
                   
         <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;c%28t%29" title="c(t)" />
     
-</noscript> is given by
-
+</noscript> with constant speed 
 
 
 <span class="jsonly">
-     
-        $$\kappa(t) = \dfrac{|| c&#39;(t) \times c&#39;&#39;(t)||}{||c&#39;(t)||^3}$$
+                  
+        \(||c&#39;(t)||\)
     
 </span>
 
 
 <noscript>
-     
-        <div style="text-align:center;">
-            <img src="https://latex.codecogs.com/gif.latex?%5ckappa%28t%29%20%3d%20%5cdfrac%7b%7c%7c%20c%27%28t%29%20%5ctimes%20c%27%27%28t%29%7c%7c%7d%7b%7c%7cc%27%28t%29%7c%7c%5e3%7d" title="\kappa(t) = \dfrac{|| c&#39;(t) \times c&#39;&#39;(t)||}{||c&#39;(t)||^3}" />
-        </div>
+                  
+        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;%7c%7cc%27%28t%29%7c%7c" title="||c&#39;(t)||" />
     
-</noscript></p>
+</noscript> the curvature is given by
+<span class="jsonly">
+  $$\begin{align} 
+  \kappa(t) = \dfrac{||c''(t)||}{||c'(t)||^2}
+ \end{align}$$
+</span></p>
 </blockquote>
 
-<p><b>Q.</b> Show that if for all 
+<p>Unfortunately, the condition of 
 
 
 <span class="jsonly">
                   
-        \(t\)
+        \(||c&#39;(t)||\)
     
 </span>
 
 
 <noscript>
                   
-        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;t" title="t" />
+        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;%7c%7cc%27%28t%29%7c%7c" title="||c&#39;(t)||" />
     
-</noscript> the speed 
+</noscript> being constant is not easy to impose. So we need a formula for the case when 
 
 
 <span class="jsonly">
                   
-        \(||c&#39;(t)|| = 1\)
+        \(||c&#39;(t)||\)
     
 </span>
 
 
 <noscript>
                   
-        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;%7c%7cc%27%28t%29%7c%7c%20%3d%201" title="||c&#39;(t)|| = 1" />
+        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;%7c%7cc%27%28t%29%7c%7c" title="||c&#39;(t)||" />
     
-</noscript> then 
-
-
-<span class="jsonly">
-                  
-        \(c&#39;(t) \perp c&#39;&#39;(t)\)
-    
-</span>
-
-
-<noscript>
-                  
-        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;c%27%28t%29%20%5cperp%20c%27%27%28t%29" title="c&#39;(t) \perp c&#39;&#39;(t)" />
-    
-</noscript> and so this agrees with the previous definition.</p>
-
-<p><b>Q.</b> Verify this formula for the circle 
-
-
-<span class="jsonly">
-                  
-        \(C_r\)
-    
-</span>
-
-
-<noscript>
-                  
-        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;C_r" title="C_r" />
-    
-</noscript> with parametrization 
-
-
-<span class="jsonly">
-                  
-        \(c(t) = (r \cos (\omega(t)), r \sin (\omega(t)))\)
-    
-</span>
-
-
-<noscript>
-                  
-        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;c%28t%29%20%3d%20%28r%20%5ccos%20%28%5comega%28t%29%29%2c%20r%20%5csin%20%28%5comega%28t%29%29%29" title="c(t) = (r \cos (\omega(t)), r \sin (\omega(t)))" />
-    
-</noscript> where 
+</noscript> is varying, which in the case of circle translates to saying that 
 
 
 <span class="jsonly">
@@ -1114,7 +624,7 @@ which is exactly the curvature of
                   
         <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;%5comega" title="\omega" />
     
-</noscript> is now an arbitrary function of 
+</noscript> is a function of 
 
 
 <span class="jsonly">
@@ -1128,292 +638,46 @@ which is exactly the curvature of
                   
         <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;t" title="t" />
     
-</noscript>.</p>
+</noscript>. The details in this case are a bit gory but the final answer is quite nice.</p>
 
-<p>The derivation of this formula is a bit messy. Instead an easy way to <em>understand</em> what it is saying is to note that it is equivalent to the following
-
-
-
-<span class="jsonly">
-     
-        $$\kappa = \dfrac{ \mbox{ component of acceleration that is normal to the curve}}{\mbox{speed}^2}$$
-    
-</span>
-
-
-<noscript>
-     
-        <div style="text-align:center;">
-            <img src="https://latex.codecogs.com/gif.latex?%5ckappa%20%3d%20%5cdfrac%7b%20%5cmbox%7b%20component%20of%20acceleration%20that%20is%20normal%20to%20the%20curve%7d%7d%7b%5cmbox%7bspeed%7d%5e2%7d" title="\kappa = \dfrac{ \mbox{ component of acceleration that is normal to the curve}}{\mbox{speed}^2}" />
-        </div>
-    
-</noscript></p>
-
-<h1 id="to-conclude">To conclude</h1>
-
-<p>Curvature should be thought of as a second order approximation of a curve, in much the same way that the slope of the tangent is the first order approximation. The fact that curvature is second order makes it non-linear and hence curvature data is much more interesting than tangential data. There are many more ways to interpret curvature, for example, as rate of change of length of a curve when the translated in the perpendicular direction [see Pg.5 in <a href="http://www.cs.jhu.edu/~misha/Fall09/4-surfaces.pdf">these slides</a>] and curvature is really the first non-trivial geometric invariant.</p>
-
-<!---
-
-
-
-# Curves aren't really curved
-But notice something fishy. A circle 
+<blockquote>
+<p><i>Proposition.</i> For a graph 
 
 
 <span class="jsonly">
                   
-        \(S_1\)
+        \(C\)
     
 </span>
 
 
 <noscript>
                   
-        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;S_1" title="S_1" />
+        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;C" title="C" />
     
-</noscript> of radius 1 centered at the origin is described by a unit speed parametrization 
-
-
-
-<span class="jsonly">
-     
-        $$c_1:[0,4 \pi] \rightarrow \mathbb{R}^2,\qquad c_1(t) = ( \cos ( t), \sin (t))$$
-    
-</span>
-
-
-<noscript>
-     
-        <div style="text-align:center;">
-            <img src="https://latex.codecogs.com/gif.latex?c_1%3a%5b0%2c4%20%5cpi%5d%20%5crightarrow%20%5cmathbb%7bR%7d%5e2%2c%5cqquad%20c_1%28t%29%20%3d%20%28%20%5ccos%20%28%20t%29%2c%20%5csin%20%28t%29%29" title="c_1:[0,4 \pi] \rightarrow \mathbb{R}^2,\qquad c_1(t) = ( \cos ( t), \sin (t))" />
-        </div>
-    
-</noscript>
-and a circle 
+</noscript> parametrized as 
 
 
 <span class="jsonly">
                   
-        \(S_2\)
+        \(c(t)\)
     
 </span>
 
 
 <noscript>
                   
-        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;S_2" title="S_2" />
+        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;c%28t%29" title="c(t)" />
     
-</noscript> of radius 2 centered at the origin is described by a unit speed parametrization
-
-
-
+</noscript> the curvature is given by
 <span class="jsonly">
-     
-        $$c_2:[0,4 \pi] \rightarrow \mathbb{R}^2,\qquad c_2(t) = (2\cos ( t/2),2\sin ( t/2))$$
-    
-</span>
-
-
-<noscript>
-     
-        <div style="text-align:center;">
-            <img src="https://latex.codecogs.com/gif.latex?c_2%3a%5b0%2c4%20%5cpi%5d%20%5crightarrow%20%5cmathbb%7bR%7d%5e2%2c%5cqquad%20c_2%28t%29%20%3d%20%282%5ccos%20%28%20t%2f2%29%2c2%5csin%20%28%20t%2f2%29%29" title="c_2:[0,4 \pi] \rightarrow \mathbb{R}^2,\qquad c_2(t) = (2\cos ( t/2),2\sin ( t/2))" />
-        </div>
-    
-</noscript>
-
-We can then define a map 
-
-
-<span class="jsonly">
-     
-        $$c_1 \circ c_2^{-1}: S_2 \rightarrow [0,4\pi] \rightarrow S_1$$
-    
-</span>
-
-
-<noscript>
-     
-        <div style="text-align:center;">
-            <img src="https://latex.codecogs.com/gif.latex?c_1%20%5ccirc%20c_2%5e%7b-1%7d%3a%20S_2%20%5crightarrow%20%5b0%2c4%5cpi%5d%20%5crightarrow%20S_1" title="c_1 \circ c_2^{-1}: S_2 \rightarrow [0,4\pi] \rightarrow S_1" />
-        </div>
-    
-</noscript>.
-
-Because 
-
-
-<span class="jsonly">
-                  
-        \(||c_1&#39;(t)|| = ||c_2&#39;(t)|| = 1\)
-    
-</span>
-
-
-<noscript>
-                  
-        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;%7c%7cc_1%27%28t%29%7c%7c%20%3d%20%7c%7cc_2%27%28t%29%7c%7c%20%3d%201" title="||c_1&#39;(t)|| = ||c_2&#39;(t)|| = 1" />
-    
-</noscript> for all 
-
-
-<span class="jsonly">
-                  
-        \(t\)
-    
-</span>
-
-
-<noscript>
-                  
-        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;t" title="t" />
-    
-</noscript> both 
-
-
-<span class="jsonly">
-                  
-        \(c_1(t)\)
-    
-</span>
-
-
-<noscript>
-                  
-        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;c_1%28t%29" title="c_1(t)" />
-    
-</noscript> and 
-
-
-<span class="jsonly">
-                  
-        \(c_2(t)\)
-    
-</span>
-
-
-<noscript>
-                  
-        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;c_2%28t%29" title="c_2(t)" />
-    
-</noscript> are _isometries_ i.e. they preserve lengths  i.e. the length of the arcs from 
-
-
-<span class="jsonly">
-                  
-        \( t = a\)
-    
-</span>
-
-
-<noscript>
-                  
-        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;%20t%20%3d%20a" title=" t = a" />
-    
-</noscript> to 
-
-
-<span class="jsonly">
-                  
-        \(b\)
-    
-</span>
-
-
-<noscript>
-                  
-        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;b" title="b" />
-    
-</noscript> for both 
-
-
-<span class="jsonly">
-                  
-        \(c_1\)
-    
-</span>
-
-
-<noscript>
-                  
-        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;c_1" title="c_1" />
-    
-</noscript> and 
-
-
-<span class="jsonly">
-                  
-        \(c_2\)
-    
-</span>
-
-
-<noscript>
-                  
-        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;c_2" title="c_2" />
-    
-</noscript> are 
-
-
-<span class="jsonly">
-                  
-        \(b - a\)
-    
-</span>
-
-
-<noscript>
-                  
-        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;b%20-%20a" title="b - a" />
-    
-</noscript>, and hence 
-
-
-<span class="jsonly">
-                  
-        \(c_1 \circ c_2^{-1}\)
-    
-</span>
-
-
-<noscript>
-                  
-        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;c_1%20%5ccirc%20c_2%5e%7b-1%7d" title="c_1 \circ c_2^{-1}" />
-    
-</noscript> is an isometry.
-
-The map 
-
-
-<span class="jsonly">
-                  
-        \(c_1 \circ c_2^{-1}: S_2 \rightarrow S_1\)
-    
-</span>
-
-
-<noscript>
-                  
-        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;c_1%20%5ccirc%20c_2%5e%7b-1%7d%3a%20S_2%20%5crightarrow%20S_1" title="c_1 \circ c_2^{-1}: S_2 \rightarrow S_1" />
-    
-</noscript> from the circle of radius 2 to the circle of radius 1 takes a curve with constant curvature 
-
-
-<span class="jsonly">
-                  
-        \(1/2\)
-    
-</span>
-
-
-<noscript>
-                  
-        <img style="display:inline;vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?\inline&space;1%2f2" title="1/2" />
-    
-</noscript> to a curve with constant curvature 1. Because of this we say that the curvature of curves is <b>extrinsic</b> or that is in <b> not intrinsic</b> or that it is <b>not preserved under isometries</b> (distance preserving maps). The curvature of a curve is a measure of how tightly it is twisted _inside the ambient space_ and has no meaning devoid of one, which is why you can make any curve out of a straight string. This changes when we go to surfaces.
-
--->
+  $$\begin{align} 
+  \kappa(t) 
+  &= \dfrac{||c'(t) \times c''(t)||}{||c'(t)||^3} \\
+  &= \dfrac{\mbox{normal component of acceleration}}{\mbox{speed}^3} 
+ \end{align}$$
+</span></p>
+</blockquote>
 </div>
 
     
@@ -1430,15 +694,15 @@ The map
      <tr>
       <td>
           
-            <a class="crosslink" href="../../../mathcamp/gaussian-curvature/whats-the-deal-with-curvature/">&#9664; What&#39;s the deal with Curvature?</a>
+            <a class="crosslink" href="../../../mathcamp/gaussian-curvature/curvature-of-surfaces/">&#9664; Curvature of Surfaces</a>
           
       </td>
       <td>
         <a href="javascript:showSiteMap()">TOC</a>
         |
-        <a class="crosslink" href="../../../">Home</a> 
-        |
         <a class="crosslink" href="../../../mathcamp/gaussian-curvature/">Gaussian Curvature</a>
+        | 
+        <a href="javascript:$('#disqus').css('visibility','visible')"> Comments </a>
       </td>
       <td>
           
@@ -1459,7 +723,8 @@ The map
     <a href="https://github.com/apurvnakade/" data="github.svg" target="_blank"> </a>
     <a href="https://gohugo.io/" data="hugo.png" target="_blank"> </a>
     
-    <div id="disqus_thread"></div>
+    <div id="disqus" style="visibility:hidden; transition: visibility 3s">
+        <div id="disqus_thread"></div>
 <script>
     var disqus_config = function () {
     
@@ -1479,6 +744,7 @@ The map
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 <a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </div>
 </div>    
 
 

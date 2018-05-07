@@ -17,7 +17,17 @@
       <pubDate>Sun, 08 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>https://apurvnakade.github.io/MathBlog/mathcamp/gaussian-curvature/curvature-of-curves/</guid>
-      <description>Consider a circle \(C_r\)    of radius \(r\)   , say \(x^2 &amp;#43; y^2 = r^2\)   . Then we shift \(C_r\)    up so that \((0,0)\)    is now on the circle and the equation becomes \(x^2 &amp;#43; (y - r)^2 = r^2\)   . Around the point \((0,0)\)   , \(C\)    can be described as the graph of $$y = r - \sqrt{r^2 - x^2}$$     Expanding this out using the Taylor series we get</description>
+      <description>If we agree that lines have no curvature and circles have constant curvature then we&amp;rsquo;re more or less forced to say that curvature of a circle should be inversely proportional to the radius, after all a line is a circle with an infinite radius. We might as well
+ Define the curvature \(\kappa\)    at every point of a circle of radius \(r\)    to be \(1/r\)   .</description>
+    </item>
+    
+    <item>
+      <title>Curvature of Surfaces</title>
+      <link>https://apurvnakade.github.io/MathBlog/mathcamp/gaussian-curvature/curvature-of-surfaces/</link>
+      <pubDate>Sun, 08 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://apurvnakade.github.io/MathBlog/mathcamp/gaussian-curvature/curvature-of-surfaces/</guid>
+      <description></description>
     </item>
     
   </channel>
