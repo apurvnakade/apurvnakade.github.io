@@ -1,24 +1,14 @@
 $page-background-color: whitesmoke;
-$font-background-color: white;//#ffffff;
+$font-background-color: #ffffff;
 $hyperlink-new: peru;//#2583FF;
-$hyperlink-old: forestgreen;
+$hyperlink-old: steelblue;//#2583AD;
 $hyperlink-hover: crimson;//#d50a83;
   
-@media (max-width: 950px) {
+@media (max-width: 700px) {
   .right-side-image {
     display: none;
   }
-  #mainMenu {
-    font-size: x-small;
-  }
 }
-
-@media (min-width: 950px) {
-  #notesTable {
-    grid-column-gap: 1em;
-  }
-}
-
 
 body {
   max-width: 950px;
@@ -28,12 +18,25 @@ body {
   background-color: $page-background-color;
 }
 
-#mainText, .mainText {
+#mainMenu {
+  width: 100%;
+  height: 50px;
+  td {
+    width: 20%;
+    text-align: center;
+    font-style: italic;
+    text-shadow: 0 1px 0 #FFF;
+  }
+  a {
+    color: #a0a0a0;
+  }
+}
+
+#mainText {
   margin: auto;
   background-color: $font-background-color;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   
-  margin-top: 75px;
   padding: 20px 30px 40px 30px;
 
   overflow-y: auto;
@@ -42,31 +45,8 @@ body {
   }
 }
 
-#mainMenu {
-  display: grid;
-  grid-template-columns: auto auto auto auto auto auto;
-  position: fixed;
-  bottom: 0px;
-  left: 0px;
-  width: 100%;
-  justify-items: center; 
-  z-index: 2;
-  
-  background-color: $font-background-color;
-  box-shadow: 0 -1px 2px 0 rgba(1,1,1,0.2);
-  
-  .menuItem {
-    color: black;
-    width: 100%;
-    font-family:cursive;
-    text-align:center;
-  }
-  
-  .menuSelected {
-    color: $font-background-color;
-    background-color: steelblue;
-    box-shadow: 0 -1px 2px 0 rgba(1,1,1,0.2);
-  }
+#mainText.no-navBar {
+  margin-top: 50px;
 }
 
 a {
@@ -157,6 +137,7 @@ table.alternate_color {
       grid-template-columns: 18ex 1fr;
       line-height: 1.25;
       grid-row-gap: 4em;
+      grid-column-gap: 1em;
       align-items: start;
    h3{
       margin:0;
