@@ -22,13 +22,10 @@
         $('a[href^="#"]').on('click', function(e) {
           e.preventDefault();
 
-          var target = this.hash;
-          $target = $(target);
-
+          $target = $(this.hash);
           $('html, body').stop().animate({
-            'scrollTop': $target.offset().top
+            'scrollTop': $target.offset().top - 75
           }, 900, 'swing', function() {
-            window.location.hash = target;
           });
         });
       });
