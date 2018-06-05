@@ -1,13 +1,10 @@
 @charset "UTF-8";
 @media (max-width: 950px) {
-  .right-side-image {
+  .wide-screen-only {
     display: none; }
 
   #mainMenu {
     font-size: x-small; } }
-@media (min-width: 950px) {
-  #notesTable {
-    grid-column-gap: 1em; } }
 body {
   max-width: 950px;
   margin: 0px auto;
@@ -29,13 +26,13 @@ body {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto;
   position: fixed;
-  bottom: 0px;
+  top: 0px;
   left: 0px;
   width: 100%;
   justify-items: center;
   z-index: 2;
   background-color: white;
-  box-shadow: 0 -1px 2px 0 rgba(1, 1, 1, 0.2); }
+  box-shadow: 0 1px 1px 0 rgba(1, 1, 1, 0.2); }
   #mainMenu .menuItem {
     color: black;
     width: 100%;
@@ -111,7 +108,8 @@ table.alternate_color tr:nth-child(even) td {
   grid-template-columns: 18ex 1fr;
   line-height: 1.25;
   grid-row-gap: 4em;
-  align-items: start; }
+  align-items: start;
+  font-size: small; }
   #notesTable h3 {
     margin: 0;
     padding: 0.5em;
