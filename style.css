@@ -31,6 +31,7 @@ body {
   width: 100%;
   justify-items: center;
   z-index: 2;
+  font-size: 80%;
   background-color: white;
   box-shadow: 0 1px 1px 0 rgba(1, 1, 1, 0.2); }
   #mainMenu .menuItem {
