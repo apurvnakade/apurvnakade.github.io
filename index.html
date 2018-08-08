@@ -1,344 +1,294 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="animate.js"></script>
+  <title>Apurva Nakade</title>
+</head>
 
-    <script type="text/javascript">
-      //variables for storing the top of the sections statically on page load
-      var section_top_1, section_top_2, section_top_3, section_top_4, section_top_5;
-      var current_section = 1, new_section=1;
+<body onscroll="javascript:menuSelect();" onkeydown="javascript:menuMove();">
+  <div id="mainMenu">
+    <a id="menu1" href="#itMe" class="menuItem menuSelected">It Me</a>
+    <a id="menu2" href="#research" class="menuItem">Serious Maths</a>
+    <a id="menu3" href="#funMaths" class="menuItem">Unserious Maths</a>
+    <a id="menu4" href="#unmaths" class="menuItem">Unmaths</a>
+    <a id="menu5" href="#notes" class="menuItem">Math Notes</a>
+    <a id="menu6" href="./blog/" target="_blank" class="menuItem">Blog</a>
+  </div>
 
-      $(document).ready(function() {
-        //store the top of the sections
-        section_top_1 = $("#itMe").offset().top;
-        section_top_2 = $("#research").offset().top;
-        section_top_3 = $("#funMaths").offset().top;
-        section_top_4 = $("#unmaths").offset().top;
-        section_top_5 = $("#notes").offset().top;
-
-        //add scroll animation to the internal links in the menubar
-        $('a[href^="#"]').on('click', function(e) {
-          e.preventDefault();
-
-          $target = $(this.hash);
-          $('html, body').stop().animate({
-            'scrollTop': $target.offset().top - 75
-          }, 500, 'swing', function() {
-          });
-        });
-      });
-
-      //event handler for scroll attached to 'body'
-      //change the selected menu depending on the scroll height
-      function menuSelect() {
-        var scrollPosition = $(document).scrollTop();
-
-        if (scrollPosition <= section_top_2 - 100) {
-          new_section = 1;
-        } else if (scrollPosition <= section_top_3 - 100) {
-          new_section = 2;
-        } else if (scrollPosition <= section_top_4 - 100) {
-          new_section = 3;
-        } else if (scrollPosition <= section_top_5 - 100) {
-          new_section = 4;
-        } else {
-          new_section = 5;
-        }
-        if(new_section != current_section){
-          $("#menu"+current_section).removeClass("menuSelected");
-          $("#menu"+new_section).addClass("menuSelected");
-          current_section=new_section;
-        }
-      }
-
-      //attach event handlers to right and left arrow keys for 'body'
-      //move menus to right and left on keydown
-      function menuMove() {
-        if(window.event.keyCode == 37){
-          if(current_section > 1){
-            current_section--;
-            $('#menu' + current_section)[0].click();
-          }
-        }
-        else if(window.event.keyCode == 39){
-          if(current_section < 5){
-            current_section++;
-            $('#menu' + current_section)[0].click();
-          }
-        }
-      }
-    </script>
-
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
-    <title>Home</title>
-  </head>
-
-  <body
-  onscroll="javascript:menuSelect();"
-  onkeydown="javascript:menuMove();">
-    <div id="mainMenu">
-      <a id="menu1" href="#itMe" class="menuItem menuSelected">It Me</a>
-      <a id="menu2" href="#research" class="menuItem">Serious Maths</a>
-      <a id="menu3" href="#funMaths" class="menuItem">Unserious Maths</a>
-      <a id="menu4" href="#unmaths" class="menuItem">Unmaths</a>
-      <a id="menu5" href="#notes" class="menuItem">Math Notes</a>
-      <a id="menu6" href="./blog/" target="_blank" class="menuItem">Blog</a>
-    </div>
-
-    <div class="mainText" id="itMe">
-      <figure class="right-side-image wide-screen-only">
-        <a href="https://en.wikipedia.org/wiki/Don_Quixote_(Picasso)" target="_blank" class="external-link">
+  <div class="mainText" id="itMe">
+    <figure class="right-side-image wide-screen-only">
+      <a href="https://en.wikipedia.org/wiki/Don_Quixote_(Picasso)" target="_blank" class="external-link">
       <img src="data/images/don_quixote.jpg">
      </a>
-        <figcaption><i>Too much sanity may be madness. <br>But maddest of all, to see life as it is <br>and not as it should be.</i></figcaption>
-      </figure>
+      <figcaption><i>Too much sanity may be madness. <br>But maddest of all, to see life as it is <br>and not as it should be.</i></figcaption>
+    </figure>
 
-      <h1>Apurva Nakade</h1>
+    <h1 class="mono">Apurva Nakade</h1>
 
-      <div class="text">
-        <p>
-          I am a <a href="http://nooooooooooooooo.com/" target="_blank" class="external-link">sixth year graduate student</a> at <a target="_blank" class="external-link" href="http://www.math.jhu.edu">Johns Hopkins University</a> working in algebraic
-          topology. Following is the information needed to harass me,<br><br>
-        </p>
-        <table class="info">
-          <!--<tr>
-            <td>Currently teaching at </td>
-            <td>&nbsp;:&nbsp;</td>
-            <td><b><a href="https://mathcamp.org/currentstudents/index.php" target="_blank" class="external-link"><img src="https://mathcamp.org/content/headermain.gif" height="50px"></a></b>
-            </td>
-          </tr>-->
+    <div class="text">
+      <p>
+        I am a <a href="http://nooooooooooooooo.com/" target="_blank" class="external-link">sixth year graduate student</a> at <a target="_blank" class="external-link" href="http://www.math.jhu.edu">Johns Hopkins University</a> working in algebraic topology.
+        Following is the information needed to harass me,<br><br>
+      </p>
+      <table class="info">
+        <tr>
+          <td>Currently teaching </td>
+          <td>&nbsp;:&nbsp;</td>
+          <!-- <td><b><a href="https://mathcamp.org/currentstudents/index.php" target="_blank" class="external-link"><img src="https://mathcamp.org/content/headermain.gif" height="50px"></a></b>
+            </td> -->
+          <td><b><a href="courses/2018HonorsCalc/index.html"> Honors Single Variable Calculus</a></b> </td>
+        </tr>
 
-          <tr>
-            <td>Email</td>
-            <td>&nbsp;:&nbsp;</td>
-            <td>
-              <p onMouseOver="this.innerHTML='anakade1@jhu.edu'" onMouseOut="this.innerHTML='(left as an exercise to the reader)'">(left as an exercise to the reader)</p>
-            </td>
-          </tr>
+        <tr>
+          <td>Email</td>
+          <td>&nbsp;:&nbsp;</td>
+          <td>
+            <p onMouseOver="this.innerHTML='anakade1@jhu.edu'" onMouseOut="this.innerHTML='(left as an exercise to the reader)'">(left as an exercise to the reader)</p>
+          </td>
+        </tr>
 
-          <tr>
-            <td>CV</td>
-            <td>&nbsp;:&nbsp;</td>
-            <td><a href="data/curriculumvitae.pdf"> cccccEEEEEVVVVVeeeee </a>
-            </td>
-          </tr>
-        </table>
-      </div>
+        <tr>
+          <td>Office</td>
+          <td>&nbsp;:&nbsp;</td>
+          <td> Krieger 200</td>
+        </tr>
+
+
+        <tr>
+          <td>Office Hours</td>
+          <td>&nbsp;:&nbsp;</td>
+          <td> <p>TBD</p></td>
+        </tr>
+
+        <tr>
+          <td>CV</td>
+          <td>&nbsp;:&nbsp;</td>
+          <td><a href="data/curriculumvitae.pdf"> cccccEEEEEVVVVVeeeee </a>
+          </td>
+        </tr>
+
+      </table>
     </div>
+  </div>
 
-    <div class="mainText" id="research">
-      <figure class="right-side-image wide-screen-only">
-        <br>
-        <br>
-        <br>
-        <a href="http://www.sciencecartoonsplus.com/index.php" title="I think you should be more explicit here in step two." target="_blank"
-        class="external-link">
+  <div class="mainText" id="research">
+    <figure class="right-side-image wide-screen-only">
+      <br>
+      <br>
+      <a href="http://www.sciencecartoonsplus.com/index.php" title="I think you should be more explicit here in step two." target="_blank" class="external-link">
       <img src="data/images/miracle.jpg">
     </a>
-        <figcaption>Meeting with Advisor</figcaption>
-        <br>
-        <br>
-      </figure>
+      <figcaption><br>Office Hours</figcaption>
+    </figure>
 
-      <h1>Heavy stuff</h1>
-      <div>
-        I think of myself as an "applied" homotopy theorist. I like to use homotopical methods to study problems in other areas of mathematics, especially differential geometry and mathematical physics.
-        <h2>Papers</h2>
-        <p>
-          <ul>
-            <li>
-              An application of H-principle to Manifold Calculus (submitted)
-              <br>--
-              <a href="https://arxiv.org/abs/1711.07670" target="_blank" class="external-link">arxiv</a>,
-              <a href="Research/2017 - AN APPLICATION OF H-PRINCIPLE TO MANIFOLD CALCULUS.pdf">pdf</a>,
-              <a href="Research/2017 - AMS meeting.pdf">slides</a>
-            </li>
-            <li>
-              Protein folding using Markov chains --
-              <a href="Research/2012 - Protein Folding.pdf">pdf</a>
-            </li>
-          </ul>
-          For expository articles see <a href="#notes">Math notes</a>.
-        </p>
-        <h2> Current Projects </h2>
-        Of late I've been studying equivariant embeddings of manifolds using manifold calculus. Having spent a considerable time learning equivariant homotopy theory I've also started working on other applications of it to Algebraic K-theory and Functor Calculus.
-        <h2>Research Interests</h2>
-        <p>
-          Algebraic Topology, Homotopy Theory, Equivariant Homotopy Theory, Manifold Calculus, Functor Calculus, Mathematical Physics, Symplectic Topology, Atiyah Singer Index theory, Category theory, Algebraic K-theory.
-        </p>
-      </div>
+    <h1 class="mono">Heavy Stuff</h1>
+    <div>
+      I think of myself as an "applied" homotopy theorist. I like to use homotopical methods to study problems in other areas of mathematics, especially differential geometry and mathematical physics.
+      <h2 class="mono">Papers</h2>
+      <p>
+        <ul>
+          <li>
+            An application of H-principle to Manifold Calculus (submitted)
+            <br>--
+            <a href="https://arxiv.org/abs/1711.07670" target="_blank" class="external-link">arxiv</a>,
+            <a href="Research/2017 - AN APPLICATION OF H-PRINCIPLE TO MANIFOLD CALCULUS.pdf">pdf</a>,
+            <a href="Research/2017 - AMS meeting.pdf">slides</a>
+          </li>
+          <li>
+            Protein folding using Markov chains --
+            <a href="Research/2012 - Protein Folding.pdf">pdf</a>
+          </li>
+        </ul>
+        For expository articles see <a href="#notes">Math notes</a>.
+      </p>
+      <!-- <h2 class="mono"> Current Projects </h2> Of late I've been studying equivariant embeddings of manifolds using manifold calculus. Having spent a considerable time learning equivariant homotopy theory I've also started working on other applications of it to Algebraic K-theory and Functor
+      Calculus. -->
+      <h2 class="mono">Research Interests</h2>
+      <p>
+        Algebraic Topology, Homotopy Theory, Equivariant Homotopy Theory, Manifold Calculus, Functor Calculus, Mathematical Physics, Symplectic Topology, Atiyah Singer Index theory, Category theory, Algebraic K-theory.
+      </p>
     </div>
+  </div>
 
-    <div class="mainText" id="funMaths">
-      <h1>Maths can be fun, right?</h1>
-      <figure class="right-side-image wide-screen-only">
-        <a href="http://abstrusegoose.com/353" title="Like a boss." target="_blank"
-        class="external-link">
+  <div class="mainText" id="funMaths">
+    <h1 class="mono">Maths can be fun, right?</h1>
+    <figure class="right-side-image wide-screen-only">
+      <br>
+      <br>
+      <br>
+      <a href="http://abstrusegoose.com/353" title="Like a boss." target="_blank" class="external-link">
         <img src="data/images/me.png">
       </a>
-        <figcaption>Selfie</figcaption>
-      </figure>
+      <figcaption><br>Selfie</figcaption>
+    </figure>
 
-      <div class="text">
-        I love to design and teach interesting maths courses. Sometimes I even get paid for it. Materials for some of my <i>fun</i> courses...
+    <div class="text">
+      I love to design and teach interesting maths courses. Sometimes I even get paid for it. Materials for some of my <i>fun</i> courses ...
+      <ul>
+        <li>... at JHU</li>
         <ul>
           <li><a href="courses/2018Symm&Poly.pdf">Symmetries & Polynomials (IBL)</a>
           </li>
-          <li><a href="courses/2017Calc/index.html"> Honors Single Variable Calculus (IBL) </a>
+          <li><a href="courses/2017HonorsCalc/index.html"> Honors Single Variable Calculus (IBL) </a>
           </li>
           <li><a href="courses/2017AlgTop/index.html"> Hitchhiker's Guide to Algebraic Topology</a>
           </li>
-          <li>... at the amazing place that is the <a href="https://www.mathcamp.org/2017/index.php" target="_blank" class="external-link">USA/Canada MathCamp</a>...</li>
-          <ul>
-            <li>
-              <a href="courses/2018MathCamp/How Curved Is a Potato/">How Curved Is a Potato?</a></li>
-            <li>
-              <a href="courses/2018MathCamp/CohomologyViaSheaves.pdf">Cohomology via Sheaves</a></li>
-            <li>
-              <a href="courses/2018MathCamp/TheQuantumSpring.pdf">The Quantum Spring</a></li>
-            <li>
-              <a href="courses/2018MathCamp/WouldIEverLieGroupToYou.pdf">Would I ever Lie Group to you?</a></li>
-            <li>
-              <a href="courses/2017MathCamp/All things manifoldy/">All things manifoldy</a></li>
-            <li>
-              <a href="courses/2017MathCamp/Euler Characteristic/">Euler Characteristic</a></li>
-            <li>
-              <a href="courses/2017MathCamp/Symmetries of Spaces/">Symmetries of Spaces</a></li>
-            <li>
-              <a href="courses/2017MathCamp/What is Homology/">What is Homology?</a></li>
-            <li>
-              <a href="courses/2017MathCamp/Representation theory/">Representation theory</a></li>
-            <li>
-              <a href="courses/2017MathCamp/Lagrangian and Hamiltonian Mechanics/">Lagrangian and Hamiltonian Mechanics</a> (not my notes)</li>
-          </ul>
         </ul>
+        <li>... at the amazing place that is the <a href="https://www.mathcamp.org/2018/index.php" target="_blank" class="external-link">USA/Canada MathCamp 2018</a></li>
+        <ul>
+          <li>
+            <a href="courses/2018MathCamp/How Curved Is a Potato/">How Curved Is a Potato?</a></li>
+          <li>
+            <a href="courses/2018MathCamp/CohomologyViaSheaves.pdf">Cohomology via Sheaves</a></li>
+          <li>
+            <a href="courses/2018MathCamp/TheQuantumSpring.pdf">The Quantum Spring</a></li>
+          <li>
+            <a href="courses/2018MathCamp/WouldIEverLieGroupToYou.pdf">Would I ever Lie Group to you?</a></li>
+        </ul>
+        <li>... at the amazing place that is the <a href="https://www.mathcamp.org/2017/index.php" target="_blank" class="external-link">USA/Canada MathCamp 2017</a></li>
+        <ul>
+          <li>
+            <a href="courses/2017MathCamp/All things manifoldy/">All things manifoldy</a></li>
+          <li>
+            <a href="courses/2017MathCamp/Euler Characteristic/">Euler Characteristic</a></li>
+          <li>
+            <a href="courses/2017MathCamp/Symmetries of Spaces/">Symmetries of Spaces</a></li>
+          <li>
+            <a href="courses/2017MathCamp/What is Homology/">What is Homology?</a></li>
+          <li>
+            <a href="courses/2017MathCamp/Representation theory/">Representation theory</a></li>
+          <li>
+            <a href="courses/2017MathCamp/Lagrangian and Hamiltonian Mechanics/">Lagrangian and Hamiltonian Mechanics</a></li>
+        </ul>
+      </ul>
 
-        Other courses I've taught: <br>
-        <a href="courses/2016Calc/index.html">Calculus II 2016</a>,
-        <a href="courses/2015DiffEq/index.html">Differential equations 2015</a>,
-        <a href="courses/2017DiffEq/index.html">Differential equations 2017</a>.
-      </div>
+      Other courses I've taught: <br>
+      <a href="courses/2016Calc/index.html">Calculus II 2016</a>,
+      <a href="courses/2015DiffEq/index.html">Differential equations 2015</a>,
+      <a href="courses/2017DiffEq/index.html">Differential equations 2017</a>.
     </div>
+  </div>
 
-    <div class="mainText" id="unmaths">
+  <div class="mainText" id="unmaths">
 
-      <figure class="right-side-image wide-screen-only">
-        <br>
-        <br>
-        <a href="http://www.gocomics.com/sarahs-scribbles/2014/1/17" title="So delicious." target="_blank"
-        class="external-link">
+        <h1 class="mono">Maths is life. But when it's not...</h1>
+
+    <figure class="right-side-image wide-screen-only">
+      <a href="http://www.gocomics.com/sarahs-scribbles/2014/1/17" title="So delicious." target="_blank" class="external-link">
       <img src="data/images/books.gif">
         <br>
      </a>
-      </figure>
+    </figure>
 
-      <h1 class="Title">Maths is life. But when it's not...</h1>
+    <div class="text">
+      <p>
+        I write on (in?) <a target="_blank" href="./blog">my new blog</a>, built from scratch using <a target="_blank" class="external-link" href="https://gohugo.io/">Hugo</a> and lots of googling. I also love to <a target="_blank" href="./blog/art/books/index.html">read</a>;
+        my dream vacation is by a window with a cup of coffee and a dozen or so novels.
+      </p>
 
-      <div class="text">
-        <p>
-          I write on (in?) <a target="_blank" href="./blog">my new blog</a>, built from scratch using <a target="_blank" class="external-link" href="https://gohugo.io/">Hugo</a> and lots of googling. I also love to <a target="_blank" href="./blog/art/books/index.html">read</a>;
-          my dream vacation is by a window with a cup of coffee and a dozen or so novels.
-        </p>
+      <p>
+        I love to <a href="https://drive.google.com/open?id=1wpCR64gzKc7Zp8V-FIn43ANMA6QULjMS&usp=sharing" target="_blank" class="external-link">travel</a>, I love the outdoors, I <a target="_blank" class="external-link" href="https://studentaffairs.jhu.edu/recreation/experiential-education/trips/">hike</a>        whenever I get a chance. I'm always looking for an excuse to pack my bags, if you know of a place that's lacking in underpaid mathematicians, do tell.
+      </p>
 
-        <p>
-          I love to <a href="https://drive.google.com/open?id=1wpCR64gzKc7Zp8V-FIn43ANMA6QULjMS&usp=sharing" target="_blank" class="external-link">travel</a>, I love the outdoors, I <a target="_blank" class="external-link" href="https://studentaffairs.jhu.edu/recreation/experiential-education/trips/">hike</a>          whenever I get a chance. I'm always looking for an excuse to pack my bags, if you know of a place that's lacking in underpaid mathematicians, do tell.
-        </p>
+      <p>
+        I like to gym my ass off doing <a target="_blank" class="external-link" href="https://studentaffairs.jhu.edu/recreation/fitness/group-fitness">Yoga</a> and <a target="_blank" class="external-link" href="https://studentaffairs.jhu.edu/recreation/facilities/climbing-wall/">climbing</a>.
+      </p>
 
-        <p>
-          I like to gym my ass off doing <a target="_blank" class="external-link" href="https://studentaffairs.jhu.edu/recreation/fitness/group-fitness">Yoga</a> and <a target="_blank" class="external-link" href="https://studentaffairs.jhu.edu/recreation/facilities/climbing-wall/">climbing</a>.
-        </p>
+      <p>
+        Baltimore has the <a target="_blank" class="external-link" href="https://baltimorebikeparty.com/">best bike parties</a> ever, and so I bike!
+      </p>
 
-        <p>
-          Baltimore has the <a target="_blank" class="external-link" href="https://baltimorebikeparty.com/">best bike parties</a> ever, and so I bike!
-        </p>
+      <p>
+        I love to dance. I used to do <a target="_blank" class="external-link" href="http://www.tangoestanoche.com/">Argentine Tango</a> and <a target="_blank" class="external-link" href="http://jhuballroom.weebly.com/">Ballroom</a>. These days I take
+        Lindy Hop classes at the crazy <a target="_blank" class="external-link" href="https://mobtownballroom.com/">Mobtown Ballroom</a>.
+      </p>
 
-        <p>
-          I love to dance. I used to do <a target="_blank" class="external-link" href="http://www.tangoestanoche.com/">Argentine Tango</a> and <a target="_blank" class="external-link" href="http://jhuballroom.weebly.com/">Ballroom</a>. These days I take Lindy
-          Hop classes at the crazy <a target="_blank" class="external-link" href="https://mobtownballroom.com/">Mobtown Ballroom</a>.
-        </p>
+      <p>
+        I try taking <a target="_blank" class="external-link" href="https://www.flickr.com/photos/139276055@N07/albums">photos</a>.
+      </p>
 
-        <p>
-          I try taking <a target="_blank" class="external-link" href="https://www.flickr.com/photos/139276055@N07/albums">photos</a>.
-        </p>
+      <p>
+        I love to talk, a LOT. If you share any of my interests, in maths or in life, or wanna talk to me about something, feel free to shoot me an <a href="#itMe">email</a>; I have 0 unread emails in my inbox. Shoot is a funny word.
+      </p>
 
-        <p>
-          I love to talk, a LOT. If you share any of my interests, in maths or in life, or wanna ask me something, feel free to shoot me an <a href="#itMe">email</a>, I have 0 unread emails in my inbox. Shoot is a funny word.
-        </p>
+      <p>I type in DVORAK.</p>
+    </div>
+  </div>
+
+
+  <div class="mainText" id="notes">
+    <h1 class="mono">HazMat</h1>
+    <p>These are some notes taken by me while learning a new subject. They are likely to contain mistakes, viewer discretion is advised.</p>
+    <br>
+    <div id="notesTable">
+      <h3>Homotopy Theory</h3>
+      <div class="nestedGrid">
+        <a href="notes/JHU Course Notes/Algebraic%20Topology/index.html">Alg Top Course Notes</a>
+        <a href="notes/CMI/vector fields on spheres/index.html">Vector fields on Spheres</a>
+        <a href="notes/JHU Course Notes/Mosher and Tangora/index.html">Mosher and Tangora Notes</a>
+        <a href="notes/Bits and Pieces/SW numbers.pdf">Steifel Whitney Numbers</a>
+        <a href="notes/Bits and Pieces/Model%20Categories/index.html">Model Categories</a>
+        <a href="notes/Bits and Pieces/Homotopy of MO/index.html">Homotopy of MO</a>
+      </div>
+
+
+
+
+
+      <h3>Symplectic Topology & Physics</h3>
+      <div class="nestedGrid">
+        <a href="notes/Bits and Pieces/Symplectic%20Geometry/index.html">Symplectic Geometry</a>
+        <a href="notes/Bits and Pieces/Geometry%20of%20Dirac%20Operators/index.html">Geometry of Dirac Operators</a>
+        <a href="notes/Bits and Pieces/Finite%20Gauge%20Group%20Theory/index.html">Finite Group Gauge Theory</a>
+        <a href="notes/Bits and Pieces/FIOs and Lagrangian Submanifolds/index.html">FIOs and Lagrangian Submanifolds</a>
+        <a href="notes/Bits and Pieces/Classical%20Lie%20Groups.pdf">Lie Groups</a>
+        <a href="notes/Bits and Pieces/Connections%20on%20Principal%20Bundles%20and%20Classical%20Electromagnetism.pdf">Classical Electromagnetism</a>
+      </div>
+
+      <h3> Algebra</h3>
+      <div class="nestedGrid">
+        <a href="notes/JHU Course Notes/Commutative%20Algebra.pdf">Commutative Algebra Notes</a>
+        <a href="notes/CMI/Representation%20Theory%20of%20Symmetric%20Group.pdf">Rep Theory of Symmetric Group</a>
+        <a href="notes/JHU Course Notes/Algebraic Geometry/index.html">Algebraic Geometry Notes</a>
+        <a href="notes/CMI/homological%20algebra/index.html">Homological Algebra Notes</a>
+        <a href="notes/JHU Course Notes/Hochschild%20Homology/index.html">Hochschild Homology Notes</a>
+      </div>
+
+      <h3> Conference Notes </h3>
+      <div class="nestedGrid">
+        <a href="notes/Conference Notes/European Autumn School in Topology 2017/index.html">European Autumn School 2017</a>
+        <a href="notes/Conference Notes/GSTSC Bloomington 2016/index.html">GSTSC Bloomington 2016</a>
+        <a href="notes/Conference Notes/MSRI%20Algebraic%20Topology%202014/index.html">MSRI AlgTop Workshop</a>
+
+        <a href="notes/Conference Notes/WCATSS%20Eugene/index.html">WCATSS at Eugene</a>
+        <a href="notes/Conference Notes/WCATSS%20TQFT/index.html">WCATSS TQFT at Vancouver</a>
+        <a href="notes/Conference Notes/Modular Invariants Regensburg/index.html">Modular Invariants Regensburg</a>
+      </div>
+
+      <h3> Unbaked</h3>
+      <div class="nestedGrid">
+        <a href="notes/Bits and Pieces/Hocolims, Goodwillie Calculus/index.html">Hocolims, Goodwillie Calculus</a>
+        <a href="notes/Bits and Pieces/Operads.pdf">Operads</a>
+        <a href="notes/Bits and Pieces/Monads and the Adams SS.pdf">Monads and the Adams SS</a>
+        <a href="notes/CMI/algebraic%20topology/index.html">Algebraic Topology</a>
+        <a href="notes/CMI/linear%20algebraic%20groups/index.html">Linear algebraic groups</a>
+        <a href="notes/CMI/reflection%20groups/index.html">Reflection Groups</a>
+        <a href="notes/CMI/compact%20riemann%20surfaces/index.html">Compact Riemann Surfaces</a>
       </div>
     </div>
-
-
-    <div class="mainText" id="notes">
-      <h1>HazMat</h1>
-      <p>These are some notes taken by me while learning a new subject. They are likely to contain mistakes, viewer discretion is advised.</p>
-      <br>
-      <div id="notesTable">
-        <h3>Homotopy Theory</h3>
-        <div class="nestedGrid">
-          <a href="notes/JHU Course Notes/Algebraic%20Topology/index.html">Alg Top Course Notes</a>
-          <a href="notes/CMI/vector fields on spheres/index.html">Vector fields on Spheres</a>
-          <a href="notes/JHU Course Notes/Mosher and Tangora/index.html">Mosher and Tangora Notes</a>
-          <a href="notes/Bits and Pieces/SW numbers.pdf">Steifel Whitney Numbers</a>
-          <a href="notes/Bits and Pieces/Model%20Categories/index.html">Model Categories</a>
-          <a href="notes/Bits and Pieces/Homotopy of MO/index.html">Homotopy of MO</a>
-        </div>
-
-
-
-
-
-        <h3>Symplectic Topology & Physics</h3>
-        <div class="nestedGrid">
-          <a href="notes/Bits and Pieces/Symplectic%20Geometry/index.html">Symplectic Geometry</a>
-          <a href="notes/Bits and Pieces/Geometry%20of%20Dirac%20Operators/index.html">Geometry of Dirac Operators</a>
-          <a href="notes/Bits and Pieces/Finite%20Gauge%20Group%20Theory/index.html">Finite Group Gauge Theory</a>
-          <a href="notes/Bits and Pieces/FIOs and Lagrangian Submanifolds/index.html">FIOs and Lagrangian Submanifolds</a>
-          <a href="notes/Bits and Pieces/Classical%20Lie%20Groups.pdf">Lie Groups</a>
-          <a href="notes/Bits and Pieces/Connections%20on%20Principal%20Bundles%20and%20Classical%20Electromagnetism.pdf">Classical Electromagnetism</a>
-        </div>
-
-        <h3> Algebra</h3>
-        <div class="nestedGrid">
-          <a href="notes/JHU Course Notes/Commutative%20Algebra.pdf">Commutative Algebra Notes</a>
-          <a href="notes/CMI/Representation%20Theory%20of%20Symmetric%20Group.pdf">Rep Theory of Symmetric Group</a>
-          <a href="notes/JHU Course Notes/Algebraic Geometry/index.html">Algebraic Geometry Notes</a>
-          <a href="notes/CMI/homological%20algebra/index.html">Homological Algebra Notes</a>
-          <a href="notes/JHU Course Notes/Hochschild%20Homology/index.html">Hochschild Homology Notes</a>
-        </div>
-
-        <h3> Conference Notes </h3>
-        <div class="nestedGrid">
-          <a href="notes/Conference Notes/European Autumn School in Topology 2017/index.html">European Autumn School 2017</a>
-          <a href="notes/Conference Notes/GSTSC Bloomington 2016/index.html">GSTSC Bloomington 2016</a>
-          <a href="notes/Conference Notes/MSRI%20Algebraic%20Topology%202014/index.html">MSRI AlgTop Workshop</a>
-
-          <a href="notes/Conference Notes/WCATSS%20Eugene/index.html">WCATSS at Eugene</a>
-          <a href="notes/Conference Notes/WCATSS%20TQFT/index.html">WCATSS TQFT at Vancouver</a>
-          <a href="notes/Conference Notes/Modular Invariants Regensburg/index.html">Modular Invariants Regensburg</a>
-        </div>
-
-        <h3> Unbaked</h3>
-        <div class="nestedGrid">
-          <a href="notes/Bits and Pieces/Hocolims, Goodwillie Calculus/index.html">Hocolims, Goodwillie Calculus</a>
-          <a href="notes/Bits and Pieces/Operads.pdf">Operads</a>
-          <a href="notes/Bits and Pieces/Monads and the Adams SS.pdf">Monads and the Adams SS</a>
-          <a href="notes/CMI/algebraic%20topology/index.html">Algebraic Topology</a>
-          <a href="notes/CMI/linear%20algebraic%20groups/index.html">Linear algebraic groups</a>
-          <a href="notes/CMI/reflection%20groups/index.html">Reflection Groups</a>
-          <a href="notes/CMI/compact%20riemann%20surfaces/index.html">Compact Riemann Surfaces</a>
-        </div>
-      </div>
-      <br>
-      <br>
-      <figure class="wide-screen-only">
-        <a href="http://abstrusegoose.com/230" title="It is obvious." target="_blank" class="external-link">
+    <br>
+    <br>
+    <figure class="wide-screen-only">
+      <a href="http://abstrusegoose.com/230" title="It is obvious." target="_blank" class="external-link">
         <img src="data/images/it_is_obvious.png" width="100%">
       </a>
-      </figure>
-    </div>
-  </body>
+    </figure>
+  </div>
+</body>
 
 </html>

@@ -1,16 +1,12 @@
 @charset "UTF-8";
 @media (max-width: 950px) {
   .wide-screen-only {
-    display: none; }
-
+    display: none;
+  }
   #mainMenu {
-    font-size: x-small; } }
-body {
-  max-width: 950px;
-  margin: 0px auto;
-  margin-bottom: 100px;
-  line-height: 1.75;
-  background-color: whitesmoke; }
+    font-size: x-small;
+  }
+}
 
 #mainText, .mainText {
   margin: auto;
@@ -18,9 +14,12 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-top: 75px;
   padding: 20px 30px 40px 30px;
-  overflow-y: auto; }
-  #mainText .text, .mainText .text {
-    text-align: justify; }
+  overflow-y: auto;
+}
+
+#mainText .text, .mainText .text {
+  text-align: justify;
+}
 
 #mainMenu {
   display: grid;
@@ -31,78 +30,122 @@ body {
   width: 100%;
   justify-items: center;
   z-index: 2;
-  font-size: 80%;
   background-color: white;
-  box-shadow: 0 1px 1px 0 rgba(1, 1, 1, 0.2); }
-  #mainMenu .menuItem {
-    color: black;
-    width: 100%;
-    font-family: cursive;
-    text-align: center; }
-  #mainMenu .menuSelected {
-    color: white;
-    background-color: steelblue;
-    box-shadow: 0 -1px 2px 0 rgba(1, 1, 1, 0.2); }
+  box-shadow: 0 1px 1px 0 rgba(1, 1, 1, 0.2);
+}
+
+#mainMenu .menuItem {
+  color: black;
+  width: 100%;
+  font-family: cursive;
+  text-align: center;
+}
+
+#mainMenu .menuSelected {
+  color: white;
+  background-color: steelblue;
+  box-shadow: 0 -1px 2px 0 rgba(1, 1, 1, 0.2);
+}
+
+
+body {
+  max-width: 950px;
+  margin: 0px auto;
+  margin-bottom: 100px;
+  line-height: 1.75;
+  background-color: whitesmoke;
+}
 
 a {
   text-decoration: none;
-  color: forestgreen; }
-  a:link {
-    color: peru; }
-  a:hover {
-    color: crimson; }
+  color: forestgreen;
+}
+
+a:link {
+  color: peru;
+}
+
+a:hover {
+  color: crimson;
+}
 
 .external-link {
-  position: relative; }
-  .external-link:hover::after {
-    content: '➚';
-    position: absolute;
-    top: -0.75em; }
+  position: relative;
+}
+
+.external-link:hover::after {
+  content: '➚';
+  position: absolute;
+  top: -0.75em;
+}
 
 .python-generated {
-  margin-top: 50px; }
-  .python-generated ul {
-    list-style-type: none; }
+  margin-top: 50px;
+}
+
+.python-generated ul {
+  list-style-type: none;
+}
 
 .this_weeks_topic {
   text-align: center;
-  font-style: italic; }
+  font-style: italic;
+}
 
 .quote {
   font-style: italic;
-  text-align: right; }
+  text-align: right;
+}
 
 .quote-ref {
   font-style: italic;
   text-align: right;
   padding-bottom: 30px;
-  padding-top: 10px; }
+  padding-top: 10px;
+}
 
 .info {
   line-height: 1.5;
   display: inline;
-  text-align: left; }
+  text-align: left;
+}
 
 .right-side-image {
-  float: right; }
-  .right-side-image img {
-    width: 300px; }
-  .right-side-image figcaption {
-    text-align: center; }
+  float: right;
+}
+
+.right-side-image img {
+  width: 300px;
+}
+
+.right-side-image figcaption {
+  text-align: center;
+}
 
 .centered {
-  margin: auto; }
+  margin: auto;
+}
+
+.mono {
+  font-family: monospace;
+}
 
 table {
   line-height: 1.75;
-  text-align: justify; }
+  text-align: justify;
+}
 
 table.alternate_color td {
-  padding: 10px; }
+  padding: 10px;
+}
+
 table.alternate_color tr:nth-child(odd) td {
-  background-color: #f5f5f5; }
+  background-color: #f5f5f5;
+}
+
 table.alternate_color tr:nth-child(even) td {
-  background-color: #fafafa; }
+  background-color: #fafafa;
+}
 
 #notesTable {
   display: grid;
@@ -110,18 +153,29 @@ table.alternate_color tr:nth-child(even) td {
   line-height: 1.25;
   grid-row-gap: 4em;
   align-items: start;
-  font-size: small; }
-  #notesTable h3 {
-    margin: 0;
-    padding: 0.5em;
-    align-self: center; }
-  #notesTable .nestedGrid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    align-items: start;
-    grid-row-gap: 1em;
-    grid-column-gap: 1em;
-    padding: 0.5em;
-    border-left: 2px solid lightgray; }
+  font-size: small;
+}
+
+#notesTable h3 {
+  margin: 0;
+  padding: 0.5em;
+  align-self: center;
+}
+
+#notesTable .nestedGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  align-items: start;
+  grid-row-gap: 1em;
+  grid-column-gap: 1em;
+  padding: 0.5em;
+  border-left: 2px solid lightgray;
+}
+
+.sectionContent {
+  padding-left: 50px;
+  padding-bottom: 50px;
+  padding-right: 25px;
+}
 
 /*# sourceMappingURL=style.css.map */
