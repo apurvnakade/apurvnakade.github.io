@@ -17,10 +17,6 @@
   overflow-y: auto;
 }
 
-#mainText .text, .mainText .text {
-  text-align: justify;
-}
-
 #mainMenu {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto;
