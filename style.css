@@ -43,7 +43,6 @@
   box-shadow: 0 -1px 2px 0 rgba(1, 1, 1, 0.2);
 }
 
-
 body {
   max-width: 950px;
   margin: 0px auto;
@@ -128,9 +127,17 @@ a:hover {
 
 table {
   line-height: 1.75;
-  text-align: justify;
+  text-align: left;
 }
 
+th {
+  font-weight: normal;
+  font-style: italic;
+}
+
+table.alternate_color {
+  width: 100%;
+}
 table.alternate_color td {
   padding: 10px;
 }
