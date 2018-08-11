@@ -53,11 +53,11 @@ body {
 
 a {
   text-decoration: none;
-  color: forestgreen;
+  color: peru;
 }
 
 a:link {
-  color: peru;
+  color: forestgreen;
 }
 
 a:hover {
