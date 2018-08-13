@@ -8,7 +8,7 @@
   
   <url>
     <loc>https://apurvnakade.github.io/blog/art/books/</loc>
-    <lastmod>2018-05-19T00:00:00+00:00</lastmod>
+    <lastmod>2018-08-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -70,6 +70,11 @@
   
   <url>
     <loc>https://apurvnakade.github.io/blog/travel/</loc>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/art/books/rendezvous-with-rama/</loc>
+    <lastmod>2018-08-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -360,6 +365,12 @@
   </url>
   
   <url>
+    <loc>https://apurvnakade.github.io/blog/tags/clarke/</loc>
+    <lastmod>2018-08-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://apurvnakade.github.io/blog/tags/coding/</loc>
     <lastmod>2017-11-11T12:40:44-05:00</lastmod>
     <priority>0</priority>
@@ -414,7 +425,7 @@
   
   <url>
     <loc>https://apurvnakade.github.io/blog/</loc>
-    <lastmod>2018-08-08T00:00:00+00:00</lastmod>
+    <lastmod>2018-08-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -552,7 +563,7 @@
   
   <url>
     <loc>https://apurvnakade.github.io/blog/tags/sci-fi/</loc>
-    <lastmod>2018-05-16T00:00:00+00:00</lastmod>
+    <lastmod>2018-08-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
