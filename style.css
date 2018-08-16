@@ -11,7 +11,7 @@
 #mainText, .mainText {
   margin: auto;
   background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
   margin-top: 75px;
   padding: 20px 30px 40px 30px;
   overflow-y: auto;
@@ -48,7 +48,7 @@ body {
   margin: 0px auto;
   margin-bottom: 100px;
   line-height: 1.75;
-  background-color: whitesmoke;
+  /* background-color: whitesmoke; */
 }
 
 a {
@@ -82,27 +82,9 @@ a:hover {
   list-style-type: none;
 }
 
-.this_weeks_topic {
-  text-align: center;
-  font-style: italic;
-}
-
-.quote {
+.quote, .quote-ref {
   font-style: italic;
   text-align: right;
-}
-
-.quote-ref {
-  font-style: italic;
-  text-align: right;
-  padding-bottom: 30px;
-  padding-top: 10px;
-}
-
-.info {
-  line-height: 1.5;
-  display: inline;
-  text-align: left;
 }
 
 .right-side-image {
@@ -115,10 +97,6 @@ a:hover {
 
 .right-side-image figcaption {
   text-align: center;
-}
-
-.centered {
-  margin: auto;
 }
 
 .mono {
@@ -180,5 +158,3 @@ table.alternate_color tr:nth-child(even) td {
   padding-bottom: 50px;
   padding-right: 25px;
 }
-
-/*# sourceMappingURL=style.css.map */
