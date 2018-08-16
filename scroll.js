@@ -1,29 +1,28 @@
 //variables for storing the top of the sections statically on page load
-var section_top_1, section_top_2, section_top_3, section_top_4, section_top_5;
+var section_top_1, section_top_2, section_top_3, section_top_4, section_top_5, scrollPosition;
 var current_section = 1,
   new_section = 1;
 
-
-  //attach event handlers to right and left arrow keys for 'body'
-  //move menus to right and left on keydown
-  function menuMove() {
-    if (window.event.keyCode == 37) {
-      if (current_section > 1) {
-        current_section--;
-        $('#menu' + current_section)[0].click();
-      }
-    } else if (window.event.keyCode == 39) {
-      if (current_section < 5) {
-        current_section++;
-        $('#menu' + current_section)[0].click();
-      }
+//attach event handlers to right and left arrow keys for 'body'
+//move menus to right and left on keydown
+function menuMove() {
+  if (window.event.keyCode == 37) {
+    if (current_section > 1) {
+      current_section--;
+      $('#menu' + current_section)[0].click();
+    }
+  } else if (window.event.keyCode == 39) {
+    if (current_section < 5) {
+      current_section++;
+      $('#menu' + current_section)[0].click();
     }
   }
+}
 
 //event handler for scroll attached to 'body'
 //change the selected menu depending on the scroll height
 function menuSelect() {
-  var scrollPosition = $(document).scrollTop();
+  scrollPosition = $(document).scrollTop();
 
   if (scrollPosition <= section_top_2 - 100) {
     new_section = 1;
@@ -43,26 +42,32 @@ function menuSelect() {
   }
 }
 
-$(document).ready(function() {
-  //store the top of the sections
-  section_top_1 = $("#itMe").offset().top;
-  section_top_2 = $("#research").offset().top;
-  section_top_3 = $("#funMaths").offset().top;
-  section_top_4 = $("#unmaths").offset().top;
-  section_top_5 = $("#notes").offset().top;
+//compute the tops of various divs
+function computeTops() {
+    //store the top of the sections
+    section_top_1 = $("#itMe").offset().top;
+    section_top_2 = $("#research").offset().top;
+    section_top_3 = $("#funMaths").offset().top;
+    section_top_4 = $("#unmaths").offset().top;
+    section_top_5 = $("#notes").offset().top;
 
+    menuSelect();
+}
+
+$(document).ready(function() {
   //add scroll animation to the internal links in the menubar
   $('a[href^="#"]').on('click', function(e) {
     e.preventDefault();
 
     $target = $(this.hash);
     $('html, body').stop().animate({
-      'scrollTop': $target.offset().top
+      'scrollTop': $target.offset().top - 99
     }, 500, 'swing', function() {});
   });
 
-  window.addEventListener('resize', menuSelect);
+  computeTops();
+  window.addEventListener('resize', computeTops);
+  window.addEventListener('orientationchange', computeTops);
   window.addEventListener('scroll', menuSelect);
-  window.addEventListener('orientationchange', menuSelect);
-  $('body').on('keydown',menuMove);
+  $('body').on('keydown', menuMove);
 });
