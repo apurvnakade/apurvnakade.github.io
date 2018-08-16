@@ -109,7 +109,7 @@ table {
   text-align: left;
 }
 
-th {
+th, td {
   vertical-align: top;
 }
 

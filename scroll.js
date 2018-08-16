@@ -63,5 +63,6 @@ $(document).ready(function() {
 
   window.addEventListener('resize', menuSelect);
   window.addEventListener('scroll', menuSelect);
+  window.addEventListener('orientationchange', menuSelect);
   $('body').on('keydown',menuMove);
 });
