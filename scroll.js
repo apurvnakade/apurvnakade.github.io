@@ -57,7 +57,7 @@ $(document).ready(function() {
 
     $target = $(this.hash);
     $('html, body').stop().animate({
-      'scrollTop': $target.offset().top - 75
+      'scrollTop': $target.offset().top
     }, 500, 'swing', function() {});
   });
 
