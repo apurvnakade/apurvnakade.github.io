@@ -12,7 +12,7 @@
   margin: auto;
   background-color: white;
   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
-  margin-top: 75px;
+  margin-top: 100px;
   padding: 20px 30px 40px 30px;
   overflow-y: auto;
 }
@@ -28,6 +28,7 @@
   z-index: 2;
   background-color: white;
   box-shadow: 0 1px 1px 0 rgba(1, 1, 1, 0.2);
+  line-height: 1.5;
 }
 
 #mainMenu .menuItem {
@@ -109,13 +110,19 @@ table {
 }
 
 th {
-  font-weight: normal;
-  font-style: italic;
+  vertical-align: top;
 }
 
 table.alternate_color {
   width: 100%;
 }
+
+table.alternate_color th {
+  font-weight: normal;
+  font-style: italic;
+  vertical-align: middle;
+}
+
 table.alternate_color td {
   padding: 10px;
 }
