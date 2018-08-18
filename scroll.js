@@ -47,7 +47,7 @@ function computeTops() {
     //store the top of the sections
     section_top_1 = $("#itMe").offset().top;
     section_top_2 = $("#research").offset().top;
-    section_top_3 = $("#funMaths").offset().top;
+    section_top_3 = $("#teaching").offset().top;
     section_top_4 = $("#unmaths").offset().top;
     section_top_5 = $("#notes").offset().top;
 
@@ -61,8 +61,10 @@ $(document).ready(function() {
 
     $target = $(this.hash);
     $('html, body').stop().animate({
-      'scrollTop': $target.offset().top - 99
-    }, 500, 'swing', function() {});
+      'scrollTop': $target.offset().top
+    }, 500, 'swing', function() {
+      window.location = '#' + $target.attr('id');
+    });
   });
 
   computeTops();
