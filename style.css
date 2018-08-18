@@ -34,7 +34,7 @@
 #mainMenu .menuItem {
   color: black;
   width: 100%;
-  font-family: cursive;
+  font-family: 'Luckiest Guy', cursive;
   text-align: center;
 }
 
@@ -48,8 +48,15 @@ body {
   max-width: 950px;
   margin: 0px auto;
   margin-bottom: 100px;
-  line-height: 1.75;
+  line-height: 2;
+  text-align: justify;
   /* background-color: whitesmoke; */
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+  padding-bottom: 1em;
+  text-align: justify;
 }
 
 a {
@@ -114,13 +121,20 @@ a:hover {
   text-align: center;
 }
 
-.mono {
-  font-family: monospace;
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Slab', sans-serif;
 }
 
 table {
-  line-height: 1.75;
+  line-height: 2;
+}
+
+th {
   text-align: left;
+}
+
+td {
+  text-align: justify;
 }
 
 th, td {
