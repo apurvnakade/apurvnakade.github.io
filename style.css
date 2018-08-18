@@ -65,6 +65,20 @@ a:hover {
   color: crimson;
 }
 
+.hasDescription {
+  cursor: pointer;
+  color: crimson;
+  padding-left: 1ex;
+}
+
+.descriptionCollapsed {
+  transition: opacity 1s ease-out;
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+  font-size: small;
+}
+
 .external-link {
   position: relative;
 }
