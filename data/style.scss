@@ -85,6 +85,9 @@ a {
     color: crimson;
   }
 }
+ul {
+  margin: auto;
+}
 
 .hasDescription {
   cursor: pointer;
@@ -168,7 +171,16 @@ table.alternate_color {
   }
 }
 
-
+table.two-column-data {
+  border-spacing:0 1em;
+  th:nth-child(1), td:nth-child(1) {
+    border-right: medium solid #eee;
+    padding-right: 1ex;
+  }
+  td:nth-child(2) {
+    padding-left: 1ex;
+  }
+}
 
 
 // used by the main apurvnakade.github.io

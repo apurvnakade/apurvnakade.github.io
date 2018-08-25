@@ -66,6 +66,9 @@ a {
   a:hover {
     color: crimson; }
 
+ul {
+  margin: auto; }
+
 .hasDescription {
   cursor: pointer;
   color: crimson;
@@ -127,6 +130,14 @@ table.alternate_color {
   table.alternate_color tr:nth-child(even) td {
     background-color: #fafafa; }
 
+table.two-column-data {
+  border-spacing: 0 1em; }
+  table.two-column-data th:nth-child(1), table.two-column-data td:nth-child(1) {
+    border-right: medium solid #eee;
+    padding-right: 1ex; }
+  table.two-column-data td:nth-child(2) {
+    padding-left: 1ex; }
+
 #notesTable {
   display: grid;
   grid-template-columns: 18ex 1fr;
@@ -146,3 +157,5 @@ table.alternate_color {
     grid-column-gap: 1em;
     padding: 0.5em;
     border-left: 2px solid lightgray; }
+
+/*# sourceMappingURL=style.css.map */
