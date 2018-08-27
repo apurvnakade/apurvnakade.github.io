@@ -23,6 +23,11 @@
   p {
     text-align: justify;
   }
+
+  table.two-column-data {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .mainText, #mainText {
@@ -172,9 +177,13 @@ table.alternate_color {
 }
 
 table.two-column-data {
-  border-spacing:0 1em;
+  border-spacing:0 0.5em;
+  line-height: 1.5em;
+  font-size: 0.9em;
+  margin-top: 1em;
+  margin-bottom: 1em;
   th:nth-child(1), td:nth-child(1) {
-    border-right: medium solid #eee;
+    // border-right: medium solid #eee;
     padding-right: 1ex;
   }
   td:nth-child(2) {
