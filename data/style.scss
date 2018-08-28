@@ -3,39 +3,42 @@
   .two-column-responsive {
     display: grid;
     grid-template-columns: auto;
+
     figure {
       text-align: center;
     }
   }
+
   #mainMenu {
     font-size: x-small;
   }
 }
-
 @media (min-width: 800px) {
   .two-column-responsive {
     display: grid;
     grid-template-columns: auto auto;
+
     figure {
       align-self: center;
     }
   }
+
   p {
     text-align: justify;
   }
 
   table.two-column-data {
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 2em;
   }
 }
 
-.mainText, #mainText {
+#mainText,
+.mainText {
   margin: auto;
   background-color: white;
   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
   margin-top: 100px;
-  padding: 20px 30px 40px 30px;
+  padding: 20px 30px 40px;
   overflow-y: auto;
 }
 
@@ -43,8 +46,8 @@
   display: grid;
   grid-template-columns: auto auto auto auto auto auto;
   position: fixed;
-  top: 0px;
-  left: 0px;
+  top: 0;
+  left: 0;
   width: 100%;
   justify-items: center;
   z-index: 2;
@@ -66,13 +69,10 @@
   }
 }
 
-
 body {
   max-width: 950px;
-  margin: 0px auto;
-  margin-bottom: 100px;
+  margin: 0 auto 100px;
   line-height: 2;
-  /* background-color: whitesmoke; */
   font-family: 'Roboto', sans-serif;
 }
 
@@ -83,13 +83,16 @@ p {
 a {
   text-decoration: none;
   color: peru;
+
   &:link {
     color: forestgreen;
   }
+
   &:hover {
     color: crimson;
   }
 }
+
 ul {
   margin: auto;
 }
@@ -110,6 +113,7 @@ ul {
 
 .external-link {
   position: relative;
+
   &:hover::after {
     content: '➚';
     position: absolute;
@@ -119,6 +123,7 @@ ul {
 
 .python-generated {
   margin-top: 50px;
+
   ul {
     list-style-type: none;
   }
@@ -127,7 +132,7 @@ ul {
 .quote {
   font-style: italic;
   text-align: right;
-  padding-bottom:0;
+  padding-bottom: 0;
   margin-bottom: 0;
 }
 
@@ -139,58 +144,72 @@ ul {
   img {
     max-width: 300px;
   }
+
   figcaption {
     text-align: center;
   }
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Roboto Slab', sans-serif;
 }
 
 table {
   line-height: 2;
-  th, td {
+
+  td,
+  th {
     vertical-align: top;
   }
+
   th {
     text-align: left;
   }
-}
 
-table.alternate_color {
-  width: 100%;
-  th {
-    font-weight: normal;
-    font-style: italic;
-    vertical-align: middle;
+  &.alternate_color {
+    width: 100%;
+
+    th {
+      font-weight: normal;
+      font-style: italic;
+      vertical-align: middle;
+    }
+
+    td {
+      padding: 1ex;
+    }
+
+    tr:nth-child(odd) td {
+      background-color: #f5f5f5;
+    }
+
+    tr:nth-child(even) td {
+      background-color: #fafafa;
+    }
   }
-  td {
-    padding: 1ex;
-  }
-  tr:nth-child(odd) td {
-    background-color: #f5f5f5;
-  }
-  tr:nth-child(even) td {
-    background-color: #fafafa;
+
+  &.two-column-data {
+    border-spacing: 0 0.5em;
+    line-height: 1.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+    td:nth-child(1),
+    th:nth-child(1) {
+      // border-right: medium solid #eee;
+      padding-right: 1ex;
+    }
+
+    td:nth-child(2) {
+      padding-left: 1ex;
+    }
   }
 }
-
-table.two-column-data {
-  border-spacing:0 0.5em;
-  line-height: 1.5em;
-  font-size: 0.9em;
-  margin-top: 1em;
-  margin-bottom: 1em;
-  th:nth-child(1), td:nth-child(1) {
-    // border-right: medium solid #eee;
-    padding-right: 1ex;
-  }
-  td:nth-child(2) {
-    padding-left: 1ex;
-  }
-}
-
 
 // used by the main apurvnakade.github.io
 // consider putting in a separate file
@@ -201,11 +220,13 @@ table.two-column-data {
   grid-row-gap: 4em;
   align-items: start;
   font-size: small;
+
   h3 {
     margin: 0;
     padding: 0.5em;
     align-self: center;
   }
+
   .nestedGrid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
