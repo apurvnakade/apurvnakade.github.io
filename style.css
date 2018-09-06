@@ -137,15 +137,17 @@ table {
     table.alternate_color tr:nth-child(even) td {
       background-color: #fafafa; }
   table.two-column-data {
-    border-spacing: 0 0.5em;
+    border-spacing: 0 1.5em;
     line-height: 1.5em;
     margin-top: 1em;
     margin-bottom: 1em; }
     table.two-column-data td:nth-child(1),
     table.two-column-data th:nth-child(1) {
-      padding-right: 1ex; }
+      padding-right: 1ex;
+      width: 3.5em; }
     table.two-column-data td:nth-child(2) {
-      padding-left: 1ex; }
+      padding-left: 1ex;
+      border-left: 1px solid cadetblue; }
 
 #notesTable {
   display: grid;
