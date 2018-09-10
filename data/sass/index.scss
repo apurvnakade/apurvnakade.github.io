@@ -1,0 +1,80 @@
+@media (max-width: 800px) {
+  #mainMenu {
+    font-size: x-small;
+  }
+}
+#mainMenu {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  justify-items: center;
+  z-index: 2;
+  background-color: white;
+  box-shadow: 0 1px 1px 0 rgba(1, 1, 1, 0.2);
+  line-height: 1.5;
+
+  .menuItem {
+    color: black;
+    width: 100%;
+    font-family: 'Luckiest Guy', cursive;
+    text-align: center;
+  }
+
+  .menuSelected {
+    color: white;
+    background-color: steelblue;
+    box-shadow: 0 -1px 2px 0 rgba(1, 1, 1, 0.2);
+  }
+}
+
+.hasDescription {
+  cursor: pointer;
+  color: crimson;
+  padding-left: 1ex;
+}
+
+.descriptionCollapsed {
+  transition: opacity 1s ease-out;
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+  font-size: small;
+}
+
+.right-side-image {
+  img {
+    max-width: 300px;
+  }
+
+  figcaption {
+    text-align: center;
+  }
+}
+
+#notesTable {
+  display: grid;
+  grid-template-columns: 18ex 1fr;
+  line-height: 1.25;
+  grid-row-gap: 4em;
+  align-items: start;
+  font-size: small;
+
+  h3 {
+    margin: 0;
+    padding: 0.5em;
+    align-self: center;
+  }
+
+  .nestedGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    align-items: start;
+    grid-row-gap: 1em;
+    grid-column-gap: 1em;
+    padding: 0.5em;
+    border-left: 2px solid lightgray;
+  }
+}
