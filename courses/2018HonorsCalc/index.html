@@ -4,7 +4,31 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="../../style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function() {
+    console.log("hello");
+  //add scroll animation to the internal links in the menubar
+  $('a[href^="#"]').on('click', function(e) {
+    e.preventDefault();
+
+    $target = $(this.hash);
+    $('html, body').stop().animate({
+      'scrollTop': $target.offset().top
+    }, 500, 'swing', function() {
+      window.location = '#' + $target.attr('id');
+    });
+  });
+});
+  </script>
   <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab:300" rel="stylesheet">
+  <style media="screen">
+    h2 {
+      padding-top: 2em;
+      padding-bottom: 1em;
+      text-decoration: underline;
+    }
+  </style>
   <title> Honors Single Variable Calculus (IBL)</title>
 </head>
 
@@ -17,11 +41,11 @@
     </p>
     <table class="two-column-data">
       <tr class="highlight_row">
-        <td>Sep 14</td>
+        <td>Sep 16</td>
         <td>
           <ul>
             <li>
-              For <b>Mon Sep, 17</b>:
+              For <b>Mon, Sep 17</b>:
               <ul>
                 <li>
                   Read <i>Chapter 6: Continuous Functions</i>
@@ -29,6 +53,17 @@
                 <li> HW 2 is due.</li>
               </ul>
             </li>
+              <li>
+                For <b>Wed, Sep 19</b>:
+                <ul>
+                  <li>
+                    Read from the beginning of <i>Chapter 8: Least Upper Bounds</i> upto the statement of <i>Theorem 7-1</i>.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                Information about <a href="#OptionalProject">Optional Project</a> updated.
+              </li>
           </ul>
         </td>
       </tr>
@@ -148,15 +183,27 @@
         <tr>
           <th>20% <br> Final Exam&nbsp;&nbsp;&nbsp;&nbsp;</th>
           <td>
-            <p>We'll cross this bridge when we get to it.</p>
+            <p>We'll cross this bridge when we get to it.
+              <br>Date for the final: <a href="https://studentaffairs.jhu.edu/registrar/wp-content/uploads/sites/23/2018/08/Fall-2018-Final-Exam-Schedule-final.pdf">9 AM-12 PM Thursday, December 13</a>.
+            </p>
           </td>
         </tr>
       </table>
 
-      <h3 class="">Optional Project</h3>
-      <p>You have an option of doing a reading project in this class. If you choose to do a project, I'll reduce the weight of the final exam for you. You are free to come up with your own topics. For the project you'll have to submit a written
-        report at
-        the end of the semester. We'll discuss this in more detail around the "fall break".</p>
+      <h2 class="" id="OptionalProject">Optional Project</h2>
+      <p>You have an option of doing a project in this class. If you choose to do a project, I'll reduce the weight of the final exam to 10%. There are two kinds of projects that you can do.</p>
+        <ol>
+          <li>If you have never taken Calc 2 before or would like to review whatever you have learnt what feels like a century ago, I'll assign you problems from the Differentiation and Integration chapters when we get to them which you can solve and submit along with the HWs. This way you don't just learn proofs but also learn/review the computational aspect of Calculus. <br> <br> </li>
+          <li>You could read a mathematical topic related to Calculus that is typically not covered in a standard Calculus sequence. In this case, you'll have to submit a written report at the end of the semester. The report will have to be written in a Definition-Theorem-Proof format. Some examples include:
+            <ul>
+              <li>Topics from Real Analysis (Heine-Borel theorem etc.)</li>
+              <li>Set Theory (construction of reals, axiom of choice etc.)</li>
+              <li>Measure Theory (what is Measure?, construction of non-measurable sets etc.)</li>
+            </ul>
+            These are just some suggestions, you can come up with your own topics.
+          </li>
+        </ol>
+        If you're interested, talk to me during office hours sometime <b>before the end of September</b> and we can figure out what an appropriate project would be for you.
   </div>
 </body>
 
