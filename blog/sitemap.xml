@@ -8,7 +8,7 @@
   
   <url>
     <loc>https://apurvnakade.github.io/blog/art/books/</loc>
-    <lastmod>2018-08-12T00:00:00+00:00</lastmod>
+    <lastmod>2018-09-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -41,7 +41,7 @@
   
   <url>
     <loc>https://apurvnakade.github.io/blog/art/movies/</loc>
-    <lastmod>2018-03-31T20:00:00+00:00</lastmod>
+    <lastmod>2018-09-26T20:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -70,6 +70,16 @@
   
   <url>
     <loc>https://apurvnakade.github.io/blog/travel/</loc>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/art/movies/night-is-short-walk-on-girl/</loc>
+    <lastmod>2018-09-26T20:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/art/books/neuromancer/</loc>
+    <lastmod>2018-09-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -333,6 +343,12 @@
   </url>
   
   <url>
+    <loc>https://apurvnakade.github.io/blog/tags/anime/</loc>
+    <lastmod>2018-09-26T20:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://apurvnakade.github.io/blog/tags/asimov/</loc>
     <lastmod>2018-05-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -399,7 +415,13 @@
   
   <url>
     <loc>https://apurvnakade.github.io/blog/tags/comedy/</loc>
-    <lastmod>2018-03-31T20:00:00+00:00</lastmod>
+    <lastmod>2018-09-26T20:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/tags/cyberpunk/</loc>
+    <lastmod>2018-09-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -439,8 +461,14 @@
   </url>
   
   <url>
+    <loc>https://apurvnakade.github.io/blog/tags/gibson/</loc>
+    <lastmod>2018-09-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://apurvnakade.github.io/blog/</loc>
-    <lastmod>2018-08-23T00:00:00+00:00</lastmod>
+    <lastmod>2018-09-26T20:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -583,7 +611,7 @@
   
   <url>
     <loc>https://apurvnakade.github.io/blog/tags/sci-fi/</loc>
-    <lastmod>2018-08-12T00:00:00+00:00</lastmod>
+    <lastmod>2018-09-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
