@@ -6,26 +6,25 @@
   <link rel="stylesheet" href="../../style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script type="text/javascript">
-  $(document).ready(function() {
-    console.log("hello");
-  //add scroll animation to the internal links in the menubar
-  $('a[href^="#"]').on('click', function(e) {
-    e.preventDefault();
+    $(document).ready(function() {
+      console.log("hello");
+      //add scroll animation to the internal links in the menubar
+      $('a[href^="#"]').on('click', function(e) {
+        e.preventDefault();
 
-    $target = $(this.hash);
-    $('html, body').stop().animate({
-      'scrollTop': $target.offset().top
-    }, 500, 'swing', function() {
-      window.location = '#' + $target.attr('id');
+        $target = $(this.hash);
+        $('html, body').stop().animate({
+          'scrollTop': $target.offset().top
+        }, 500, 'swing', function() {
+          window.location = '#' + $target.attr('id');
+        });
+      });
     });
-  });
-});
   </script>
   <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab:300" rel="stylesheet">
   <style media="screen">
     h2 {
-      padding-top: 2em;
-      padding-bottom: 1em;
+      padding-top: 3em;
       text-decoration: underline;
     }
   </style>
@@ -44,17 +43,13 @@
         <td>Sep 25</td>
         <td>
           <ul>
-            <li>For <b>Mon Sep 31: </b>
-            <ul>
-              <li>Read <i>Chapter 9: Derivatives</i> from the book.
-                <li>HW 4 is due.</li>
-              </li>
-            </ul></li>
-            <li>For <b>Wed Oct 03:
+            <li>For <b>Mon, Oct 01: </b>
               <ul>
-                <li></li>
-              </ul>
+                <li>Read <i>Chapter 9: Derivatives</i> from the book.
+                <li>HW 4 is due.</li>
             </li>
+          </ul>
+          </li>
           </ul>
         </td>
       </tr>
@@ -63,13 +58,13 @@
         <td>
           <ul>
             <li>
-              For Mon Sep 24:
+              For Mon, Sep 24:
               <ul>
                 <li>There's no reading assignment for this weekend. <br>Instead the journal is due. (I'll return it to you on Wednesday.)
                 <li>We'll be starting with Differentiation next week. So make sure to go over all the chapters we have covered so far and clear out all the lingering doubts.</li>
-                </li>
-              </ul>
             </li>
+          </ul>
+          </li>
           </ul>
         </td>
       </tr>
@@ -86,17 +81,17 @@
                 <li> HW 2 is due.</li>
               </ul>
             </li>
-              <li>
-                For Wed, Sep 19:
-                <ul>
-                  <li>
-                    Read from the beginning of <i>Chapter 8: Least Upper Bounds</i> upto the statement of <i>Theorem 7-1</i>.
-                  </li>
-                </ul>
-              </li>
-              <li>
-                Information about <a href="#OptionalProject">Optional Project</a> updated.
-              </li>
+            <li>
+              For Wed, Sep 19:
+              <ul>
+                <li>
+                  Read from the beginning of <i>Chapter 8: Least Upper Bounds</i> upto the statement of <i>Theorem 7-1</i>.
+                </li>
+              </ul>
+            </li>
+            <li>
+              Information about <a href="#OptionalProject">Optional Project</a> updated.
+            </li>
           </ul>
         </td>
       </tr>
@@ -137,9 +132,8 @@
             <li>
               Attempt all the problems in the first problem set by Wed, Sept 05.
             </li>
-            <li>Read <a class="external-link"
-            target="_blank" href="https://www.math.hmc.edu/~su/math131/good-math-writing.pdf">
-          Some Guidelines for Good Mathematical Writing.</a>
+            <li>Read <a class="external-link" target="_blank" href="https://www.math.hmc.edu/~su/math131/good-math-writing.pdf">
+                Some Guidelines for Good Mathematical Writing.</a>
             </li>
           </ul>
         </td>
@@ -149,26 +143,19 @@
         <td>The website is live. Problem sets etc. will be posted here.</td>
       </tr>
     </table>
-    <br>
 
+<!--
     <h2 class="">General Information</h2>
     <figure>
-      <a
-      href="https://xkcd.com/626/"
-      title="xkcd.com/626"
-      class="external-link"
-      target="_blank">
-              <img src="https://imgs.xkcd.com/comics/newton_and_leibniz.png" width="100%">
-            </a>
+      <a href="https://xkcd.com/626/" title="xkcd.com/626" class="external-link" target="_blank">
+        <img src="https://imgs.xkcd.com/comics/newton_and_leibniz.png" width="100%">
+      </a>
       <br><br>
-
     </figure>
     <div class="quote">“The only way to learn mathematics is to do mathematics.”</div>
     <div class="quote-ref">- Paul Halmos</div>
     <p>The textbook for this class is <b>Calculus, 4th Edition, Spivak</b>. We'll use this book only as a reference, it is ok to have a different edition. I'll be assigning reading assignments from the book. The official syllabus can be found <a
-    class="external-link"
-    target="_blank"
-        href="http://mathematics.jhu.edu/wp-content/uploads/sites/62/2015/07/110.113HonorsSingleVariableCalculusSyllabus.pdf">here</a>. Info about office hours etc. can be found <a href="../../index.html">here</a>.</p>
+        class="external-link" target="_blank" href="http://mathematics.jhu.edu/wp-content/uploads/sites/62/2015/07/110.113HonorsSingleVariableCalculusSyllabus.pdf">here</a>. Info about office hours etc. can be found <a href="../../index.html">here</a>.</p>
     <p> This class will be structured in the mode of Inquiry Based Learning. There will hardly be any lectures to prove things for you. Instead, you will prove the propositions yourself and explain your proofs to each other. The environment of an
       IBL classroom
       is collaborative and not competitive. There are three primary goals for this class.
@@ -180,7 +167,7 @@
     </p>
 
     <p>The first half of the class will be very theoretical and focused on writing proofs, the second half will be focused on standard calculus techniques (while still doing some proofs).
-
+-->
       <h2 class="" id="GradingScheme">Grading Scheme</h2>
       <table>
         <tr>
@@ -216,8 +203,7 @@
         <tr>
           <th>20% <br> Final Exam&nbsp;&nbsp;&nbsp;&nbsp;</th>
           <td>
-            <p>We'll cross this bridge when we get to it.
-              <br>Date for the final: <a href="https://studentaffairs.jhu.edu/registrar/wp-content/uploads/sites/23/2018/08/Fall-2018-Final-Exam-Schedule-final.pdf">9 AM-12 PM Thursday, December 13</a>.
+            <p>Date for the final exam: <b><a href="https://studentaffairs.jhu.edu/registrar/wp-content/uploads/sites/23/2018/08/Fall-2018-Final-Exam-Schedule-final.pdf">9 AM-12 PM Thursday, December 13</a></b>.
             </p>
           </td>
         </tr>
@@ -225,18 +211,20 @@
 
       <h2 class="" id="OptionalProject">Optional Project</h2>
       <p>You have an option of doing a project in this class. If you choose to do a project, I'll reduce the weight of the final exam to 10%. There are two kinds of projects that you can do.</p>
-        <ol>
-          <li>If you have never taken Calc 2 before or would like to review whatever you have learnt what feels like a century ago, I'll assign you problems from the Differentiation and Integration chapters when we get to them which you can solve and submit along with the HWs. This way you don't just learn proofs but also learn/review the computational aspect of Calculus. <br> <br> </li>
-          <li>You could read a mathematical topic related to Calculus that is typically not covered in a standard Calculus sequence. In this case, you'll have to submit a written report at the end of the semester. The report will have to be written in a Definition-Theorem-Proof format. Some examples include:
-            <ul>
-              <li>Topics from Real Analysis (Heine-Borel theorem etc.)</li>
-              <li>Set Theory (construction of reals, axiom of choice etc.)</li>
-              <li>Measure Theory (what is Measure?, construction of non-measurable sets etc.)</li>
-            </ul>
-            These are just some suggestions, you can come up with your own topics.
-          </li>
-        </ol>
-        If you're interested, talk to me during office hours sometime <b>before the end of September</b> and we can figure out what an appropriate project would be for you.
+      <ol>
+        <li>If you have never taken Calc 2 before or would like to review whatever you have learnt what feels like a century ago, I'll assign you problems from the Differentiation and Integration chapters when we get to them which you can solve and
+          submit along with the HWs. This way you don't just learn proofs but also learn/review the computational aspect of Calculus. <br> <br> </li>
+        <li>You could read a mathematical topic related to Calculus that is typically not covered in a standard Calculus sequence. In this case, you'll have to submit a written report at the end of the semester. The report will have to be written in
+          a Definition-Theorem-Proof format. Some examples include:
+          <ul>
+            <li>Topics from Real Analysis (Heine-Borel theorem etc.)</li>
+            <li>Set Theory (construction of reals, axiom of choice etc.)</li>
+            <li>Measure Theory (what is Measure?, construction of non-measurable sets etc.)</li>
+          </ul>
+          These are just some suggestions, you can come up with your own topics.
+        </li>
+      </ol>
+      If you're interested, talk to me during office hours sometime <b>before the end of September</b> and we can figure out what an appropriate project would be for you.
   </div>
 </body>
 
