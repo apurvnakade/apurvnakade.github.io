@@ -6,12 +6,14 @@ var current_section = 1,
 //attach event handlers to right and left arrow keys for 'body'
 //move menus to right and left on keydown
 function menuMove() {
-  if (window.event.keyCode == 37) {
+  if (window.event.keyCode == 37 /*left key*/
+    || (window.event.keyCode == 32 && window.event.shiftKey) /*shift+spacebar*/) {
     if (current_section > 1) {
       current_section--;
       $('#menu' + current_section)[0].click();
     }
-  } else if (window.event.keyCode == 39) {
+  } else if (window.event.keyCode == 39 /*left key*/
+  || (window.event.keyCode == 32 && !window.event.shiftKey) /*spacebar*/) {
     if (current_section < 5) {
       current_section++;
       $('#menu' + current_section)[0].click();

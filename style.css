@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @media (max-width: 800px) {
   #mainMenu {
-    font-size: x-small; } }
+    font-size: small; } }
 #mainMenu {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto;
