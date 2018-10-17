@@ -1,20 +1,21 @@
 //variables for storing the top of the sections statically on page load
-var section_top_1, section_top_2, section_top_3, section_top_4, section_top_5, scrollPosition;
-var current_section = 1,
-  new_section = 1;
+var section_top = new Array();
+var scrollPosition;
+var current_section = 0,
+  new_section = 0;
 
 //attach event handlers to right and left arrow keys for 'body'
 //move menus to right and left on keydown
 function menuMove() {
   if (window.event.keyCode == 37 /*left key*/
     || (window.event.keyCode == 32 && window.event.shiftKey) /*shift+spacebar*/) {
-    if (current_section > 1) {
+    if (current_section > 0) {
       current_section--;
       $('#menu' + current_section)[0].click();
     }
   } else if (window.event.keyCode == 39 /*left key*/
   || (window.event.keyCode == 32 && !window.event.shiftKey) /*spacebar*/) {
-    if (current_section < 5) {
+    if (current_section < 3) {
       current_section++;
       $('#menu' + current_section)[0].click();
     }
@@ -25,17 +26,16 @@ function menuMove() {
 //change the selected menu depending on the scroll height
 function menuSelect() {
   scrollPosition = $(document).scrollTop();
-
-  if (scrollPosition <= section_top_2 - 100) {
+  console.log(scrollPosition);
+  console.log(new_section);
+  if (scrollPosition <= section_top[1] - 100) {
+    new_section = 0;
+  } else if (scrollPosition <= section_top[2] - 100) {
     new_section = 1;
-  } else if (scrollPosition <= section_top_3 - 100) {
+  } else if (scrollPosition <= section_top[3] - 100) {
     new_section = 2;
-  } else if (scrollPosition <= section_top_4 - 100) {
-    new_section = 3;
-  } else if (scrollPosition <= section_top_5 - 100) {
-    new_section = 4;
   } else {
-    new_section = 5;
+    new_section = 3;
   }
   if (new_section != current_section) {
     $("#menu" + current_section).removeClass("menuSelected");
@@ -47,12 +47,12 @@ function menuSelect() {
 //compute the tops of various divs
 function computeTops() {
     //store the top of the sections
-    section_top_1 = $("#itMe").offset().top;
-    section_top_2 = $("#research").offset().top;
-    section_top_3 = $("#teaching").offset().top;
-    section_top_4 = $("#unmaths").offset().top;
-    section_top_5 = $("#notes").offset().top;
-
+    section_top[0] = $("#itMe").offset().top;
+    // section_top_2 = $("#research").offset().top;
+    section_top[1] = $("#teaching").offset().top;
+    section_top[2] = $("#unmaths").offset().top;
+    section_top[3] = $("#notes").offset().top;
+    console.log(section_top);
     menuSelect();
 }
 
@@ -64,7 +64,7 @@ $(document).ready(function() {
     $target = $(this.hash);
     $('html, body').stop().animate({
       'scrollTop': $target.offset().top
-    }, 500, 'swing', function() {
+    }, 300, 'swing', function() {
       window.location = '#' + $target.attr('id');
     });
   });

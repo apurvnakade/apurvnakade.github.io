@@ -4,7 +4,7 @@
     font-size: small; } }
 #mainMenu {
   display: grid;
-  grid-template-columns: auto auto auto auto auto auto;
+  grid-template-columns: auto auto auto auto auto;
   position: fixed;
   top: 0;
   left: 0;
@@ -13,12 +13,13 @@
   z-index: 2;
   background-color: white;
   box-shadow: 0 1px 1px 0 rgba(1, 1, 1, 0.2);
-  line-height: 1.5; }
+  line-height: 2; }
   #mainMenu .menuItem {
     color: black;
     width: 100%;
-    font-family: 'Luckiest Guy', cursive;
-    text-align: center; }
+    font-family: 'mono', 'Luckiest Guy', cursive;
+    text-align: center;
+    font-weight: bold; }
   #mainMenu .menuSelected {
     color: white;
     background-color: steelblue;
