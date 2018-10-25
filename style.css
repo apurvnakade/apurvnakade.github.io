@@ -1,29 +1,41 @@
 @charset "UTF-8";
 @media (max-width: 800px) {
   #mainMenu {
-    font-size: small; } }
+    font-size: small;
+    grid-template-columns: 0% auto auto auto auto auto auto;
+    left: 0;
+    width: 100%;
+    line-height: 2em; } }
+@media (min-width: 800px) {
+  #mainMenu {
+    font-size: normal;
+    grid-template-columns: auto 10% 10% 10% 10% 10% 10%;
+    left: 10%;
+    width: 80%;
+    line-height: 2em;
+    transition-duration: 0.15s; }
+    #mainMenu:hover {
+      line-height: 4em; } }
 #mainMenu {
   display: grid;
-  grid-template-columns: auto auto auto auto auto;
   position: fixed;
   top: 0;
-  left: 0;
-  width: 100%;
-  justify-items: center;
   z-index: 2;
   background-color: white;
-  box-shadow: 0 1px 1px 0 rgba(1, 1, 1, 0.2);
-  line-height: 2; }
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  font-family: 'Roboto Slab', sans-serif; }
+  #mainMenu #menuTitle {
+    font-size: Large;
+    padding-left: 3em; }
   #mainMenu .menuItem {
     color: black;
     width: 100%;
-    font-family: 'mono', 'Luckiest Guy', cursive;
+    align-self: center;
     text-align: center;
     font-weight: bold; }
   #mainMenu .menuSelected {
     color: white;
-    background-color: steelblue;
-    box-shadow: 0 -1px 2px 0 rgba(1, 1, 1, 0.2); }
+    background-color: steelblue; }
 
 .hasDescription {
   cursor: pointer;

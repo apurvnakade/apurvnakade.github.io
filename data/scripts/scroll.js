@@ -15,7 +15,7 @@ function menuMove() {
     }
   } else if (window.event.keyCode == 39 /*left key*/
   || (window.event.keyCode == 32 && !window.event.shiftKey) /*spacebar*/) {
-    if (current_section < 3) {
+    if (current_section < 4) {
       current_section++;
       $('#menu' + current_section)[0].click();
     }
@@ -26,16 +26,16 @@ function menuMove() {
 //change the selected menu depending on the scroll height
 function menuSelect() {
   scrollPosition = $(document).scrollTop();
-  console.log(scrollPosition);
-  console.log(new_section);
   if (scrollPosition <= section_top[1] - 100) {
     new_section = 0;
   } else if (scrollPosition <= section_top[2] - 100) {
     new_section = 1;
   } else if (scrollPosition <= section_top[3] - 100) {
     new_section = 2;
-  } else {
+  } else if (scrollPosition <= section_top[4] - 100) {
     new_section = 3;
+  } else {
+    new_section = 4;
   }
   if (new_section != current_section) {
     $("#menu" + current_section).removeClass("menuSelected");
@@ -48,11 +48,10 @@ function menuSelect() {
 function computeTops() {
     //store the top of the sections
     section_top[0] = $("#itMe").offset().top;
-    // section_top_2 = $("#research").offset().top;
-    section_top[1] = $("#teaching").offset().top;
-    section_top[2] = $("#unmaths").offset().top;
-    section_top[3] = $("#notes").offset().top;
-    console.log(section_top);
+    section_top[1] = $("#research").offset().top;
+    section_top[2] = $("#teaching").offset().top;
+    section_top[3] = $("#unmaths").offset().top;
+    section_top[4] = $("#notes").offset().top;
     menuSelect();
 }
 
