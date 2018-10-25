@@ -1,38 +1,29 @@
 @charset "UTF-8";
-@media (max-width: 800px) {
-  #mainMenu {
-    font-size: small;
-    grid-template-columns: 0% auto auto auto auto auto auto;
-    left: 0;
-    width: 100%;
-    line-height: 2em; } }
 @media (min-width: 800px) {
   #mainMenu {
-    font-size: normal;
-    grid-template-columns: auto 10% 10% 10% 10% 10% 10%;
-    left: 10%;
-    width: 80%;
-    line-height: 2em;
     transition-duration: 0.15s; }
     #mainMenu:hover {
-      line-height: 4em; } }
+      line-height: 6em; } }
 #mainMenu {
   display: grid;
   position: fixed;
   top: 0;
   z-index: 2;
   background-color: white;
+  font-size: small;
+  font-weight: bold;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-  font-family: 'Roboto Slab', sans-serif; }
-  #mainMenu #menuTitle {
-    font-size: Large;
-    padding-left: 3em; }
+  font-family: 'Roboto Slab', sans-serif;
+  grid-template-columns: auto auto auto auto auto auto;
+  max-width: 1050px;
+  width: 100%;
+  margin: auto;
+  line-height: 2em; }
   #mainMenu .menuItem {
     color: black;
     width: 100%;
     align-self: center;
-    text-align: center;
-    font-weight: bold; }
+    text-align: center; }
   #mainMenu .menuSelected {
     color: white;
     background-color: steelblue; }
@@ -73,6 +64,13 @@
     grid-column-gap: 1em;
     padding: 0.5em;
     border-left: 2px solid lightgray; }
+
+figure.JHULogo {
+  text-align: center;
+  padding-top: 4em; }
+
+figure.JHULogo img {
+  width: 80%; }
 
 @media (min-width: 800px) {
   table.two-column-data {
@@ -133,7 +131,6 @@ a {
 .mainText {
   margin: auto;
   background-color: white;
-  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
   margin-top: 100px;
   padding: 20px 30px 40px;
   overflow-y: auto; }

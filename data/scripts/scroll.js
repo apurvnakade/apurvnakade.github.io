@@ -50,8 +50,8 @@ function computeTops() {
     section_top[0] = $("#itMe").offset().top;
     section_top[1] = $("#research").offset().top;
     section_top[2] = $("#teaching").offset().top;
-    section_top[3] = $("#unmaths").offset().top;
-    section_top[4] = $("#notes").offset().top;
+    section_top[3] = $("#notes").offset().top;
+    section_top[4] = $("#unmaths").offset().top;
     menuSelect();
 }
 
@@ -63,7 +63,7 @@ $(document).ready(function() {
     $target = $(this.hash);
     $('html, body').stop().animate({
       'scrollTop': $target.offset().top
-    }, 300, 'swing', function() {
+    }, 200, 'swing', function() {
       window.location = '#' + $target.attr('id');
     });
   });

@@ -1,23 +1,8 @@
-@media (max-width: 800px) {
-  #mainMenu {
-    font-size: small;
-    grid-template-columns: 0% auto auto auto auto auto auto;
-    left: 0;
-    width: 100%;
-    line-height: 2em;
-  }
-}
-
 @media (min-width: 800px) {
   #mainMenu {
-    font-size: normal;
-    grid-template-columns: auto 10% 10% 10% 10% 10% 10%;
-    left: 10%;
-    width: 80%;
-    line-height: 2em;
     transition-duration: 0.15s;
     &:hover {
-      line-height: 4em;
+      line-height: 6em;
     }
   }
 }
@@ -28,23 +13,21 @@
   top: 0;
   z-index: 2;
   background-color: white;
-  // box-shadow: 0 1px 1px 0 rgba(1, 1, 1, 0.2);
+  font-size: small;
+  font-weight: bold;
   box-shadow: 0 2px 5px rgba(0,0,0,.2);
   font-family: 'Roboto Slab', sans-serif;
-
-  #menuTitle {
-    font-size: Large;
-    padding-left: 3em;
-  }
+  grid-template-columns: auto auto auto auto auto auto;
+  max-width: 1050px;
+  width:100%;
+  margin: auto;
+  line-height: 2em;
 
   .menuItem {
     color: black;
     width: 100%;
-    // height: 100%;
-    // font-family: 'mono', 'Luckiest Guy', cursive;
     align-self: center;
     text-align: center;
-    font-weight: bold;
   }
 
   .menuSelected {
@@ -102,3 +85,12 @@
     border-left: 2px solid lightgray;
   }
 }
+
+figure.JHULogo {
+      text-align: center;
+      padding-top: 4em;
+    }
+
+    figure.JHULogo img {
+      width: 80%;
+    }
