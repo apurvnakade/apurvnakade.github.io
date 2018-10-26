@@ -8,18 +8,19 @@
   <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy|Roboto|Roboto+Slab:300" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="data/scripts/scroll.js"></script>
-  <script src="data/scripts/descriptions.js"></script>
   <title>Apurva Nakade</title>
 </head>
 
 <body>
-  <div id="mainMenu">
-    <a id="menu0" href="#itMe" class="menuItem menuSelected">It Me</a>
-    <a id="menu1" href="#research" class="menuItem">Research</a>
-    <a id="menu2" href="#teaching" class="menuItem">Teaching</a>
-    <a id="menu3" href="#notes" class="menuItem">Notes</a>
-    <a id="menu4" href="#unmaths" class="menuItem">Etc.</a>
-    <a id="menu5" href="./blog/" target="_blank" class="menuItem">Blog</a>
+  <div id="mainMenuWrapper">
+    <div id="mainMenu">
+      <a id="menu0" href="#itMe" class="menuItem menuSelected">It Me</a>
+      <a id="menu1" href="#research" class="menuItem">Research</a>
+      <a id="menu2" href="#teaching" class="menuItem">Teaching</a>
+      <a id="menu3" href="#notes" class="menuItem">Notes</a>
+      <a id="menu4" href="#unmaths" class="menuItem">Etc.</a>
+      <a id="menu5" href="./blog/" target="_blank" class="menuItem">Blog</a>
+    </div>
   </div>
 
   <div class="mainText" id="itMe">
@@ -105,9 +106,10 @@
     <div class="two-column-responsive">
       <div class="two-column-responsive-column2">
         Following are the notes for some of the classes that I've designed and taught. For expository notes see <a href="#notes">Notes</a>. <br><br>
-        <div id="notesTable">
+        <div class="notesTable">
           <h3>JHU</h3>
           <div class="nestedGrid">
+            <a href="courses/2018HonorsCalc/index.html"> Honors Single Variable Calculus 2018 (IBL) </a>
             <a href="courses/2017AlgTop/index.html"> Hitchhiker's Guide to Algebraic Topology </a>
             <a href="courses/2017HonorsCalc/index.html"> Honors Single Variable Calculus 2017 (IBL) </a>
             <a href="courses/2018Symm&Poly.pdf">Symmetries & Polynomials (IBL)</a>
@@ -159,7 +161,7 @@
     <p>These are some notes taken by me while learning a new subject. They are likely to contain mistakes, viewer discretion is advised.
       <br>For notes on the classes I've taught see <a href="#teaching">Teaching</a>.</p>
     <br>
-    <div id="notesTable">
+    <div class="notesTable">
       <h3>Homotopy Theory</h3>
       <div class="nestedGrid">
         <a href="notes/JHU Course Notes/Algebraic%20Topology/index.html">Alg Top Course Notes</a>

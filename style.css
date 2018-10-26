@@ -1,12 +1,17 @@
 @charset "UTF-8";
-@media (min-width: 800px) {
-  #mainMenu {
-    transition-duration: 0.15s; }
-    #mainMenu:hover {
-      line-height: 6em; } }
+#mainMenuWrapper {
+  height: 5em;
+  position: fixed;
+  top: 0;
+  max-width: 1050px;
+  width: 100%;
+  z-index: 2; }
+  #mainMenuWrapper:hover #mainMenu {
+    line-height: 6em; }
+
 #mainMenu {
   display: grid;
-  position: fixed;
+  position: relative;
   top: 0;
   z-index: 2;
   background-color: white;
@@ -15,10 +20,9 @@
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   font-family: 'Roboto Slab', sans-serif;
   grid-template-columns: auto auto auto auto auto auto;
-  max-width: 1050px;
-  width: 100%;
-  margin: auto;
-  line-height: 2em; }
+  line-height: 2em;
+  transition-duration: 0.15s;
+  z-index: 3; }
   #mainMenu .menuItem {
     color: black;
     width: 100%;
@@ -28,35 +32,23 @@
     color: white;
     background-color: steelblue; }
 
-.hasDescription {
-  cursor: pointer;
-  color: crimson;
-  padding-left: 1ex; }
-
-.descriptionCollapsed {
-  transition: opacity 1s ease-out;
-  opacity: 0;
-  height: 0;
-  overflow: hidden;
-  font-size: small; }
-
 .right-side-image img {
   max-width: 300px; }
 .right-side-image figcaption {
   text-align: center; }
 
-#notesTable {
+.notesTable {
   display: grid;
   grid-template-columns: 18ex 1fr;
   line-height: 1.25;
   grid-row-gap: 4em;
   align-items: start;
   font-size: small; }
-  #notesTable h3 {
+  .notesTable h3 {
     margin: 0;
     padding: 0.5em;
     align-self: center; }
-  #notesTable .nestedGrid {
+  .notesTable .nestedGrid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     align-items: start;
@@ -68,9 +60,8 @@
 figure.JHULogo {
   text-align: center;
   padding-top: 4em; }
-
-figure.JHULogo img {
-  width: 80%; }
+  figure.JHULogo img {
+    width: 80%; }
 
 @media (min-width: 800px) {
   table.two-column-data {

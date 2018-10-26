@@ -1,15 +1,20 @@
-@media (min-width: 800px) {
-  #mainMenu {
-    transition-duration: 0.15s;
+#mainMenuWrapper{
+  height: 5em;
+  position: fixed;
+  top: 0;
+  max-width: 1050px;
+  width:100%;
+  z-index: 2;
     &:hover {
-      line-height: 6em;
+      #mainMenu {
+          line-height: 6em;
     }
   }
 }
 
 #mainMenu {
   display: grid;
-  position: fixed;
+  position: relative;
   top: 0;
   z-index: 2;
   background-color: white;
@@ -18,10 +23,9 @@
   box-shadow: 0 2px 5px rgba(0,0,0,.2);
   font-family: 'Roboto Slab', sans-serif;
   grid-template-columns: auto auto auto auto auto auto;
-  max-width: 1050px;
-  width:100%;
-  margin: auto;
   line-height: 2em;
+  transition-duration: 0.15s;
+  z-index: 3;
 
   .menuItem {
     color: black;
@@ -37,20 +41,6 @@
   }
 }
 
-.hasDescription {
-  cursor: pointer;
-  color: crimson;
-  padding-left: 1ex;
-}
-
-.descriptionCollapsed {
-  transition: opacity 1s ease-out;
-  opacity: 0;
-  height: 0;
-  overflow: hidden;
-  font-size: small;
-}
-
 .right-side-image {
   img {
     max-width: 300px;
@@ -61,7 +51,7 @@
   }
 }
 
-#notesTable {
+.notesTable {
   display: grid;
   grid-template-columns: 18ex 1fr;
   line-height: 1.25;
@@ -89,8 +79,7 @@
 figure.JHULogo {
       text-align: center;
       padding-top: 4em;
-    }
-
-    figure.JHULogo img {
-      width: 80%;
-    }
+      img {
+        width: 80%;
+      }
+}

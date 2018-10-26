@@ -71,6 +71,17 @@ $(document).ready(function() {
   computeTops();
   window.addEventListener('resize', computeTops);
   window.addEventListener('orientationchange', computeTops);
+
   window.addEventListener('scroll', menuSelect);
-  $('body').on('keydown', menuMove);
+
+  let scheduled_keydown = null;
+  $('body').on("keydown", event => {
+    if (!scheduled_keydown) {
+      setTimeout(() => {
+        menuMove();
+        scheduled_keydown = null;
+      }, 100);
+    }
+    scheduled_keydown = event;
+  });
 });
