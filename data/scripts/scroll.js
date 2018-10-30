@@ -6,7 +6,7 @@ var current_section = 0,
 
 //attach event handlers to right and left arrow keys for 'body'
 //move menus to right and left on keydown
-function menuMove() {
+function menuMove(event) {
   if (window.event.keyCode == 37 /*left key*/
     || (window.event.keyCode == 32 && window.event.shiftKey) /*shift+spacebar*/) {
     if (current_section > 0) {
@@ -71,17 +71,6 @@ $(document).ready(function() {
   computeTops();
   window.addEventListener('resize', computeTops);
   window.addEventListener('orientationchange', computeTops);
-
   window.addEventListener('scroll', menuSelect);
-
-  let scheduled_keydown = null;
-  $('body').on("keydown", event => {
-    if (!scheduled_keydown) {
-      setTimeout(() => {
-        menuMove();
-        scheduled_keydown = null;
-      }, 100);
-    }
-    scheduled_keydown = event;
-  });
+  $('body').on('keydown', menuMove);
 });
