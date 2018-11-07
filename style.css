@@ -61,7 +61,8 @@ figure.JHULogo {
   text-align: center;
   padding-top: 4em; }
   figure.JHULogo img {
-    width: 80%; }
+    width: 80%;
+    max-width: 500px; }
 
 @media (min-width: 800px) {
   table.two-column-data {
