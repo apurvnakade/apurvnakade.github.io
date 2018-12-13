@@ -6,10 +6,20 @@
     <description>Recent content in Improv Journal on Grad Student Problems</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 01 Nov 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 08 Dec 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://apurvnakade.github.io/blog/journal/improv/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Short Form</title>
+      <link>https://apurvnakade.github.io/blog/journal/improv/shortform/</link>
+      <pubDate>Sat, 08 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://apurvnakade.github.io/blog/journal/improv/shortform/</guid>
+      <description>Short form improv is the most popular form of improv, thanks to shows like Whose Line is it Anyway?. In some ways sketch comedy like SNL is closer to Short Form than Long Form.
+Short form scenes are shorter (2 mins) with a much stricter structure and hence short form improv is easy to perform on television. Further the structure and the premise is already established and conveyed to the audience at the beginning of the scene, much like in sports.</description>
+    </item>
     
     <item>
       <title>Character as Game</title>
