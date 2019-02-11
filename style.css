@@ -59,7 +59,8 @@
 
 figure.JHULogo {
   text-align: center;
-  padding-top: 4em; }
+  padding-top: 10em; 
+  padding-bottom: 10em; }
   figure.JHULogo img {
     width: 80%;
     max-width: 500px; }
