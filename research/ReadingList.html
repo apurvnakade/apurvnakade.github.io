@@ -8,73 +8,118 @@
   <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy|Roboto|Roboto+Slab:300" rel="stylesheet">
 
   <style media="screen">
-    .reading-list-table {
-      display: grid;
-      grid-template-columns: 200px auto 200px;
-      align-items: start;
-      row-gap: 20px;
-    }
 
-    .item {
-      height: 100%;
+    .reading-list-table .item {
+      display: grid;
+      grid-template-columns: 200px 8ex auto 100px;
+      align-items: start;
+      grid-column-gap: 10px;
+
       padding-left: 5px;
       padding-right: 5px;
+      padding-bottom: 10px;
+      margin-bottom: 10px;
+    }
+
+    .selected{
+      background-color: lavender;
+    }
+
+    .unselected{
+      background-color: white;
+    }
+
+    .tag{
+      cursor: pointer;
     }
   </style>
+
+  <script type="text/javascript">
+    // scan through all the spans with class tag
+    // add the tag to the class of the parent
+    // on mouseover change the color
+    // on mouseout change the color back
+  </script>
 </head>
 
 
 <body style="max-width:1000px">
+  <div class="shadow">
+  </div>
   <div class="no-navBar mainText">
-
     <h1 class="Title">Notes</h1>
+    <div class="reading-list-table">
+      <div class="item">
+        <a href="http://swc.math.arizona.edu/aws/2019/2019MorrowNotes.pdf">Topological Hochschild homology in arithmetic geometry</a>
+        <div class="authors">Mathew Morrow</div>
+        <div class="note">Notes for Arizona Winter School. The best introduction to HH, THH, and THH of perfectoid rings. Written for non-experts.</div>
+        <div class="tags"><a class="tag">thh</a>, <a class="tag">introductory</a></div>
+      </div>
+
+      <div class="item">
+        <a href="http://swc.math.arizona.edu/aws/2019/2019MorrowNotes.pdf"> Lectures on Topological Hochschild Homology and Cyclotomic Spectra
+        </a>
+        <div class="authors">
+          Achim Krause,<br> Thomas Nikolaus
+        </div>
+        <div class="note">Comprehensive reference for THH computations. Requires a lot of pre-knowedge.</div>
+        <div class="tags"><a class="tag">thh</a>, <a class="tag">reference</a></div>
+      </div>
+
+
+    </div>
     <h1 class="Title">To Read</h1>
     <div class="reading-list-table">
-      <a href="http://swc.math.arizona.edu/aws/2019/2019MorrowNotes.pdf">Topological Hochschild homology in arithmetic geometry</a>
-      <div class="item note">Mathew Morrow's notes for Arizona Winter School</div>
-      <div class="item tags"></div>
+      <div class="item">
+        <a href="https://arxiv.org/pdf/1902.01302.pdf">Uniqueness of real Lagrangians up to cobordism</a>
+        <div class="authors"></div>
+        <div class="note"></div>
+        <div class="tags"></div>
+      </div>
 
+      <div class="item">
+        <a href="https://arxiv.org/pdf/1902.00803.pdf">Goodwillie Calculus</a>
+        <div class="authors">Gregory Arone, Michael Ching</div>
+        <div class="note"></div>
+        <div class="tags"></div>
+      </div>
 
-      <a href="https://www.maths.ed.ac.uk/~v1ranick/papers/micro001.pdf">Microbundles Part I</a>
-      <div class="item note">Milnor's original paper defining microbundles</div>
-      <div class="item tags"></div>
+      <div class="item">
+        <a href="https://arxiv.org/abs/1901.06002">Lagrangian cobordism groups of higher genus surfaces</a>
+        <div class="authors"></div>
+        <div class="note"></div>
+        <div class="tags"></div>
+      </div>
 
-      <a href="https://arxiv.org/pdf/1902.01302.pdf">Uniqueness of real Lagrangians up to cobordism</a>
-      <div class="item note"></div>
-      <div class="item tags"></div>
+      <div class="item">
+        <a href="https://arxiv.org/abs/1806.00827">Some more amplituhedra are contractible</a>
+        <div class="authors"></div>
+        <div class="note"></div>
+        <div class="tags"></div>
+      </div>
 
+      <div class="item">
+        <a href="https://arxiv.org/abs/1901.08694">Floer homotopy theory, revisited</a>
+        <div class="authors"></div>
+        <div class="note"></div>
+        <div class="tags"></div>
+      </div>
 
-        <a href="https://arxiv.org/pdf/1902.00803.pdf">GOODWILLIE CALCULUS - GREGORY ARONE AND MICHAEL CHING</a>
-        <div class="item note"></div>
-        <div class="item tags"></div>
+      <div class="item">
+        <a href="https://arxiv.org/abs/0810.4535">Units of ring spectra and Thom spectra</a>
+        <div class="authors"></div>
+        <div class="note"></div>
+        <div class="tags"></div>
+      </div>
 
-      <a class="item" href="https://arxiv.org/abs/1901.09004">Chromatic Structures in Stable Homotopy Theory</a>
-      <div class="item note">Chapter for the Handbook of Homotopy Theory</div>
-      <div class="item tags"></div>
-
-      <a class="item" href="https://arxiv.org/abs/1901.06002">Lagrangian cobordism groups of higher genus surfaces</a>
-      <div class="item note"></div>
-      <div class="item tags"></div>
-
-      <a class="item" href="https://arxiv.org/abs/1806.00827">Some more amplituhedra are contractible</a>
-      <div class="item note"></div>
-      <div class="item tags"></div>
-
-      <a class="item" href="https://arxiv.org/abs/1901.08694">Floer homotopy theory, revisited</a>
-      <div class="item note"></div>
-      <div class="item tags"></div>
-
-      <a class="item" href="https://arxiv.org/abs/0810.4535">Units of ring spectra and Thom spectra</a>
-      <div class="item note"></div>
-      <div class="item tags"></div>
-
-      <a class="item" href="https://arxiv.org/abs/1708.00289">A sheaf-theoretic model for SL(2,C) Floer homology</a>
-      <div class="item note"></div>
-      <div class="item tags"></div>
+      <div class="item">
+        <a href="https://arxiv.org/abs/1708.00289">A sheaf-theoretic model for SL(2,C) Floer homology</a>
+        <div class="authors"></div>
+        <div class="note"></div>
+        <div class="tags"></div>
+      </div>
     </div>
   </div>
-
-
 </body>
 
 </html>
