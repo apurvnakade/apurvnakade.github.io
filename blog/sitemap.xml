@@ -3,7 +3,8 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://apurvnakade.github.io/blog/art/</loc>
+    <loc>https://apurvnakade.github.io/blog/journal/improv/</loc>
+    <lastmod>2018-12-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -12,12 +13,8 @@
   </url>
   
   <url>
-    <loc>https://apurvnakade.github.io/blog/journal/improv/</loc>
-    <lastmod>2018-12-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://apurvnakade.github.io/blog/journal/</loc>
+    <loc>https://apurvnakade.github.io/blog/art/movies/</loc>
+    <lastmod>2018-10-01T20:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -26,27 +23,13 @@
   </url>
   
   <url>
-    <loc>https://apurvnakade.github.io/blog/journal/lifejhu/</loc>
-    <lastmod>2018-05-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://apurvnakade.github.io/blog/journal/mathcamp/</loc>
     <lastmod>2018-08-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://apurvnakade.github.io/blog/maths-science/</loc>
-  </url>
-  
-  <url>
-    <loc>https://apurvnakade.github.io/blog/art/movies/</loc>
-    <lastmod>2018-10-01T20:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://apurvnakade.github.io/blog/maths-science/popular-science/</loc>
-    <lastmod>2018-03-14T00:00:00+00:00</lastmod>
+    <loc>https://apurvnakade.github.io/blog/journal/lifejhu/</loc>
+    <lastmod>2018-05-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -55,12 +38,13 @@
   </url>
   
   <url>
-    <loc>https://apurvnakade.github.io/blog/random/</loc>
+    <loc>https://apurvnakade.github.io/blog/maths-science/popular-science/</loc>
+    <lastmod>2018-03-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://apurvnakade.github.io/blog/random/stray-thoughts/</loc>
-    <lastmod>2019-02-18T00:00:00+00:00</lastmod>
+    <lastmod>2018-03-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -69,12 +53,29 @@
   </url>
   
   <url>
+    <loc>https://apurvnakade.github.io/blog/art/</loc>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/journal/</loc>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/maths-science/</loc>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/random/</loc>
+  </url>
+  
+  <url>
     <loc>https://apurvnakade.github.io/blog/travel/</loc>
   </url>
   
   <url>
-    <loc>https://apurvnakade.github.io/blog/random/stray-thoughts/on-the-stage-of-improv/</loc>
-    <lastmod>2019-02-18T00:00:00+00:00</lastmod>
+    <loc>https://apurvnakade.github.io/blog/</loc>
+    <lastmod>2018-12-08T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -83,8 +84,26 @@
   </url>
   
   <url>
+    <loc>https://apurvnakade.github.io/blog/tags/c.liu/</loc>
+    <lastmod>2018-12-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/tags/</loc>
+    <lastmod>2018-12-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://apurvnakade.github.io/blog/art/books/three-body-problem/</loc>
     <lastmod>2018-12-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/tags/sci-fi/</loc>
+    <lastmod>2018-12-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -103,6 +122,12 @@
   </url>
   
   <url>
+    <loc>https://apurvnakade.github.io/blog/tags/thiller/</loc>
+    <lastmod>2018-10-01T20:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://apurvnakade.github.io/blog/journal/improv/laban/</loc>
     <lastmod>2018-09-30T00:00:00+00:00</lastmod>
   </url>
@@ -110,6 +135,18 @@
   <url>
     <loc>https://apurvnakade.github.io/blog/art/movies/night-is-short-walk-on-girl/</loc>
     <lastmod>2018-09-26T20:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/tags/anime/</loc>
+    <lastmod>2018-09-26T20:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/tags/comedy/</loc>
+    <lastmod>2018-09-26T20:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -123,8 +160,20 @@
   </url>
   
   <url>
+    <loc>https://apurvnakade.github.io/blog/tags/gibson/</loc>
+    <lastmod>2018-09-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://apurvnakade.github.io/blog/art/books/neuromancer/</loc>
     <lastmod>2018-09-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/tags/cyberpunk/</loc>
+    <lastmod>2018-09-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -143,8 +192,37 @@
   </url>
   
   <url>
+    <loc>https://apurvnakade.github.io/blog/travel/rockies/</loc>
+    <lastmod>2018-08-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/tags/backpacking/</loc>
+    <lastmod>2018-08-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/tags/camping/</loc>
+    <lastmod>2018-08-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/tags/hiking/</loc>
+    <lastmod>2018-08-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://apurvnakade.github.io/blog/travel/rockies/boulderbrook/</loc>
     <lastmod>2018-08-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/tags/clarke/</loc>
+    <lastmod>2018-08-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -158,8 +236,20 @@
   </url>
   
   <url>
+    <loc>https://apurvnakade.github.io/blog/tags/advice/</loc>
+    <lastmod>2018-08-08T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://apurvnakade.github.io/blog/journal/mathcamp/goodbye-2018/</loc>
     <lastmod>2018-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/tags/sad/</loc>
+    <lastmod>2018-08-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -168,8 +258,32 @@
   </url>
   
   <url>
+    <loc>https://apurvnakade.github.io/blog/tags/vonnegut/</loc>
+    <lastmod>2018-05-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/tags/fiction/</loc>
+    <lastmod>2018-05-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://apurvnakade.github.io/blog/journal/lifejhu/serendipity/</loc>
     <lastmod>2018-05-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/tags/life/</loc>
+    <lastmod>2018-05-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/tags/asimov/</loc>
+    <lastmod>2018-05-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -188,8 +302,38 @@
   </url>
   
   <url>
+    <loc>https://apurvnakade.github.io/blog/tags/ineptitude/</loc>
+    <lastmod>2018-05-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/tags/secret-charges/</loc>
+    <lastmod>2018-05-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://apurvnakade.github.io/blog/art/books/bird-by-bird/</loc>
     <lastmod>2018-04-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/tags/lamott/</loc>
+    <lastmod>2018-04-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/tags/non-fiction/</loc>
+    <lastmod>2018-04-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/tags/writing/</loc>
+    <lastmod>2018-04-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -198,8 +342,19 @@
   </url>
   
   <url>
+    <loc>https://apurvnakade.github.io/blog/tags/biking/</loc>
+    <lastmod>2018-04-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://apurvnakade.github.io/blog/art/movies/isle-of-dogs/</loc>
     <lastmod>2018-03-31T20:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/travel/big-bend/</loc>
+    <lastmod>2018-03-30T11:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -218,8 +373,20 @@
   </url>
   
   <url>
+    <loc>https://apurvnakade.github.io/blog/tags/gawande/</loc>
+    <lastmod>2018-03-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://apurvnakade.github.io/blog/art/books/checklist-manifesto/</loc>
     <lastmod>2018-03-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/tags/doctors/</loc>
+    <lastmod>2018-03-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -228,8 +395,26 @@
   </url>
   
   <url>
+    <loc>https://apurvnakade.github.io/blog/tags/hawking/</loc>
+    <lastmod>2018-03-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://apurvnakade.github.io/blog/journal/mathcamp/parking-lot/</loc>
     <lastmod>2018-03-10T08:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/tags/funny/</loc>
+    <lastmod>2018-03-10T08:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/tags/memories/</loc>
+    <lastmod>2018-03-10T08:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -238,8 +423,20 @@
   </url>
   
   <url>
+    <loc>https://apurvnakade.github.io/blog/tags/ishiguro/</loc>
+    <lastmod>2018-02-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://apurvnakade.github.io/blog/art/books/remains-of-the-day/</loc>
     <lastmod>2018-02-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/tags/mandel/</loc>
+    <lastmod>2018-02-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -253,8 +450,20 @@
   </url>
   
   <url>
+    <loc>https://apurvnakade.github.io/blog/tags/psych/</loc>
+    <lastmod>2018-02-01T18:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://apurvnakade.github.io/blog/random/stray-thoughts/blank-spaces/</loc>
     <lastmod>2018-01-31T22:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/tags/music/</loc>
+    <lastmod>2018-01-31T22:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -273,13 +482,31 @@
   </url>
   
   <url>
+    <loc>https://apurvnakade.github.io/blog/tags/insightful/</loc>
+    <lastmod>2018-01-22T20:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://apurvnakade.github.io/blog/journal/lifejhu/eye-test/</loc>
     <lastmod>2018-01-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
+    <loc>https://apurvnakade.github.io/blog/tags/india/</loc>
+    <lastmod>2018-01-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://apurvnakade.github.io/blog/art/books/gtd-method/</loc>
     <lastmod>2018-01-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/tags/notes/</loc>
+    <lastmod>2018-01-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -298,6 +525,12 @@
   </url>
   
   <url>
+    <loc>https://apurvnakade.github.io/blog/tags/murakami/</loc>
+    <lastmod>2018-01-12T09:20:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://apurvnakade.github.io/blog/art/books/norwegian-wood/</loc>
     <lastmod>2018-01-12T09:20:00+00:00</lastmod>
   </url>
@@ -308,8 +541,63 @@
   </url>
   
   <url>
+    <loc>https://apurvnakade.github.io/blog/tags/dreamlike/</loc>
+    <lastmod>2018-01-11T23:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/travel/everglades-etc./biscayne/</loc>
+    <lastmod>2018-01-04T23:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/travel/everglades-etc./</loc>
+    <lastmod>2018-01-04T23:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/tags/paddling/</loc>
+    <lastmod>2018-01-04T23:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/travel/everglades-etc./shark-valley/</loc>
+    <lastmod>2018-01-02T23:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/travel/everglades-etc./at-the-glades/</loc>
+    <lastmod>2018-01-01T23:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/tags/canoeing/</loc>
+    <lastmod>2018-01-01T23:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/travel/everglades-etc./before-glades/</loc>
+    <lastmod>2017-12-31T23:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/tags/prep/</loc>
+    <lastmod>2017-12-31T23:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://apurvnakade.github.io/blog/art/books/an-area-of-darkness/</loc>
     <lastmod>2017-12-30T09:20:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/tags/naipaul/</loc>
+    <lastmod>2017-12-30T09:20:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -323,6 +611,18 @@
   </url>
   
   <url>
+    <loc>https://apurvnakade.github.io/blog/tags/mind-blowing/</loc>
+    <lastmod>2017-12-22T22:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/tags/sports/</loc>
+    <lastmod>2017-12-22T22:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://apurvnakade.github.io/blog/art/movies/jumanji/</loc>
     <lastmod>2017-12-21T23:30:13-05:00</lastmod>
   </url>
@@ -333,8 +633,32 @@
   </url>
   
   <url>
+    <loc>https://apurvnakade.github.io/blog/tags/ted/</loc>
+    <lastmod>2017-12-14T21:15:13-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/tags/books/</loc>
+    <lastmod>2017-12-14T21:15:13-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://apurvnakade.github.io/blog/random/fun/zugzwang/</loc>
     <lastmod>2017-12-12T12:41:13-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/tags/chess/</loc>
+    <lastmod>2017-12-12T12:41:13-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/tags/youtube/</loc>
+    <lastmod>2017-12-12T12:41:13-05:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -343,13 +667,31 @@
   </url>
   
   <url>
+    <loc>https://apurvnakade.github.io/blog/tags/ny/</loc>
+    <lastmod>2017-12-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://apurvnakade.github.io/blog/journal/lifejhu/first-snow/</loc>
     <lastmod>2017-12-09T13:12:00-05:00</lastmod>
   </url>
   
   <url>
+    <loc>https://apurvnakade.github.io/blog/tags/yoga/</loc>
+    <lastmod>2017-12-09T13:12:00-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://apurvnakade.github.io/blog/journal/lifejhu/hubble/</loc>
     <lastmod>2017-12-06T14:21:13-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/tags/coffee/</loc>
+    <lastmod>2017-12-06T14:21:13-05:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -363,149 +705,8 @@
   </url>
   
   <url>
-    <loc>https://apurvnakade.github.io/blog/modules/</loc>
-  </url>
-  
-  <url>
-    <loc>https://apurvnakade.github.io/blog/tags/advice/</loc>
-    <lastmod>2018-08-08T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://apurvnakade.github.io/blog/tags/anime/</loc>
-    <lastmod>2018-09-26T20:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://apurvnakade.github.io/blog/tags/asimov/</loc>
-    <lastmod>2018-05-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://apurvnakade.github.io/blog/tags/backpacking/</loc>
-    <lastmod>2018-08-23T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://apurvnakade.github.io/blog/travel/big-bend/</loc>
-    <lastmod>2018-03-30T11:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://apurvnakade.github.io/blog/tags/biking/</loc>
-    <lastmod>2018-04-14T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://apurvnakade.github.io/blog/tags/books/</loc>
-    <lastmod>2017-12-14T21:15:13-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://apurvnakade.github.io/blog/tags/c.liu/</loc>
-    <lastmod>2018-12-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://apurvnakade.github.io/blog/tags/camping/</loc>
-    <lastmod>2018-08-23T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://apurvnakade.github.io/blog/tags/chess/</loc>
-    <lastmod>2017-12-12T12:41:13-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://apurvnakade.github.io/blog/tags/clarke/</loc>
-    <lastmod>2018-08-12T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://apurvnakade.github.io/blog/tags/coding/</loc>
     <lastmod>2017-11-11T12:40:44-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://apurvnakade.github.io/blog/tags/coffee/</loc>
-    <lastmod>2017-12-06T14:21:13-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://apurvnakade.github.io/blog/tags/comedy/</loc>
-    <lastmod>2018-09-26T20:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://apurvnakade.github.io/blog/tags/cyberpunk/</loc>
-    <lastmod>2018-09-19T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://apurvnakade.github.io/blog/tags/doctors/</loc>
-    <lastmod>2018-03-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://apurvnakade.github.io/blog/tags/dreamlike/</loc>
-    <lastmod>2018-01-11T23:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://apurvnakade.github.io/blog/tags/fiction/</loc>
-    <lastmod>2018-05-19T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://apurvnakade.github.io/blog/tags/funny/</loc>
-    <lastmod>2018-03-10T08:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://apurvnakade.github.io/blog/tags/gawande/</loc>
-    <lastmod>2018-03-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://apurvnakade.github.io/blog/tags/gibson/</loc>
-    <lastmod>2018-09-19T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://apurvnakade.github.io/blog/</loc>
-    <lastmod>2019-02-18T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://apurvnakade.github.io/blog/tags/hawking/</loc>
-    <lastmod>2018-03-14T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://apurvnakade.github.io/blog/tags/hiking/</loc>
-    <lastmod>2018-08-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -516,170 +717,7 @@
   </url>
   
   <url>
-    <loc>https://apurvnakade.github.io/blog/tags/india/</loc>
-    <lastmod>2018-01-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://apurvnakade.github.io/blog/tags/ineptitude/</loc>
-    <lastmod>2018-05-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://apurvnakade.github.io/blog/tags/insightful/</loc>
-    <lastmod>2018-01-22T20:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://apurvnakade.github.io/blog/tags/ishiguro/</loc>
-    <lastmod>2018-02-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://apurvnakade.github.io/blog/tags/lamott/</loc>
-    <lastmod>2018-04-22T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://apurvnakade.github.io/blog/tags/life/</loc>
-    <lastmod>2019-02-18T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://apurvnakade.github.io/blog/tags/mandel/</loc>
-    <lastmod>2018-02-09T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://apurvnakade.github.io/blog/tags/memories/</loc>
-    <lastmod>2018-03-10T08:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://apurvnakade.github.io/blog/tags/mind-blowing/</loc>
-    <lastmod>2017-12-22T22:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://apurvnakade.github.io/blog/tags/murakami/</loc>
-    <lastmod>2018-01-12T09:20:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://apurvnakade.github.io/blog/tags/music/</loc>
-    <lastmod>2018-01-31T22:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://apurvnakade.github.io/blog/tags/naipaul/</loc>
-    <lastmod>2017-12-30T09:20:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://apurvnakade.github.io/blog/tags/non-fiction/</loc>
-    <lastmod>2018-04-22T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://apurvnakade.github.io/blog/tags/notes/</loc>
-    <lastmod>2018-01-19T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://apurvnakade.github.io/blog/tags/ny/</loc>
-    <lastmod>2017-12-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://apurvnakade.github.io/blog/tags/psych/</loc>
-    <lastmod>2018-02-01T18:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://apurvnakade.github.io/blog/travel/rockies/</loc>
-    <lastmod>2018-08-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://apurvnakade.github.io/blog/tags/sad/</loc>
-    <lastmod>2018-08-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://apurvnakade.github.io/blog/tags/sci-fi/</loc>
-    <lastmod>2018-12-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://apurvnakade.github.io/blog/tags/secret-charges/</loc>
-    <lastmod>2018-05-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://apurvnakade.github.io/blog/tags/sports/</loc>
-    <lastmod>2017-12-22T22:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://apurvnakade.github.io/blog/tags/</loc>
-    <lastmod>2018-08-08T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://apurvnakade.github.io/blog/tags/ted/</loc>
-    <lastmod>2017-12-14T21:15:13-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://apurvnakade.github.io/blog/tags/thiller/</loc>
-    <lastmod>2018-10-01T20:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://apurvnakade.github.io/blog/tags/vonnegut/</loc>
-    <lastmod>2018-05-19T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://apurvnakade.github.io/blog/tags/writing/</loc>
-    <lastmod>2018-04-22T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://apurvnakade.github.io/blog/tags/yoga/</loc>
-    <lastmod>2017-12-09T13:12:00-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://apurvnakade.github.io/blog/tags/youtube/</loc>
-    <lastmod>2017-12-12T12:41:13-05:00</lastmod>
-    <priority>0</priority>
+    <loc>https://apurvnakade.github.io/blog/modules/</loc>
   </url>
   
   <url>
