@@ -2,39 +2,26 @@ var gulp = require('gulp'),
     fileinclude = require('gulp-file-include'),
     watch = require('gulp-watch'),
     gulp  = require("gulp"),
-    sass  = require("gulp-sass"),
-    del   = require("del");
+    sass  = require("gulp-sass");
 
-gulp.task('fileinclude', function() {
-  return gulp.src(['html/index.html'])
-    .pipe(fileinclude({
-      prefix: '@@',
-      basepath: '@file'
-    }))
-    .pipe(gulp.dest('../'));
+gulp.task("sass", function(){
+  return gulp.src("sass/style.scss")
+      .pipe(sass())
+      .pipe(gulp.dest("."));
 });
 
-gulp.task('default', function () {
-    return gulp.src('html/*')
-        .pipe(watch('**/*.html'))
-
-        // .pipe(gulp.dest('build'));
+gulp.task("html", function(){
+  return gulp.src("html/index.html")
+      .pipe(fileinclude({
+        prefix: '@@',
+        basepath: '@file'
+      }))
+      .pipe(gulp.dest('../'));
 });
 
 
-    // Watch asset folder for changes
-    gulp.task("watch", done => {
-        // Compile SCSS files to CSS
-        gulp.watch("sass/*", function () {
-            del(["style.css"]);
-            return gulp.src("sass/style.scss")
-                .pipe(sass())
-                .pipe(gulp.dest("."));
-        });
-        done();
-        // gulp.watch("src/js/**/*", function() {
-        //     del(["static/js/**/*"])
-        //     return gulp.src("src/js/**/*")
-        //         .pipe(gulp.dest("static/js"))
-        // })
-    });
+// Watch asset folder for changes
+gulp.task("default", function() {
+  gulp.watch("sass/*", gulp.registry().get("sass"));
+  gulp.watch("html/*", gulp.registry().get("html"));
+});
