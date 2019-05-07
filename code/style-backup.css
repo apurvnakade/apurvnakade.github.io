@@ -67,13 +67,14 @@
   border-left: 2px solid lightgray;
 }
 
-figure.JHULogo {
+figure.logo {
   text-align: center;
-  padding-top: 4em;
+  padding-top: 10em;
+  padding-bottom: 10em;
 }
-figure.JHULogo img {
+figure.logo img {
   width: 80%;
-  max-width: 500px;
+  max-width: 300px;
 }
 
 @media (min-width: 800px) {
@@ -150,13 +151,19 @@ a:hover {
   top: -0.75em;
 }
 
-#mainText,
-.mainText {
+.section {
   margin: auto;
   background-color: white;
-  margin-top: 200px;
-  padding: 20px 30px 40px;
+  padding: 50px 30px 40px;
   overflow-y: auto;
+  min-height: 100vh;
+}
+
+.small-section {
+  padding-top: 0px;
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
 }
 
 @media (max-width: 800px) {
@@ -223,3 +230,5 @@ h5,
 h6 {
   font-family: "Roboto Slab", sans-serif;
 }
+
+/*# sourceMappingURL=style.css.map */
