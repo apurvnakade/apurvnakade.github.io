@@ -1,13 +1,12 @@
 var gulp = require('gulp'),
     fileinclude = require('gulp-file-include'),
     watch = require('gulp-watch'),
-    gulp  = require("gulp"),
     sass  = require("gulp-sass");
 
 gulp.task("sass", function(){
-  return gulp.src("sass/style.scss")
+  return gulp.src("styles/style.scss")
       .pipe(sass())
-      .pipe(gulp.dest("."));
+      .pipe(gulp.dest("styles/"));
 });
 
 gulp.task("html", function(){
