@@ -21,6 +21,6 @@ gulp.task("html", function(){
 
 // Watch asset folder for changes
 gulp.task("default", function() {
-  gulp.watch("sass/*", gulp.registry().get("sass"));
+  gulp.watch("styles/*", gulp.registry().get("sass"));
   gulp.watch("html/*", gulp.registry().get("html"));
 });
