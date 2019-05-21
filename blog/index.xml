@@ -6,10 +6,21 @@
     <description>Recent content on Grad Student Problems</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 08 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 May 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://apurvnakade.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Giving a Math Talk</title>
+      <link>https://apurvnakade.github.io/blog/maths-science/teaching/giving-a-math-talk/</link>
+      <pubDate>Mon, 20 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://apurvnakade.github.io/blog/maths-science/teaching/giving-a-math-talk/</guid>
+      <description>I recently saw this fun video about the tension between clarity and mystery and the role of this tension in creating good design. It made me think about giving a math talk.
+I think this element is often neglected when one prepares a math class or just a math talk.
+It is understood that unlike, say, in fiction, mystery is inevitable and undesirable in mathematics. While it is good to have a bunch of unsolved problems to work on, we would very much like to know the answers to them.</description>
+    </item>
     
     <item>
       <title>Reminiscing Windows</title>
