@@ -15,10 +15,10 @@
   top: 0;
   z-index: 2;
   background-color: white;
-  font-size: small;
-  font-weight: bold;
+  font-size: 1.75ex;
+  /*  font-weight: bold;*/
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-  font-family: 'Roboto Slab', sans-serif;
+  /*  font-family: 'Roboto Slab', sans-serif;*/
   grid-template-columns: auto auto auto auto auto auto;
   line-height: 2em;
   transition-duration: 0.15s;
@@ -30,7 +30,10 @@
     text-align: center; }
   #mainMenu .menuSelected {
     color: white;
-    background-color: steelblue; }
+    font-family: 'Roboto';
+    font-weight: bold;
+    background-color: #4F2683;
+    box-shadow: 0 -1px 2px 0 rgba(1, 1, 1, 0.2); }
 
 .right-side-image img {
   max-width: 300px; }
