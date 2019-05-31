@@ -9,8 +9,17 @@ gulp.task("sass", function(){
       .pipe(gulp.dest("styles/"));
 });
 
-gulp.task("html", function(){
-  return gulp.src("html/index.html")
+gulp.task("htmlIndex", function(){
+  return gulp.src("index/index.html")
+      .pipe(fileinclude({
+        prefix: '@@',
+        basepath: '@file'
+      }))
+      .pipe(gulp.dest('../'));
+});
+
+gulp.task("htmlTeachingPortfolio", function(){
+  return gulp.src("teachingPortfolio/teachingPortfolio.html")
       .pipe(fileinclude({
         prefix: '@@',
         basepath: '@file'
@@ -22,5 +31,6 @@ gulp.task("html", function(){
 // Watch asset folder for changes
 gulp.task("default", function() {
   gulp.watch("styles/*.scss", gulp.registry().get("sass"));
-  gulp.watch("html/*.html", gulp.registry().get("html"));
+  gulp.watch("index/*.html", gulp.registry().get("htmlIndex"));
+  gulp.watch("teachingPortfolio/*.html", gulp.registry().get("htmlTeachingPortfolio"));
 });
