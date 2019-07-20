@@ -2,7 +2,7 @@
 
 
 import os
-import cgi
+import html
 
 def create_index(directory_in_str):
     #CAUTION: Be careful about the directory, make sure to change it back when returning
@@ -48,11 +48,10 @@ def list_files(directory_in_str):
     index_html.write('<html>\n')
     index_html.write('\t<head>\n')
     index_html.write('<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">');
-    index_html.write('\t\t<link rel=\"stylesheet\" href=\"https://apurvnakade.github.io/style.css\">\n')
+    index_html.write('\t\t<link rel=\"stylesheet\" href=\"https://apurvnakade.github.io/code/styles/style.css\">\n')
     index_html.write('\t</head>\n')
     index_html.write('\t<body>\n')
-    index_html.write('\t\t<div class = \"python-generated\">\n')
-    index_html.write('\t\t<table id=\"mainText\">\n')
+    index_html.write('\t\t<table id=\"python-generated\" style=\"margin:auto; padding-top:100px;\">\n')
     index_html.write('\t\t<tr>\n')
     index_html.write('\t\t<td>\n')
     index_html.write('\t\t\t<a href=\"javascript:window.history.back()\">Back</a>')
@@ -61,14 +60,13 @@ def list_files(directory_in_str):
     for file in sorted(files, key=str.lower):
         # because path is object not string
         file_in_str = str(file)
-        index_html.write('\t\t\t\t<li><a href=\"./' + cgi.escape(file_in_str) + '\">')
+        index_html.write('\t\t\t\t<li><a href=\"./' + html.escape(file_in_str) + '\">')
         index_html.write(file_in_str + '</a></li>\n')
 
     index_html.write('\t\t\t</ul>\n')
     index_html.write('\t\t</td>\n')
     index_html.write('\t\t</tr>\n')
     index_html.write('\t\t</table>\n')
-    index_html.write('\t\t</div>\n')
     index_html.write('\t</body>\n')
     index_html.write('</html>')
 
