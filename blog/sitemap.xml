@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://apurvnakade.github.io/blog/art/books/</loc>
+    <lastmod>2019-05-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://apurvnakade.github.io/blog/maths-science/teaching/</loc>
     <lastmod>2019-05-20T00:00:00+00:00</lastmod>
   </url>
@@ -13,13 +18,18 @@
   </url>
   
   <url>
+    <loc>https://apurvnakade.github.io/blog/random/professional-assholes/</loc>
+    <lastmod>2019-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://apurvnakade.github.io/blog/journal/improv/</loc>
     <lastmod>2019-02-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://apurvnakade.github.io/blog/art/books/</loc>
-    <lastmod>2018-12-02T00:00:00+00:00</lastmod>
+    <loc>https://apurvnakade.github.io/blog/art/series/</loc>
+    <lastmod>2019-02-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -40,11 +50,6 @@
   <url>
     <loc>https://apurvnakade.github.io/blog/journal/lifejhu/</loc>
     <lastmod>2018-05-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://apurvnakade.github.io/blog/random/professional-assholes/</loc>
-    <lastmod>2018-05-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -73,20 +78,37 @@
   </url>
   
   <url>
-    <loc>https://apurvnakade.github.io/blog/maths-science/teaching/giving-a-math-talk/</loc>
-    <lastmod>2019-05-20T00:00:00+00:00</lastmod>
+    <loc>https://apurvnakade.github.io/blog/tags/alan-moore/</loc>
+    <lastmod>2019-05-24T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://apurvnakade.github.io/blog/</loc>
-    <lastmod>2019-05-20T00:00:00+00:00</lastmod>
+    <lastmod>2019-05-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>https://apurvnakade.github.io/blog/art/books/graphic-novels/</loc>
+    <lastmod>2019-05-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://apurvnakade.github.io/blog/tags/</loc>
-    <lastmod>2019-05-20T00:00:00+00:00</lastmod>
+    <lastmod>2019-05-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/tags/fiction/</loc>
+    <lastmod>2019-05-24T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/maths-science/teaching/giving-a-math-talk/</loc>
+    <lastmod>2019-05-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -107,12 +129,57 @@
   </url>
   
   <url>
+    <loc>https://apurvnakade.github.io/blog/tags/conan-doyle/</loc>
+    <lastmod>2019-04-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/art/books/rereading-sherlock-holmes/</loc>
+    <lastmod>2019-04-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/tags/self/</loc>
+    <lastmod>2019-04-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/random/professional-assholes/apple/</loc>
+    <lastmod>2019-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/tags/shipping-delays/</loc>
+    <lastmod>2019-02-24T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://apurvnakade.github.io/blog/journal/improv/on-the-stage-of-improv/</loc>
     <lastmod>2019-02-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
+    <loc>https://apurvnakade.github.io/blog/art/series/russian-doll/</loc>
+    <lastmod>2019-02-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://apurvnakade.github.io/blog/tags/life/</loc>
+    <lastmod>2019-02-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/tags/sci-fi/</loc>
+    <lastmod>2019-02-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/tags/short/</loc>
     <lastmod>2019-02-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -131,12 +198,6 @@
   <url>
     <loc>https://apurvnakade.github.io/blog/art/books/three-body-problem/</loc>
     <lastmod>2018-12-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://apurvnakade.github.io/blog/tags/sci-fi/</loc>
-    <lastmod>2018-12-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -291,12 +352,6 @@
   
   <url>
     <loc>https://apurvnakade.github.io/blog/tags/vonnegut/</loc>
-    <lastmod>2018-05-19T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://apurvnakade.github.io/blog/tags/fiction/</loc>
     <lastmod>2018-05-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
