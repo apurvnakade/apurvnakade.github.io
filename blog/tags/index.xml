@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Grad Student Problems</title>
+    <title>Tags on Life Problems</title>
     <link>https://apurvnakade.github.io/blog/tags/</link>
-    <description>Recent content in Tags on Grad Student Problems</description>
+    <description>Recent content in Tags on Life Problems</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 24 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Aug 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://apurvnakade.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>TedTalks</title>
+      <link>https://apurvnakade.github.io/blog/tags/tedtalks/</link>
+      <pubDate>Sun, 04 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://apurvnakade.github.io/blog/tags/tedtalks/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Alan Moore</title>
@@ -192,11 +201,11 @@
     </item>
     
     <item>
-      <title>sad</title>
-      <link>https://apurvnakade.github.io/blog/tags/sad/</link>
+      <title>farewell</title>
+      <link>https://apurvnakade.github.io/blog/tags/farewell/</link>
       <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://apurvnakade.github.io/blog/tags/sad/</guid>
+      <guid>https://apurvnakade.github.io/blog/tags/farewell/</guid>
       <description></description>
     </item>
     

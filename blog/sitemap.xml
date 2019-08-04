@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://apurvnakade.github.io/blog/journal/lifelessons/</loc>
+    <lastmod>2019-08-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://apurvnakade.github.io/blog/art/books/</loc>
     <lastmod>2019-05-24T00:00:00+00:00</lastmod>
   </url>
@@ -78,13 +83,30 @@
   </url>
   
   <url>
-    <loc>https://apurvnakade.github.io/blog/tags/alan-moore/</loc>
-    <lastmod>2019-05-24T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <loc>https://apurvnakade.github.io/blog/journal/lifelessons/adaptability/</loc>
+    <lastmod>2019-08-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://apurvnakade.github.io/blog/</loc>
+    <lastmod>2019-08-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/tags/</loc>
+    <lastmod>2019-08-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/tags/tedtalks/</loc>
+    <lastmod>2019-08-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://apurvnakade.github.io/blog/tags/alan-moore/</loc>
     <lastmod>2019-05-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -92,12 +114,6 @@
   <url>
     <loc>https://apurvnakade.github.io/blog/art/books/graphic-novels/</loc>
     <lastmod>2019-05-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://apurvnakade.github.io/blog/tags/</loc>
-    <lastmod>2019-05-24T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -340,7 +356,7 @@
   </url>
   
   <url>
-    <loc>https://apurvnakade.github.io/blog/tags/sad/</loc>
+    <loc>https://apurvnakade.github.io/blog/tags/farewell/</loc>
     <lastmod>2018-08-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
