@@ -2,7 +2,7 @@
   height: 5em;
   position: fixed;
   top: 0;
-  max-width: 1050px;
+  max-width: $max-width;
   width:100%;
   z-index: 2;
     &:hover {
@@ -21,7 +21,7 @@
   line-height: 2em;
   font-size: small;
   transition-duration: 0.15s;
-  @media (max-width: 800px) {
+  @media (max-width: $max-width) {
     box-shadow: 0 2px 5px rgba(0,0,0,.2);
   }
 
@@ -34,6 +34,6 @@
 
   .menuSelected {
     color: white;
-    background-color: #4F2683; //steelblue;
+    background-color: #4F2683;
   }
 }

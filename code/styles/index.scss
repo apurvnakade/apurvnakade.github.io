@@ -1,14 +1,14 @@
-@media (min-width: 800px) {
+@media (min-width: $max-width) {
   p {
     text-align: justify;
   }
 }
 
 body {
-  max-width: 1050px;
+  max-width: $max-width;
   margin: 0 auto 100px;
   line-height: 2;
-  font-family: 'Roboto', sans-serif;
+  font-family: $text-fonts;
 }
 
 p {
@@ -21,7 +21,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Roboto Slab', sans-serif;
+  font-family: $header-fonts;
 }
 
 figure {
@@ -29,19 +29,19 @@ figure {
     img {
       max-width: 300px;
     }
-
     figcaption {
       text-align: center;
     }
   }
 
   &.logo {
-        text-align: center;
-        padding-top: 10em;
-        padding-bottom: 10em;
+        display: flex;
+        align-items: center;
+        min-height: 100vh;
+        justify-content: center;
         img {
           width: 80%;
-          max-width: 300px;
+          max-width: 500px;
         }
   }
 }

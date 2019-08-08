@@ -7,7 +7,7 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-@media (min-width: 800px) {
+@media (min-width: $max-width) {
   .small-section {
     padding-top: 0px;
     display: flex;
@@ -16,18 +16,18 @@
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: $max-width) {
   .small-section {
     padding-top: 100px;
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: $max-width) {
   .two-column-responsive {
     flex-direction: column;
   }
 }
-@media (min-width: 800px) {
+@media (min-width: $max-width) {
   .two-column-responsive {
     flex-direction: row;
   }
