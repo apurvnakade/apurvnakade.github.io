@@ -15,10 +15,12 @@
   top: 0;
   z-index: 2;
   background-color: white;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   line-height: 2em;
   font-size: small;
   transition-duration: 0.15s; }
+  @media (max-width: 800px) {
+    #mainMenu {
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); } }
   #mainMenu .menuItem {
     color: black;
     width: 100%;
@@ -26,8 +28,7 @@
     text-align: center; }
   #mainMenu .menuSelected {
     color: white;
-    background-color: #4F2683;
-    box-shadow: 0 -1px 2px 0 rgba(1, 1, 1, 0.2); }
+    background-color: #4F2683; }
 
 @media (min-width: 800px) {
   p {
@@ -111,7 +112,8 @@ table.two-column-data {
   line-height: 1.25;
   grid-row-gap: 4em;
   align-items: start;
-  font-size: small; }
+  font-size: small;
+  padding-bottom: 10em; }
   .notesTable h3 {
     margin: 0;
     padding: 0.5em;
@@ -143,9 +145,10 @@ a {
 .section {
   margin: auto;
   background-color: white;
-  padding: 50px 30px 40px;
+  padding: 100px 30px 40px;
   overflow-y: auto;
-  min-height: 100vh; }
+  min-height: 100vh;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
 
 @media (min-width: 800px) {
   .small-section {

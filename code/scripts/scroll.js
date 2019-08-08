@@ -1,45 +1,47 @@
 //variables for storing the top of the sections statically on page load
 var section_top = new Array();
 var scrollPosition;
-var current_section = 0, new_section = 0;
+var current_section = 0,
+  new_section = 0;
 var menuItems;
+
+
+
+
 
 //attach event handlers to right and left arrow keys for 'body'
 //move menus to right and left on keydown
 function menuMove(event) {
-  if (window.event.keyCode == 37 /*left key*/
-    || (window.event.keyCode == 32 && window.event.shiftKey) /*shift+spacebar*/) {
+  if (window.event.keyCode == 37 /*left key*/ ||
+    (window.event.keyCode == 32 && window.event.shiftKey) /*shift+spacebar*/ ) {
     if (current_section > 0) {
       current_section--;
       $('#menu' + current_section)[0].click();
     }
-  } else if (window.event.keyCode == 39 /*left key*/
-  || (window.event.keyCode == 32 && !window.event.shiftKey) /*spacebar*/) {
-    if (current_section < menuItems.length - 1) {
+  } else if (window.event.keyCode == 39 /*right key*/ ||
+    (window.event.keyCode == 32 && !window.event.shiftKey) /*spacebar*/ ) {
+    if (current_section < menuItems.length-1) {
       current_section++;
       $('#menu' + current_section)[0].click();
     }
   }
 }
 
+
+
+
+
 //event handler for scroll attached to 'body'
 //change the selected menu depending on the scroll height
 function menuSelect() {
-  let sectionSelected = false;
   scrollPosition = $(document).scrollTop();
-	
-	menuItems.each(function(index, value){
-		if (scrollPosition <= section_top[index] - 100) {
-		console.log(scrollPosition);
-		console.log(section_top[index]);
-		new_section = index - 1;
-		sectionSelected = true;
-		return false;
-		}	
-	});
-	if(!sectionSelected) {
-	new_section = menuItems.length - 1;
-	}
+
+  new_section = 0;
+  menuItems.each(function(index, value) {
+    if (scrollPosition > section_top[index] - 100) {
+      new_section = index;
+    }
+  });
 
   if (new_section != current_section) {
     $("#menu" + current_section).removeClass("menuSelected");
@@ -48,16 +50,24 @@ function menuSelect() {
   }
 }
 
+
+
+
+
 //compute the tops of various divs
 function computeTops() {
+  menuItems = $(".menuItem").not(".unselectable");
 
-	menuItems = $(".menuItem").not(".unselectable");
-		
-	menuItems.each(function(index,value){
-		section_top[index]=$($(this).attr('href')).offset().top;
-	});
-	menuSelect();
+  menuItems.each(function(index, value) {
+    section_top[index] = $($(this).attr('href')).offset().top;
+  });
+  menuSelect();
 }
+
+
+
+
+
 
 $(document).ready(function() {
   //add scroll animation to the internal links in the menubar
