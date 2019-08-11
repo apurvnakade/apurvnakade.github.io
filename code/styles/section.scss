@@ -1,6 +1,6 @@
 #mainText{
   @media (min-width: $max-width){
-      margin-left:8*$unit-margin;
+    margin-left:8*$unit-margin;
   }
   line-height: $line-height;
 }
@@ -13,11 +13,15 @@
 
 .section{
   width:100%;
-  margin-right: 5*$unit-margin;
+  @media (min-width: $max-width){
+    margin-right: 5*$unit-margin;
+  }
 }
 
 .section-title{
-  margin-left: 2*$unit-margin;
+  @media (min-width: $max-width){
+    margin-left: 2*$unit-margin;
+  }
   padding-top:3*$unit-padding;
   color: grey;
   font-size: 3em;
@@ -25,9 +29,15 @@
 
 .section-body{
   padding-top: 0.25*$unit-padding;
-  margin-left: 3*$unit-margin;
-  border-left: 1px lightgrey solid;
-  padding-left: 2*$unit-padding;
+  @media (min-width: $max-width){
+    margin-left: 3*$unit-margin;
+    border-left: 1px lightgrey solid;
+    padding-left: 2*$unit-padding;
+  }
+  @media (max-width: $max-width){
+    border-left: 1px lightgrey solid;
+    padding-left: $unit-margin;
+  }
   padding-bottom: 0.25*$unit-padding;
 }
 
@@ -47,11 +57,15 @@
   color: grey;
   font-size: 2em;
   margin-top: 3.5*$unit-margin;
-  margin-left: $unit-margin;
+  @media (min-width: $max-width){
+    margin-left: $unit-margin;
+  }
 }
 
 .subsection-body{
-  margin-left: 2*$unit-margin;
-  border-left: 1px lightgrey dashed;
-  padding-left: $unit-padding;
+  @media (min-width: $max-width){
+    margin-left: 2*$unit-margin;
+    border-left: 1px lightgrey dashed;
+    padding-left: $unit-padding;
+  }
 }
