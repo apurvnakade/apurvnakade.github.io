@@ -1,26 +1,22 @@
-#mainMenuWrapper{
-  height: 5em;
-  position: fixed;
-  top: 0;
-  max-width: $max-width;
-  width:100%;
-  z-index: 2;
-    &:hover {
-      #mainMenu {
-          line-height: 6em;
-    }
-  }
-}
-
 #mainMenu {
   display: flex;
-  position: relative;
+  position: fixed;
   top: 0;
-  z-index: 2;
+  z-index: 1;
+  opacity: 0.9;
+
+  @media (min-width: $max-width){
+    left: $unit-margin;
+    right: $unit-margin;
+  }
+  @media (max-width: $max-width){
+    left: 0;
+    right: 0;
+  }
   background-color: white;
-  line-height: 2em;
-  font-size: small;
-  transition-duration: 0.15s;
+  line-height: 3em;
+  transition-duration: 0.5s;
+
   @media (max-width: $max-width) {
     box-shadow: 0 2px 5px rgba(0,0,0,.2);
   }
@@ -33,7 +29,34 @@
   }
 
   .menuSelected {
-    color: white;
-    background-color: #4F2683;
+    color: #4F2683;
+    border-bottom: 2px solid #4F2683;
+    font-weight: bold;
   }
 }
+
+
+// #mainMenuWrapper{
+//   position: fixed;
+//   left: 0px;
+//   height: 100vh;
+//   width: auto;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+// }
+//
+// #mainMenu {
+//   display: flex;
+//   flex-direction: column;
+//
+//   .menuItem {
+//     color: black;
+//     width: 100%;
+//   }
+//
+//   .menuSelected {
+//     color: #4F2683;
+//     border-right: 2px solid #4F2683;
+//   }
+// }

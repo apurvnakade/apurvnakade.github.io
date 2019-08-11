@@ -1,41 +1,57 @@
-.section {
-  margin: auto;
-  background-color: white;
-  padding: 100px 30px 40px;
-  overflow-y: auto;
-  min-height: 100vh;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+#mainText{
+  @media (min-width: $max-width){
+      margin-left:8*$unit-margin;
+  }
+  line-height: $line-height;
 }
 
-@media (min-width: $max-width) {
-  .small-section {
-    padding-top: 0px;
-    display: flex;
-    align-items: center;
-    min-height: 100vh;
-  }
-}
-
-@media (max-width: $max-width) {
-  .small-section {
-    padding-top: 100px;
-  }
-}
-
-@media (max-width: $max-width) {
-  .two-column-responsive {
-    flex-direction: column;
-  }
-}
-@media (min-width: $max-width) {
-  .two-column-responsive {
-    flex-direction: row;
-  }
-}
-
-.two-column-responsive {
+.section-wrapper {
   display: flex;
-  figure {
-    align-self: center;
+  align-items: center;
+  min-height: 92vh;
+}
+
+.section{
+  width:100%;
+  margin-right: 5*$unit-margin;
+}
+
+.section-title{
+  margin-left: 2*$unit-margin;
+  padding-top:3*$unit-padding;
+  color: grey;
+  font-size: 3em;
+}
+
+.section-body{
+  padding-top: 0.25*$unit-padding;
+  margin-left: 3*$unit-margin;
+  border-left: 1px lightgrey solid;
+  padding-left: 2*$unit-padding;
+  padding-bottom: 0.25*$unit-padding;
+}
+
+.section-figure {
+  float:right;
+  text-align: center;
+  margin-top: 3*$unit-margin;
+  img {
+    width: 250px;
   }
+  @media (max-width: $max-width) {
+      display: none;
+  }
+}
+
+.subsection-title {
+  color: grey;
+  font-size: 2em;
+  margin-top: 3.5*$unit-margin;
+  margin-left: $unit-margin;
+}
+
+.subsection-body{
+  margin-left: 2*$unit-margin;
+  border-left: 1px lightgrey dashed;
+  padding-left: $unit-padding;
 }

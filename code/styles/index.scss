@@ -1,47 +1,18 @@
-@media (min-width: $max-width) {
-  p {
-    text-align: justify;
-  }
-}
-
 body {
-  max-width: $max-width;
-  margin: 0 auto 100px;
-  line-height: 2;
   font-family: $text-fonts;
 }
 
-p {
-  padding-bottom: 1em;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: $header-fonts;
 }
 
-figure {
-  &.right-side-image {
+.logo {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: center;
     img {
-      max-width: 300px;
+      width: 80%;
+      max-width: 500px;
     }
-    figcaption {
-      text-align: center;
-    }
-  }
-
-  &.logo {
-        display: flex;
-        align-items: center;
-        min-height: 100vh;
-        justify-content: center;
-        img {
-          width: 80%;
-          max-width: 500px;
-        }
-  }
 }

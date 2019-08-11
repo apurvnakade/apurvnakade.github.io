@@ -1,63 +1,22 @@
-@media (min-width: $max-width) {
-  table.two-column-data {
-    margin-left: 2em;
-  }
-}
-
-table {
-  line-height: 2;
-
-  td,
-  th {
-    vertical-align: top;
-  }
-
-  th {
-    text-align: left;
-  }
-}
-
-table.alternate_color {
-  width: 100%;
-
-  th {
-    font-weight: normal;
-    font-style: italic;
-    vertical-align: middle;
-  }
-
-  td {
-    padding: 1ex;
-  }
-
-  tr:nth-child(odd) td {
-    background-color: #f5f5f5;
-  }
-
-  tr:nth-child(even) td {
-    background-color: #fafafa;
-  }
-}
-
-table.two-column-data {
-  border-spacing: 0 1.5em;
+.two-column-data {
   line-height: 1.5em;
-  margin-top: 1em;
-  margin-bottom: 1em;
-
   td:nth-child(1),
   th:nth-child(1) {
     padding-right: 1ex;
-    width: 3.5em;
-    border-right: 1px solid cadetblue;
+    width: 3em;
   }
 
   td:nth-child(2) {
-    padding-left: 1ex;
+    padding-left: $unit-padding;
+    border-left: 2px solid lightgray;
   }
 }
 
 .notesTable {
+  @media (min-width: $max-width){
+    margin-right: 5*$unit-margin;
+    margin-left: 2*$unit-margin;
+  }
   display: grid;
   grid-template-columns: 18ex 1fr;
   line-height: 1.25;

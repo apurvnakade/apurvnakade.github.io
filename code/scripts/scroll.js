@@ -4,7 +4,8 @@ var scrollPosition;
 var current_section = 0,
   new_section = 0;
 var menuItems;
-
+var mainMenuHeight;
+var mouseY = 100;
 
 
 
@@ -57,6 +58,7 @@ function menuSelect() {
 //compute the tops of various divs
 function computeTops() {
   menuItems = $(".menuItem").not(".unselectable");
+  mainMenuHeight = $("#mainMenu").outerHeight();
 
   menuItems.each(function(index, value) {
     section_top[index] = $($(this).attr('href')).offset().top;
@@ -67,6 +69,32 @@ function computeTops() {
 
 
 
+
+/* When the user scrolls down, hide the menubar.
+When the user scrolls up, show the menubar */
+var prevScrollpos = window.pageYOffset;
+function showHideMenu() {
+  if(mouseY <= mainMenuHeight){
+    document.getElementById("mainMenu").style.top = 0;
+    return;
+  }
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("mainMenu").style.top = 0;
+  } else {
+    document.getElementById("mainMenu").style.top = "-" + mainMenuHeight + "px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+
+
+function updateMouseY(event){
+  mouseY = event.clientY;
+  if(mouseY <= mainMenuHeight){
+    document.getElementById("mainMenu").style.top = 0;
+    return;
+  }
+}
 
 
 $(document).ready(function() {
@@ -86,5 +114,9 @@ $(document).ready(function() {
   window.addEventListener('resize', computeTops);
   window.addEventListener('orientationchange', computeTops);
   window.addEventListener('scroll', menuSelect);
+
+  window.addEventListener('scroll', showHideMenu);
+  $('body').on('mousemove', updateMouseY);
+
   $('body').on('keydown', menuMove);
 });
