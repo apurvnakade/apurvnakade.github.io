@@ -1,5 +1,5 @@
 var menuItems = new Array(); //array of menus
-var section_top = new Array(); //top of the sections statically on page load
+var section_tops = new Array(); //top of the sections statically on page load
 var current_section = 0, //for menu animation
   new_section = 0; //for menu animation
 var mainMenuHeight;
@@ -36,11 +36,17 @@ function menuMove(event) {
 //event handler for scroll attached to 'body'
 //change the selected menu depending on the scroll height
 function menuSelect() {
-  let newScrollPosition = $(document).scrollTop();
+  let newScrollPosition = $(window).scrollTop();
+
+  if (newScrollPosition > section_tops[0]) {
+      document.getElementById("scrollTopBtn").style.opacity = "1";
+  } else {
+      document.getElementById("scrollTopBtn").style.opacity = "0";
+  }
 
   new_section = 0;
   menuItems.each(function(index, value) {
-    if (newScrollPosition > section_top[index] - 100) {
+    if (newScrollPosition > section_tops[index] - 100) {
       new_section = index;
     }
   });
@@ -57,7 +63,7 @@ function menuSelect() {
   }
   if (scrollPosition > newScrollPosition) {
     document.getElementById("mainMenu").style.top = 0;
-  } else {
+  } else if( newScrollPosition > section_tops[0]){
     document.getElementById("mainMenu").style.top = "-" + mainMenuHeight + "px";
   }
   scrollPosition = newScrollPosition;
@@ -73,7 +79,7 @@ function computeTops() {
   mainMenuHeight = $("#mainMenu").outerHeight();
 
   menuItems.each(function(index, value) {
-    section_top[index] = $($(this).attr('href')).offset().top;
+    section_tops[index] = $($(this).attr('href')).offset().top;
   });
 
   menuSelect();

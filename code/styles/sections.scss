@@ -29,6 +29,8 @@
 
 .section-body{
   padding-top: 0.25*$unit-padding;
+  padding-bottom: 0.25*$unit-padding;
+
   @media (min-width: $max-width){
     margin-left: 3*$unit-margin;
     border-left: 1px lightgrey solid;
@@ -38,7 +40,6 @@
     border-left: 1px lightgrey solid;
     padding-left: $unit-margin;
   }
-  padding-bottom: 0.25*$unit-padding;
 }
 
 .section-figure {
