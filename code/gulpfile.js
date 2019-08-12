@@ -10,7 +10,7 @@ gulp.task("sass", function(){
 });
 
 gulp.task("htmlIndex", function(){
-  return gulp.src("index/index.html")
+  return gulp.src("html/index.html")
       .pipe(fileinclude({
         prefix: '@@',
         basepath: '@file'
@@ -31,6 +31,6 @@ gulp.task("htmlTeachingPortfolio", function(){
 // Watch asset folder for changes
 gulp.task("default", function() {
   gulp.watch("styles/*.scss", gulp.registry().get("sass"));
-  gulp.watch("index/*.html", gulp.registry().get("htmlIndex"));
+  gulp.watch("html/*.html", gulp.registry().get("htmlIndex"));
   gulp.watch("teachingPortfolio/*.html", gulp.registry().get("htmlTeachingPortfolio"));
 });

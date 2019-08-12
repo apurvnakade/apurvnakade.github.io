@@ -1,18 +1,19 @@
-//variables for storing the top of the sections statically on page load
-var section_top = new Array();
-var scrollPosition;
-var current_section = 0,
-  new_section = 0;
-var menuItems;
+var menuItems = new Array(); //array of menus
+var section_top = new Array(); //top of the sections statically on page load
+var current_section = 0, //for menu animation
+  new_section = 0; //for menu animation
 var mainMenuHeight;
-var mouseY = 100;
+var mouseY = 100; //mouse coordinate
+var prevScrollpos = window.pageYOffset;
+var scrollPosition;
 
 
 
-
-//attach event handlers to right and left arrow keys for 'body'
+//event handlers for right and left arrow keys for 'body'
 //move menus to right and left on keydown
 function menuMove(event) {
+  if(event.repeat)
+    return;
   if (window.event.keyCode == 37 /*left key*/ ||
     (window.event.keyCode == 32 && window.event.shiftKey) /*shift+spacebar*/ ) {
     if (current_section > 0) {
@@ -35,11 +36,11 @@ function menuMove(event) {
 //event handler for scroll attached to 'body'
 //change the selected menu depending on the scroll height
 function menuSelect() {
-  scrollPosition = $(document).scrollTop();
+  let newScrollPosition = $(document).scrollTop();
 
   new_section = 0;
   menuItems.each(function(index, value) {
-    if (scrollPosition > section_top[index] - 100) {
+    if (newScrollPosition > section_top[index] - 100) {
       new_section = index;
     }
   });
@@ -49,6 +50,17 @@ function menuSelect() {
     $("#menu" + new_section).addClass("menuSelected");
     current_section = new_section;
   }
+
+  if(mouseY <= mainMenuHeight && $(window).width() >= 1050){
+    document.getElementById("mainMenu").style.top = 0;
+    return;
+  }
+  if (scrollPosition > newScrollPosition) {
+    document.getElementById("mainMenu").style.top = 0;
+  } else {
+    document.getElementById("mainMenu").style.top = "-" + mainMenuHeight + "px";
+  }
+  scrollPosition = newScrollPosition;
 }
 
 
@@ -57,12 +69,13 @@ function menuSelect() {
 
 //compute the tops of various divs
 function computeTops() {
-  menuItems = $(".menuItem").not(".unselectable");
+  menuItems = $(".menuItem");
   mainMenuHeight = $("#mainMenu").outerHeight();
 
   menuItems.each(function(index, value) {
     section_top[index] = $($(this).attr('href')).offset().top;
   });
+
   menuSelect();
 }
 
@@ -70,53 +83,50 @@ function computeTops() {
 
 
 
-/* When the user scrolls down, hide the menubar.
-When the user scrolls up, show the menubar */
-var prevScrollpos = window.pageYOffset;
-function showHideMenu() {
-  if(mouseY <= mainMenuHeight){
-    document.getElementById("mainMenu").style.top = 0;
-    return;
-  }
-  var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
-    document.getElementById("mainMenu").style.top = 0;
-  } else {
-    document.getElementById("mainMenu").style.top = "-" + mainMenuHeight + "px";
-  }
-  prevScrollpos = currentScrollPos;
-}
+
 
 
 function updateMouseY(event){
   mouseY = event.clientY;
-  if(mouseY <= mainMenuHeight){
+  if(mouseY <= mainMenuHeight && $(window).width() >= 1050){
     document.getElementById("mainMenu").style.top = 0;
-    return;
   }
 }
 
 
-$(document).ready(function() {
-  //add scroll animation to the internal links in the menubar
-  $('a[href^="#"]').on('click', function(e) {
-    e.preventDefault();
 
-    $target = $(this.hash);
-    $('html, body').stop().animate({
-      'scrollTop': $target.offset().top
-    }, 200, 'swing', function() {
-      window.location = '#' + $target.attr('id');
-    });
+
+
+
+//add scroll animation to the internal links in the menubar
+function hyperlinkClickScrollAnimation(event){
+  event.preventDefault();
+
+  $target = $(this.hash);
+  $('html, body').stop().animate({
+    'scrollTop': $target.offset().top
+  }, 200, 'swing', function() {
+    window.location = '#' + $target.attr('id');
   });
+}
 
+
+
+
+
+
+
+
+
+$(document).ready(function() {
   computeTops();
+
+  $('a[href^="#"]').on('click', hyperlinkClickScrollAnimation);
+
   window.addEventListener('resize', computeTops);
   window.addEventListener('orientationchange', computeTops);
   window.addEventListener('scroll', menuSelect);
 
-  window.addEventListener('scroll', showHideMenu);
-  $('body').on('mousemove', updateMouseY);
-
-  $('body').on('keydown', menuMove);
+  document.body.addEventListener('mousemove',updateMouseY);
+  document.body.addEventListener('keydown',menuMove);
 });

@@ -112,7 +112,7 @@ a {
 
 .section-title {
   padding-top: 30px;
-  color: grey;
+  color: gray;
   font-size: 3em; }
   @media (min-width: 1050px) {
     .section-title {
@@ -133,8 +133,7 @@ a {
 
 .section-figure {
   float: right;
-  text-align: center;
-  margin-top: 45px; }
+  text-align: center; }
   .section-figure img {
     width: 250px; }
   @media (max-width: 1050px) {
@@ -142,7 +141,7 @@ a {
       display: none; } }
 
 .subsection-title {
-  color: grey;
+  color: dimgrey;
   font-size: 2em;
   margin-top: 52.5px; }
   @media (min-width: 1050px) {
