@@ -1,1 +1,1 @@
-Migrated page to <apurvanakade.github.io>.
+Migrated page to https://apurvanakade.github.io
